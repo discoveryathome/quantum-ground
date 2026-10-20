@@ -35,7 +35,7 @@ def execute(c, method, seed, label, out):
     for item in r['history']:
         result=verify(item['witness'],c,item['optimizer_energy'])
         item.update(result)
-    best=min(r['history'],key=lambda h: (h['energy_interval'][0] and h['energy']))
+    best=min(r['history'],key=lambda h: h['energy'])
     r.update({k:best[k] for k in ('energy','energy_interval','witness','witness_sha256')})
     r['best_sweep']=best['sweep']
     r['verification_seconds']=time.perf_counter()-start

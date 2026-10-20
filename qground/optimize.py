@@ -1,5 +1,6 @@
 """TeNPy proposal generator. Verifier is a separate module with no TeNPy import."""
 import time
+import copy
 import numpy as np
 import tenpy
 from tenpy.models.spins_nnn import SpinChainNNN2
@@ -52,6 +53,7 @@ def run(case, method, seed, directory, sweeps=6):
     if method == 'ramp':
         options['chi_list'] = {0: 2, 1: 4, 2: case['chi_max']}
     engine_cls = SingleSiteDMRGEngine if method == 'single_site' else TwoSiteDMRGEngine
+    input_options = copy.deepcopy(options)
     engine = engine_cls(psi, m, options)
     engine.pre_run_initialize()
     history = []
@@ -70,11 +72,11 @@ def run(case, method, seed, directory, sweeps=6):
         save(path, tensors, case)
         history.append({'sweep': sweep+1, 'cpu_seconds': elapsed_cpu, 'wall_seconds': elapsed_wall,
                         'optimizer_energy': float(m.H_MPO.expectation_value(psi)),
-                        'witness': str(path), 'max_bond': max(psi.chi)})
+                        'witness': str(path), 'max_bond': int(max(psi.chi))})
         excluded_cpu += time.process_time() - t_cpu
         excluded_wall += time.perf_counter() - t_wall
     return {'method': method, 'instance': case['id'], 'seed': seed, 'history': history,
             'cpu_seconds': history[-1]['cpu_seconds'], 'wall_seconds': history[-1]['wall_seconds'],
-            'tenpy_version': tenpy.__version__, 'options': options,
+            'tenpy_version': tenpy.__version__, 'options': input_options,
             'local_updates': len(engine.update_stats['i0']),
             'lanczos_iterations': int(sum(engine.update_stats['N_lanczos']))}
