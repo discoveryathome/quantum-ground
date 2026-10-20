@@ -5,3 +5,6 @@ __pycache__/
 results/smoke/
 
 results/failed-*/
+
+pytest-of-*/
+results/replay*/
