@@ -1,7 +1,7 @@
 {
   "schema": "discover/v0",
   "title": "Variational quantum ground-state optimization",
-  "summary": "LOCAL home-CPU pilot of frozen frustrated spin chains, TeNPy DMRG, exact integer witness verification and held-out comparisons.",
+  "summary": "Home-CPU incubation pilot of frozen frustrated spin chains, TeNPy DMRG, exact integer witness verification and held-out comparisons; donor intake paused.",
   "domains": [
     "physics",
     "algorithms",
@@ -13,7 +13,7 @@
       "name": "UNASSIGNED (schema placeholder; no consenting maintainer)"
     }
   ],
-  "canonical_repo": "file:///Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project",
+  "canonical_repo": "https://github.com/discoveryathome/quantum-ground",
   "entry": {
     "agents": "AGENTS.md",
     "project": "DISCOVERY.md"
@@ -25,7 +25,7 @@
   "verification_profile": "benchmark",
   "review": {
     "paused": true,
-    "note": "No consenting maintainer; capacity unassigned. Local proposal only."
+    "note": "Publication and hub listing authorized by the project owner; scientific maintainer and review capacity remain unassigned. Donor intake paused."
   },
   "credit": {
     "policy": "Attribution in CONTRIBUTORS.md and result records; cite software and prior algorithms; authorship not automatically promised.",
@@ -62,5 +62,12 @@
     ]
   },
   "process_changed_on": "2026-10-20",
-  "packages": "research/*/"
+  "packages": "research/*/",
+  "hubs": [
+    {
+      "hub": "discoveryathome/discover",
+      "list": true,
+      "push": []
+    }
+  ]
 }

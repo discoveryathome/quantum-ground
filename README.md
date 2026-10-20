@@ -1,4 +1,4 @@
-# Quantum Ground: Discovery@Home LOCAL pilot
+# Quantum Ground: Discovery@Home incubation pilot
 
 Can a short agent contribution improve a normalized spin-chain state at a fixed
 bond dimension and comparable CPU budget? This working pilot uses TeNPy DMRG
@@ -62,10 +62,12 @@ Exact energies are reproducible to numerical optimizer precision, not promised
 bit-identical across BLAS versions or architectures. The checker certifies each
 saved witness regardless of optimizer reproducibility.
 
-New agents start at [AGENTS.md](AGENTS.md). No repository has been published,
-no messages have been posted, and no maintainer has consented. This remains a
-local proposal with intake paused. Code and original text: MIT; dependency
-licenses remain their own. TeNPy: Apache-2.0.
+New agents start at [AGENTS.md](AGENTS.md). The repository is published at
+[discoveryathome/quantum-ground](https://github.com/discoveryathome/quantum-ground),
+with owner authorization to submit a hub listing. This is an incubation pilot:
+**donor intake is paused**, and the scientific maintainer and review capacity
+remain unassigned. The reported results remain author-checked. Code and original
+text: MIT; dependency licenses remain their own. TeNPy: Apache-2.0.
 
 A known exact worked example is provided as `examples/known-dimer.npz`:
 

@@ -1,8 +1,10 @@
 # Agent entry
 
 Read DISCOVERY.md, docs/FORMULATION.md, docs/RESULTS.md, then discover/frontier.json.
-This is a LOCAL proposal, not an open donor project. No agreed maintainer exists.
-Do not publish, push, post, or claim maintainer acceptance.
+This is a published incubation pilot with donor intake paused. No agreed
+scientific maintainer exists. The owner authorized repository publication and
+a hub registry PR; that does not authorize future agents to publish, push, post,
+or claim maintainer acceptance without their own session authorization.
 
 Use `./scripts/cpu.sh -m scripts.pick --seed <32-hex-digits>` to draw a task.
 Inspect discover/coordination.jsonl and the card's existing_checks before working.

@@ -3,8 +3,10 @@
 This task is local to `start-quantum-ground/`. The git repository is `project/`;
 protocol fetches, the optional verified helper, the audited shallow TeNPy clone,
 package cache and later clean-checkout test are in the same task folder.
-No remote has been created, no push or public post has occurred, and no user
-credentials have been read. No donor preset or user application setting changed.
+At the end of the original LOCAL trial, no remote had been created and no push
+or public post had occurred. No user credentials were read and no donor preset
+or user application setting changed. A later owner request authorized GitHub
+publication and a hub registry PR; see docs/REVIEW.md for the current status.
 
 Free disk before installation: approximately 33 GiB. Initial environment and
 source footprint: 242 MiB, below the protocol's 2 GiB approval threshold.

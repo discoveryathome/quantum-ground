@@ -31,8 +31,10 @@ Changes to evaluator/formulation require separate review and regression tests.
 
 **No person has agreed to maintain this pilot. Review capacity is unassigned,
 and donor intake is paused.** The manifest's UNASSIGNED entry is an explicit
-schema placeholder, not a named or consenting maintainer. No hub consent record
-is present. It cannot be opened to donors until a person agrees to review and
+schema placeholder, not a named or consenting scientific maintainer. The owner
+authorized repository publication and listing by discoveryathome/discover; the
+manifest records listing-only consent, with no hub outreach permissions.
+It cannot be opened to donors until a person agrees to review and
 states their capacity. Automated verification is evidence, not acceptance.
 The current review status is docs/REVIEW.md.
 
