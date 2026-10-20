@@ -11,10 +11,10 @@ def main():
     r=run(c,'baseline',1729,out,24)
     checked=[]
     for h in r['history']:
-        if h['sweep'] in [6,12,18,24]:
-            h.update(verify(h['witness'],c,h['optimizer_energy']));checked.append(h)
+        h.update(verify(h['witness'],c,h['optimizer_energy']));checked.append(h)
     r['checkpoints']=checked
+    r['best']=min(checked,key=lambda h:h['energy'])
     r['purpose']='24-sweep fixed-chi reference; 4x sweep budget; not a matched-budget win'
     (out/'run.json').write_text(json.dumps(r,indent=2)+'\n')
-    print([(h['sweep'],h['energy']) for h in checked])
+    print('Best 24-sweep reference:',r['best']['sweep'],r['best']['energy'])
 if __name__=='__main__':main()

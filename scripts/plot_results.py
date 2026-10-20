@@ -9,10 +9,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def main():
+def main(supplement=False):
     dev=json.loads(Path('results/pilot/dev.json').read_text())
     trial=json.loads(Path('research/contributor-001/summary.json').read_text())
     added=json.loads(Path('research/contributor-001/dev.json').read_text())
+    if supplement: trial=json.loads(Path('research/contributor-001/supplement/summary.json').read_text())
     selected=trial['selected']
     rows=[r for r in dev+added if r['instance']=='dev24' and r['seed']==1729]
     floor=min(r['energy'] for r in rows)
@@ -32,23 +33,27 @@ def main():
     axes[0].legend(fontsize=9,frameon=False)
     axes[0].grid(axis='y',alpha=.15)
     pairs=trial['pairs'];x=np.arange(len(pairs));width=.26
-    vals=[p['equal_sweeps']['gain']/p['case']['L']*1e6 for p in pairs]
-    vals2=[p['matched_cpu'].get('gain',float('nan'))/p['case']['L']*1e6 for p in pairs]
-    vals3=[p['versus_initial_winner_equal_sweeps']['gain']/p['case']['L']*1e6 for p in pairs]
+    vals=[(p['equal_sweeps']['gain'] if p['equal_sweeps']['outcome']!='tie' else 0)/p['case']['L']*1e6 for p in pairs]
+    vals2=[(p['matched_cpu'].get('gain',float('nan')) if p['matched_cpu']['outcome']!='tie' else 0)/p['case']['L']*1e6 for p in pairs]
+    vals3=[(p['versus_initial_winner_equal_sweeps']['gain'] if p['versus_initial_winner_equal_sweeps']['outcome']!='tie' else 0)/p['case']['L']*1e6 for p in pairs]
     axes[1].bar(x-width,vals,width,label='vs standard DMRG: 6 sweeps',color='#248c8b')
     axes[1].bar(x,vals2,width,label='vs standard: common CPU cap',color='#2a76b4')
     axes[1].bar(x+width,vals3,width,label='vs earlier development winner',color='#d17a26')
     axes[1].axhline(0,color='#374151',lw=.8)
     axes[1].set_xticks(x,[f"{p['case']['L']} spins\nJ2={p['case']['J2']}" for p in pairs])
     axes[1].set_ylabel('Energy reduction per spin (millionths of J1)')
-    axes[1].set_title('Fresh tests: does the improvement carry over?',loc='left',fontweight='bold')
+    axes[1].set_title('Post-hoc coverage supplement' if supplement else 'Primary fresh tests: known dimer line',loc='left',fontweight='bold')
     axes[1].legend(fontsize=8,frameon=False)
     axes[1].grid(axis='y',alpha=.15)
     fig.suptitle('A quantum magnet is a checkable optimization puzzle',x=.04,ha='left',fontsize=18,fontweight='bold')
     fig.text(.04,.01,'Every score is checked by exact integer arithmetic. Lower energy is a better variational upper bound, not a ground-state proof.\nPositive bars mean improvement; negative bars mean regression. CPU timings were collected on a shared, busy machine.',fontsize=9,color='#4b5563')
     fig.tight_layout(rect=[.02,.09,.99,.92])
-    fig.savefig('docs/contributor-demo.png',dpi=160)
-    fig.savefig('docs/contributor-demo.svg')
-    print('Wrote docs/contributor-demo.png and .svg from recorded data')
+    base='docs/contributor-supplement' if supplement else 'docs/contributor-demo'
+    fig.savefig(base+'.png',dpi=160)
+    fig.savefig(base+'.svg')
+    print('Wrote '+base+' from recorded data')
+    plt.close(fig)
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    main()
+    if Path('research/contributor-001/supplement/summary.json').exists():main(True)
