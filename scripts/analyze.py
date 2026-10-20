@@ -46,7 +46,15 @@ def main():
                       'CPU matching uses best completed sweep at common per-pair ceiling; unused remainder is below one next sweep.',
                       'Variants are established methods; novelty is not claimed.']}
     (ROOT/'summary.json').write_text(json.dumps(summary,indent=2)+'\n')
-    allrows=json.loads((ROOT/'dev.json').read_text())+rows
+    initial_dev=json.loads((ROOT/'dev.json').read_text())
+    for r in initial_dev: r['_source']='results/pilot/dev.json'
+    for r in rows: r['_source']='results/pilot/heldout.json'
+    allrows=initial_dev+rows
+    trial_dev=Path('research/contributor-001/dev.json')
+    if trial_dev.exists():
+        extra=json.loads(trial_dev.read_text())
+        for r in extra: r['_source']=str(trial_dev)
+        allrows+=extra
     frontier=[]
     for name in sorted({r['instance'] for r in allrows}):
         r=best([r for r in allrows if r['instance']==name])
@@ -56,7 +64,7 @@ def main():
         frontier.append({'instance':name,'energy':r['energy_interval'][1],
             'energy_interval':r['energy_interval'],'proven_lower_bound':str(lower),
             'method':r['method'],'witness':r['witness'],'witness_sha256':r['witness_sha256'],
-            'by':'local pilot (TeNPy DMRG)', 'source':'results/pilot/'+('dev.json' if c['split']=='dev' else 'heldout.json'),
+            'by':'local pilot (TeNPy DMRG)', 'source':r['_source'],
             'updated':'2026-10-20'})
     Path('discover/records.json').write_text(json.dumps(frontier,indent=2)+'\n')
     print(json.dumps(summary,indent=2))

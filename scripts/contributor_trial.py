@@ -9,13 +9,13 @@ import secrets
 import time
 import numpy as np
 from tenpy.networks.mps import MPS
-from tenpy.algorithms.dmrg import TwoSiteDMRGEngine
+from tenpy.algorithms.dmrg import TwoSiteDMRGEngine, SingleSiteDMRGEngine
 from qground.optimize import model, arrays, save, run as baseline_run
 from qground.evaluator import case_by_id, verify, digest
 from qground.exactdiag import reference
 
 OUT=Path('research/contributor-001')
-METHODS=['nnn_dimers','continuation']
+METHODS=['nnn_dimers','continuation','hybrid_polish']
 
 def write(path,obj):
     Path(path).write_text(json.dumps(obj,indent=2,allow_nan=False)+'\n')
@@ -36,6 +36,8 @@ def proposed(case,method,directory):
         psi=MPS.from_singlets(sites[0],L,pairs)
     elif method=='continuation':
         psi=MPS.from_singlets(sites[0],L,[(i,i+1) for i in range(0,L,2)])
+    elif method=='hybrid_polish':
+        psi=MPS.from_product_state(sites,['up','down']*(L//2),bc='finite')
     else: raise ValueError(method)
     options={'trunc_params':{'chi_max':8,'svd_min':1e-14,'trunc_cut':None},
         'mixer':True,'mixer_params':{'amplitude':1e-5,'decay':10.,'disable_after':3},
@@ -50,6 +52,10 @@ def proposed(case,method,directory):
                 if k:updates+=len(engine.update_stats['i0']);iters+=sum(engine.update_stats['N_lanczos'])
                 engine=TwoSiteDMRGEngine(psi,model(target),copy.deepcopy(options))
                 engine.pre_run_initialize()
+        if method=='hybrid_polish' and k==3:
+            updates+=len(engine.update_stats['i0']);iters+=sum(engine.update_stats['N_lanczos'])
+            polish=copy.deepcopy(options);polish['mixer']=False;polish.pop('mixer_params')
+            engine=SingleSiteDMRGEngine(psi,m,polish);engine.pre_run_initialize()
         engine.sweep();engine.mixer_cleanup()
         snap=psi.copy();snap.canonical_form()
         cpu=time.process_time()-c0-ec;wall=time.perf_counter()-w0-ew
@@ -85,7 +91,8 @@ def main():
         if (OUT/'dev.json').exists():raise ValueError('development already run')
         write(OUT/'hypothesis.json',{'frozen_at':now(),'source_hashes':hashes(),
             'hypotheses':{'nnn_dimers':'When J2 dominates, use singlets along J2 bonds to seed the two interleaved chains.',
-            'continuation':'Initialize near the dimerized J2=0.5 regime, then spend four of six sweeps on the frozen target.'},
+            'continuation':'Initialize near the dimerized J2=0.5 regime, then spend four of six sweeps on the frozen target.',
+            'hybrid_polish':'Two-site updates grow the basis but truncate after minimization; use three two-site sweeps then three fixed-bond single-site sweeps without mixer.'},
             'selection':'best mean per-site development gain over baseline; threshold 1e-10; consider established dimer as fallback; no test data used'})
         dev=[]
         for cid in ['dev10','dev12','dev24']:

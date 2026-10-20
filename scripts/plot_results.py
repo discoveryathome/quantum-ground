@@ -18,7 +18,7 @@ def main():
     floor=min(r['energy'] for r in rows)
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':11,'axes.spines.top':False,'axes.spines.right':False})
     fig,axes=plt.subplots(1,2,figsize=(13,5.6),gridspec_kw={'width_ratios':[1,1.1]})
-    colors={'baseline':'#68798d','dimer':'#248c8b','nnn_dimers':'#9b5eae','continuation':'#d17a26','ramp':'#2a76b4','random':'#c05072','single_site':'#849b36'}
+    colors={'baseline':'#68798d','dimer':'#248c8b','nnn_dimers':'#9b5eae','continuation':'#d17a26','ramp':'#2a76b4','random':'#c05072','single_site':'#849b36','hybrid_polish':'#592b8a'}
     methods=list(dict.fromkeys(['baseline',selected,trial['pairs'][0]['strong_control_method'],'dimer','nnn_dimers','continuation']))
     for m in methods:
         r=next((r for r in rows if r['method']==m),None)

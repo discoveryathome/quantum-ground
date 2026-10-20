@@ -73,3 +73,13 @@ Settled constraints and common dead ends:
 The literature search is a targeted baseline audit, not an exhaustive survey
 of all 2026 optimizers. It establishes prior art for every tested direction;
 any future novelty claim needs a fresh, broader audit.
+
+Contributor-trial refinement: fixed-bond single-site polishing after growing
+the bond space with two-site DMRG is established methodology. It is motivated
+by the fact that two-site truncation can undo part of a local energy gain,
+while a fixed-space one-site minimization needs no rank truncation. Primary
+source discussion: https://www.asc.physik.lmu.de/lsvondelft/publications/pdf/ming_huangx.pdf
+and https://homepages.physik.uni-muenchen.de/~Andreas.Weichselbaum/PDF/muender10.pdf .
+TeNPy's engine switching is also documented in its Algorithm API. The trial's
+specific three-plus-three schedule is a hypothesis for this budget, not a
+claim to invent hybrid DMRG.
