@@ -1,0 +1,66 @@
+{
+  "schema": "discover/v0",
+  "title": "Variational quantum ground-state optimization",
+  "summary": "LOCAL home-CPU pilot of frozen frustrated spin chains, TeNPy DMRG, exact integer witness verification and held-out comparisons.",
+  "domains": [
+    "physics",
+    "algorithms",
+    "quantum-many-body"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "UNASSIGNED (schema placeholder; no consenting maintainer)"
+    }
+  ],
+  "canonical_repo": "file:///Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project",
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "DISCOVERY.md"
+  },
+  "frontier": "discover/frontier.json",
+  "catalog": "discover/catalog.json",
+  "priority_log": "discover/priority-log.md",
+  "ledger": "discover/ledger.jsonl",
+  "verification_profile": "benchmark",
+  "review": {
+    "paused": true,
+    "note": "No consenting maintainer; capacity unassigned. Local proposal only."
+  },
+  "credit": {
+    "policy": "Attribution in CONTRIBUTORS.md and result records; cite software and prior algorithms; authorship not automatically promised.",
+    "kinds": [
+      "contributors-file",
+      "citation"
+    ]
+  },
+  "permissions": {
+    "post_messages": false,
+    "open_prs": false,
+    "maintainer_only": [
+      "change-frontier",
+      "publish",
+      "merge"
+    ]
+  },
+  "session": {
+    "default_minutes": 30,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.25
+  },
+  "requirements": {
+    "ram_gb": 2,
+    "disk_gb": 1,
+    "note": "Python 3.13; CPU only, one BLAS thread; macOS sandbox wrapper or equivalent external sandbox."
+  },
+  "picker": {
+    "command": [
+      ".venv/bin/python",
+      "scripts/pick.py",
+      "--seed",
+      "{seed}"
+    ]
+  },
+  "process_changed_on": "2026-10-20",
+  "packages": "research/*/"
+}

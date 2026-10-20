@@ -1,0 +1,29 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "Known DMRG/MPS methods provide variational ground-state candidates. This local pilot is reproducing six frozen finite-chain cases; numerical results will be added only after verification.",
+  "status": "LOCAL proposal; experiments in progress; no accepted discovery",
+  "evidence_level": [
+    "author-checked"
+  ],
+  "claim_kind": [
+    "model"
+  ],
+  "scope": "open-j1j2-real-mps-v1; exact Hamiltonians in benchmarks/suite.json; chi<=8; CPU; no global optimality claim",
+  "formulation": {
+    "id": "open-j1j2-real-mps-v1",
+    "doc": "docs/FORMULATION.md",
+    "since": "2026-10-20"
+  },
+  "sources": [
+    "https://arxiv.org/abs/1008.3477",
+    "https://doi.org/10.21468/SciPostPhysCodeb.41",
+    "docs/LITERATURE.md"
+  ],
+  "reproduce": "./scripts/reproduce.sh",
+  "reproduce_minutes": 3,
+  "prerequisites": [
+    "Python 3.13; local venv installed from requirements.lock"
+  ],
+  "review": "docs/REVIEW.md",
+  "updated_on": "2026-10-20"
+}

@@ -1,0 +1,28 @@
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/qground/experiment.py", line 98, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/qground/experiment.py", line 69, in main
+    for m in methods: rows.append(execute(c,m,seed,m,out))
+                                  ~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/qground/experiment.py", line 42, in execute
+    write(directory/'run.json',r)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/qground/experiment.py", line 18, in write
+    Path(path).write_text(json.dumps(obj,indent=2,allow_nan=False)+'\n')
+                          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.0_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Config is not JSON serializable

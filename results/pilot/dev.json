@@ -1,0 +1,4922 @@
+[
+  {
+    "method": "baseline",
+    "instance": "dev10",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.3363990000000001,
+        "wall_seconds": 1.8258592910133302,
+        "optimizer_energy": -3.925778046120347,
+        "witness": "results/pilot/witnesses/dev10-baseline-1729/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -3.925778046120349,
+        "energy_interval": [
+          "-3.92577804612035",
+          "-3.92577804612034"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "0ffda6c5076331c0d62527dfc7c4ef89a1a74d5f2f6b8915b4167df556937cff",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.5567100000000007,
+        "wall_seconds": 3.01860754203517,
+        "optimizer_energy": -3.925825643513203,
+        "witness": "results/pilot/witnesses/dev10-baseline-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -3.9258256435131975,
+        "energy_interval": [
+          "-3.92582564351320",
+          "-3.92582564351319"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ffbd7c5ae674b52bde3261ae43d6abdeee48f381d407b5269ec303c837cab135",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.785844,
+        "wall_seconds": 4.619321376085281,
+        "optimizer_energy": -3.9258256452009768,
+        "witness": "results/pilot/witnesses/dev10-baseline-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -3.92582564520098,
+        "energy_interval": [
+          "-3.92582564520098",
+          "-3.92582564520097"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "012a031a9aaf82b77845f71061fd27930e33cbae99f6150d4093771106f4e705",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 0.9585369999999998,
+        "wall_seconds": 5.638074709102511,
+        "optimizer_energy": -3.925825645409178,
+        "witness": "results/pilot/witnesses/dev10-baseline-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -3.925825645409174,
+        "energy_interval": [
+          "-3.92582564540918",
+          "-3.92582564540917"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "decc961dd7c23f810ac062809d0efb152bae12b639ae2a7b8feba6724cee9e92",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.1098539999999995,
+        "wall_seconds": 6.454185958951712,
+        "optimizer_energy": -3.925825645410744,
+        "witness": "results/pilot/witnesses/dev10-baseline-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454107494,
+        "energy_interval": [
+          "-3.92582564541075",
+          "-3.92582564541074"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "d0d950abb0948122d40d5820c5a69cc40a33f6f974a5a6c128ff6bc8d80da174",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.2615369999999997,
+        "wall_seconds": 7.220897958846763,
+        "optimizer_energy": -3.9258256454107565,
+        "witness": "results/pilot/witnesses/dev10-baseline-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454107614,
+        "energy_interval": [
+          "-3.92582564541077",
+          "-3.92582564541076"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "fe7ef018cc88a69d16c5d3664674ba4cc63f31e61cf080467d868f9491ecc1ed",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.2615369999999997,
+    "wall_seconds": 7.220897958846763,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 96,
+    "lanczos_iterations": 609,
+    "run_label": "baseline",
+    "energy": -3.9258256454107614,
+    "energy_interval": [
+      "-3.92582564541077",
+      "-3.92582564541076"
+    ],
+    "witness": "results/pilot/witnesses/dev10-baseline-1729/sweep-6.npz",
+    "witness_sha256": "fe7ef018cc88a69d16c5d3664674ba4cc63f31e61cf080467d868f9491ecc1ed",
+    "best_sweep": 6,
+    "verification_seconds": 2.6275435000425205
+  },
+  {
+    "method": "ramp",
+    "instance": "dev10",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.25671399999999966,
+        "wall_seconds": 1.3515485409880057,
+        "optimizer_energy": -3.802513524246999,
+        "witness": "results/pilot/witnesses/dev10-ramp-1729/sweep-1.npz",
+        "max_bond": 2,
+        "energy": -3.8025135242469976,
+        "energy_interval": [
+          "-3.80251352424700",
+          "-3.80251352424699"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "bb01c414360d62db5c6faf41bfd526aa021c9059e8e02b84cb3422151f3a3389",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.5398139999999998,
+        "wall_seconds": 3.1739482489647344,
+        "optimizer_energy": -3.9254913987990343,
+        "witness": "results/pilot/witnesses/dev10-ramp-1729/sweep-2.npz",
+        "max_bond": 4,
+        "energy": -3.925491398799033,
+        "energy_interval": [
+          "-3.92549139879904",
+          "-3.92549139879903"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4015de76b290d6a8718f66324e8c9bafd545a1fe59dee1275ce642a4d85a3c7c",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.8002269999999996,
+        "wall_seconds": 5.091150082997046,
+        "optimizer_energy": -3.9258256136935983,
+        "witness": "results/pilot/witnesses/dev10-ramp-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -3.925825613693596,
+        "energy_interval": [
+          "-3.92582561369360",
+          "-3.92582561369359"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4d4646b769a9efc020dd4a635341321d54ccc4ae166a32024d289731416b56bc",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.0402319999999996,
+        "wall_seconds": 6.514243457000703,
+        "optimizer_energy": -3.9258256428048193,
+        "witness": "results/pilot/witnesses/dev10-ramp-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -3.9258256428048166,
+        "energy_interval": [
+          "-3.92582564280482",
+          "-3.92582564280481"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "c7b5e2d909c5b0134d44304c8f101505fea2b38e6b343d7d5a4a9a0499593dae",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.260679999999999,
+        "wall_seconds": 7.994460916030221,
+        "optimizer_energy": -3.925825645193132,
+        "witness": "results/pilot/witnesses/dev10-ramp-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -3.925825645193139,
+        "energy_interval": [
+          "-3.92582564519314",
+          "-3.92582564519313"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "1c905e284f545a9bf8f1e5fba6ef5cd5e7cb0b3a114ad0c77c60e2e91324dcb1",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.4179889999999995,
+        "wall_seconds": 8.86961729102768,
+        "optimizer_energy": -3.925825645409127,
+        "witness": "results/pilot/witnesses/dev10-ramp-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -3.925825645409125,
+        "energy_interval": [
+          "-3.92582564540913",
+          "-3.92582564540912"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "5e05da5c76035d3d97161dd1c32f32f7c4b765ba6143e39c777b754eb6bebebe",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.4179889999999995,
+    "wall_seconds": 8.86961729102768,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true,
+      "chi_list": {
+        "0": 2,
+        "1": 4,
+        "2": 8
+      }
+    },
+    "local_updates": 96,
+    "lanczos_iterations": 627,
+    "run_label": "ramp",
+    "energy": -3.925825645409125,
+    "energy_interval": [
+      "-3.92582564540913",
+      "-3.92582564540912"
+    ],
+    "witness": "results/pilot/witnesses/dev10-ramp-1729/sweep-6.npz",
+    "witness_sha256": "5e05da5c76035d3d97161dd1c32f32f7c4b765ba6143e39c777b754eb6bebebe",
+    "best_sweep": 6,
+    "verification_seconds": 2.264879666035995
+  },
+  {
+    "method": "dimer",
+    "instance": "dev10",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.3357349999999997,
+        "wall_seconds": 2.737368292058818,
+        "optimizer_energy": -3.9258252475912045,
+        "witness": "results/pilot/witnesses/dev10-dimer-1729/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -3.9258252475912063,
+        "energy_interval": [
+          "-3.92582524759121",
+          "-3.92582524759120"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "e7e326868bfeda60f56901415ae43c305a8214e7f946c8051d315fa480b7cc83",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.5789870000000015,
+        "wall_seconds": 4.526875959010795,
+        "optimizer_energy": -3.925825643079837,
+        "witness": "results/pilot/witnesses/dev10-dimer-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -3.9258256430798384,
+        "energy_interval": [
+          "-3.92582564307984",
+          "-3.92582564307983"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "18d37b88dbe3a43a87223d234f4a41d8efaafca40da4e969389a746d74106d46",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.7873129999999993,
+        "wall_seconds": 5.89267933415249,
+        "optimizer_energy": -3.9258256451948053,
+        "witness": "results/pilot/witnesses/dev10-dimer-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -3.9258256451947933,
+        "energy_interval": [
+          "-3.92582564519480",
+          "-3.92582564519479"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ed17a0bbc82de355a1b3a85eb2ada6b8c0cde732d18f1fcfbd78e330954e68de",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 0.9462329999999994,
+        "wall_seconds": 6.845382043044083,
+        "optimizer_energy": -3.925825645409133,
+        "witness": "results/pilot/witnesses/dev10-dimer-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -3.925825645409135,
+        "energy_interval": [
+          "-3.92582564540914",
+          "-3.92582564540913"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "3bd6c072c635472303f0b8fb182ce65bda16ed8fd0a58e4ede5c69db5e03afd3",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.1020880000000002,
+        "wall_seconds": 7.755059334100224,
+        "optimizer_energy": -3.925825645410749,
+        "witness": "results/pilot/witnesses/dev10-dimer-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -3.925825645410749,
+        "energy_interval": [
+          "-3.92582564541075",
+          "-3.92582564541074"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "103a122df48a4fa2d94f488d78d5a481f064c1841b078ca1deb87a0737af12ca",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.2603310000000008,
+        "wall_seconds": 8.780815918114968,
+        "optimizer_energy": -3.925825645410765,
+        "witness": "results/pilot/witnesses/dev10-dimer-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454107614,
+        "energy_interval": [
+          "-3.92582564541077",
+          "-3.92582564541076"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "bc15800f405af614549a2c55ba0193cbe017c0fa7dff051ef830685e7e716b21",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.2603310000000008,
+    "wall_seconds": 8.780815918114968,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 96,
+    "lanczos_iterations": 546,
+    "run_label": "dimer",
+    "energy": -3.9258256454107614,
+    "energy_interval": [
+      "-3.92582564541077",
+      "-3.92582564541076"
+    ],
+    "witness": "results/pilot/witnesses/dev10-dimer-1729/sweep-6.npz",
+    "witness_sha256": "bc15800f405af614549a2c55ba0193cbe017c0fa7dff051ef830685e7e716b21",
+    "best_sweep": 6,
+    "verification_seconds": 3.439880791003816
+  },
+  {
+    "method": "random",
+    "instance": "dev10",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.4875760000000007,
+        "wall_seconds": 3.657583915977739,
+        "optimizer_energy": -3.925787228588562,
+        "witness": "results/pilot/witnesses/dev10-random-1729/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -3.9257872285885544,
+        "energy_interval": [
+          "-3.92578722858856",
+          "-3.92578722858855"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "924c5cb26b7864f8820786a2a5a9f0b1c55956a1edd594e5c29e68f2d7b5f82c",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.7687350000000013,
+        "wall_seconds": 6.065165165928192,
+        "optimizer_energy": -3.9258256435005157,
+        "witness": "results/pilot/witnesses/dev10-random-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -3.9258256435005134,
+        "energy_interval": [
+          "-3.92582564350052",
+          "-3.92582564350051"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "cf553563dd7bce9d2005264c3d0220c2e5bad31575ffbc705c5234d641bd42f2",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 1.0072620000000025,
+        "wall_seconds": 7.8333107909420505,
+        "optimizer_energy": -3.925825645201247,
+        "witness": "results/pilot/witnesses/dev10-random-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -3.925825645201251,
+        "energy_interval": [
+          "-3.92582564520126",
+          "-3.92582564520125"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "0f128473a3bf7f0300a0f21a22d40e2d583f8a734aa01219c094c8b41cf2900a",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.1924290000000024,
+        "wall_seconds": 9.195922790910117,
+        "optimizer_energy": -3.925825645409175,
+        "witness": "results/pilot/witnesses/dev10-random-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454091756,
+        "energy_interval": [
+          "-3.92582564540918",
+          "-3.92582564540917"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "bc8ae58af8a75cda00e0e8f390c6b93d751e96fc7ba7c42c0b9774e2611cb417",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.3457930000000022,
+        "wall_seconds": 10.091040582861751,
+        "optimizer_energy": -3.9258256454107467,
+        "witness": "results/pilot/witnesses/dev10-random-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454107494,
+        "energy_interval": [
+          "-3.92582564541075",
+          "-3.92582564541074"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "c6bee650b531da3b83b7b49c9fb7c45a31c66afe95bbe605cb18ac5f1b0f6868",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.543751000000002,
+        "wall_seconds": 11.683859207783826,
+        "optimizer_energy": -3.925825645410763,
+        "witness": "results/pilot/witnesses/dev10-random-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454107614,
+        "energy_interval": [
+          "-3.92582564541077",
+          "-3.92582564541076"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "8c76336a3f85a00b2378cbde93870fae63ea3b0ce4f779a1fe4ffd7ec5910ddf",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.543751000000002,
+    "wall_seconds": 11.683859207783826,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 96,
+    "lanczos_iterations": 693,
+    "run_label": "random",
+    "energy": -3.9258256454107614,
+    "energy_interval": [
+      "-3.92582564541077",
+      "-3.92582564541076"
+    ],
+    "witness": "results/pilot/witnesses/dev10-random-1729/sweep-6.npz",
+    "witness_sha256": "8c76336a3f85a00b2378cbde93870fae63ea3b0ce4f779a1fe4ffd7ec5910ddf",
+    "best_sweep": 6,
+    "verification_seconds": 2.0795788330724463
+  },
+  {
+    "method": "single_site",
+    "instance": "dev10",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.3944410000000005,
+        "wall_seconds": 3.9212930829962716,
+        "optimizer_energy": -3.9142751340998503,
+        "witness": "results/pilot/witnesses/dev10-single_site-1729/sweep-1.npz",
+        "max_bond": 7,
+        "energy": -3.9142751340998423,
+        "energy_interval": [
+          "-3.91427513409985",
+          "-3.91427513409984"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "f460784fd6597ffd50bec0e7c299a151e08f7cbf96e195fe425f256bb03a8454",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.736523,
+        "wall_seconds": 7.398371666087769,
+        "optimizer_energy": -3.9257679442209255,
+        "witness": "results/pilot/witnesses/dev10-single_site-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -3.925767944220921,
+        "energy_interval": [
+          "-3.92576794422093",
+          "-3.92576794422092"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "106b04e5b5babf40a7d92cbf3cf21bdfb36ab192a469ddc64a33be89c003b582",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 1.000852,
+        "wall_seconds": 10.406063500093296,
+        "optimizer_energy": -3.925797376575484,
+        "witness": "results/pilot/witnesses/dev10-single_site-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -3.925797376575479,
+        "energy_interval": [
+          "-3.92579737657548",
+          "-3.92579737657547"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "b085b1c14b173b62abebc0b41840e3e9fcbe4269268574d365ab1a7825feda71",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.197686000000001,
+        "wall_seconds": 12.361182291992009,
+        "optimizer_energy": -3.9257983417324382,
+        "witness": "results/pilot/witnesses/dev10-single_site-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -3.9257983417324285,
+        "energy_interval": [
+          "-3.92579834173243",
+          "-3.92579834173242"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "32364bd17917702e4f21e45c58455cbdcea9dc5527c3b60063ed9ad9999c7844",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.3544590000000003,
+        "wall_seconds": 13.879802459036,
+        "optimizer_energy": -3.9257983983200266,
+        "witness": "results/pilot/witnesses/dev10-single_site-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -3.9257983983200178,
+        "energy_interval": [
+          "-3.92579839832002",
+          "-3.92579839832001"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "f96730d3cb7816959f7c411584b8d3947538c88ffef5a5cbec4eb7999a0150d1",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.4903570000000013,
+        "wall_seconds": 15.100768708041869,
+        "optimizer_energy": -3.9257984010415568,
+        "witness": "results/pilot/witnesses/dev10-single_site-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -3.9257984010415536,
+        "energy_interval": [
+          "-3.92579840104156",
+          "-3.92579840104155"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "eb90b3bf93a6a0d35b3f5c5c733250407a7f604a8d0916f194b9e18698c802e1",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.4903570000000013,
+    "wall_seconds": 15.100768708041869,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 108,
+    "lanczos_iterations": 562,
+    "run_label": "single_site",
+    "energy": -3.9257984010415536,
+    "energy_interval": [
+      "-3.92579840104156",
+      "-3.92579840104155"
+    ],
+    "witness": "results/pilot/witnesses/dev10-single_site-1729/sweep-6.npz",
+    "witness_sha256": "eb90b3bf93a6a0d35b3f5c5c733250407a7f604a8d0916f194b9e18698c802e1",
+    "best_sweep": 6,
+    "verification_seconds": 3.8770356670720503
+  },
+  {
+    "method": "ramp",
+    "instance": "dev10",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.33818599999999854,
+        "wall_seconds": 3.9930319589329883,
+        "optimizer_energy": -3.802513524246999,
+        "witness": "results/pilot/witnesses/dev10-ramp-2718/sweep-1.npz",
+        "max_bond": 2,
+        "energy": -3.8025135242469976,
+        "energy_interval": [
+          "-3.80251352424700",
+          "-3.80251352424699"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "bb01c414360d62db5c6faf41bfd526aa021c9059e8e02b84cb3422151f3a3389",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.662604,
+        "wall_seconds": 7.652513918001205,
+        "optimizer_energy": -3.9254913987990343,
+        "witness": "results/pilot/witnesses/dev10-ramp-2718/sweep-2.npz",
+        "max_bond": 4,
+        "energy": -3.925491398799033,
+        "energy_interval": [
+          "-3.92549139879904",
+          "-3.92549139879903"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4015de76b290d6a8718f66324e8c9bafd545a1fe59dee1275ce642a4d85a3c7c",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.9156750000000002,
+        "wall_seconds": 9.192458168021403,
+        "optimizer_energy": -3.9258256136935983,
+        "witness": "results/pilot/witnesses/dev10-ramp-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -3.925825613693596,
+        "energy_interval": [
+          "-3.92582561369360",
+          "-3.92582561369359"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4d4646b769a9efc020dd4a635341321d54ccc4ae166a32024d289731416b56bc",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.149992000000001,
+        "wall_seconds": 10.72845158400014,
+        "optimizer_energy": -3.9258256428048193,
+        "witness": "results/pilot/witnesses/dev10-ramp-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -3.9258256428048166,
+        "energy_interval": [
+          "-3.92582564280482",
+          "-3.92582564280481"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "c7b5e2d909c5b0134d44304c8f101505fea2b38e6b343d7d5a4a9a0499593dae",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.3829659999999997,
+        "wall_seconds": 12.308478542952798,
+        "optimizer_energy": -3.925825645193132,
+        "witness": "results/pilot/witnesses/dev10-ramp-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -3.925825645193139,
+        "energy_interval": [
+          "-3.92582564519314",
+          "-3.92582564519313"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "1c905e284f545a9bf8f1e5fba6ef5cd5e7cb0b3a114ad0c77c60e2e91324dcb1",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.5590449999999993,
+        "wall_seconds": 13.59561170998495,
+        "optimizer_energy": -3.925825645409127,
+        "witness": "results/pilot/witnesses/dev10-ramp-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -3.925825645409125,
+        "energy_interval": [
+          "-3.92582564540913",
+          "-3.92582564540912"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "5e05da5c76035d3d97161dd1c32f32f7c4b765ba6143e39c777b754eb6bebebe",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.5590449999999993,
+    "wall_seconds": 13.59561170998495,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true,
+      "chi_list": {
+        "0": 2,
+        "1": 4,
+        "2": 8
+      }
+    },
+    "local_updates": 96,
+    "lanczos_iterations": 627,
+    "run_label": "ramp",
+    "energy": -3.925825645409125,
+    "energy_interval": [
+      "-3.92582564540913",
+      "-3.92582564540912"
+    ],
+    "witness": "results/pilot/witnesses/dev10-ramp-2718/sweep-6.npz",
+    "witness_sha256": "5e05da5c76035d3d97161dd1c32f32f7c4b765ba6143e39c777b754eb6bebebe",
+    "best_sweep": 6,
+    "verification_seconds": 2.764259000075981
+  },
+  {
+    "method": "dimer",
+    "instance": "dev10",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.3423100000000012,
+        "wall_seconds": 2.801471750019118,
+        "optimizer_energy": -3.9258252475912045,
+        "witness": "results/pilot/witnesses/dev10-dimer-2718/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -3.9258252475912063,
+        "energy_interval": [
+          "-3.92582524759121",
+          "-3.92582524759120"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "e7e326868bfeda60f56901415ae43c305a8214e7f946c8051d315fa480b7cc83",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.6029479999999996,
+        "wall_seconds": 5.156975250924006,
+        "optimizer_energy": -3.925825643079837,
+        "witness": "results/pilot/witnesses/dev10-dimer-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -3.9258256430798384,
+        "energy_interval": [
+          "-3.92582564307984",
+          "-3.92582564307983"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "18d37b88dbe3a43a87223d234f4a41d8efaafca40da4e969389a746d74106d46",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.8327069999999974,
+        "wall_seconds": 7.115077750990167,
+        "optimizer_energy": -3.9258256451948053,
+        "witness": "results/pilot/witnesses/dev10-dimer-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -3.9258256451947933,
+        "energy_interval": [
+          "-3.92582564519480",
+          "-3.92582564519479"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ed17a0bbc82de355a1b3a85eb2ada6b8c0cde732d18f1fcfbd78e330954e68de",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.0031009999999991,
+        "wall_seconds": 8.360939793055877,
+        "optimizer_energy": -3.925825645409133,
+        "witness": "results/pilot/witnesses/dev10-dimer-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -3.925825645409135,
+        "energy_interval": [
+          "-3.92582564540914",
+          "-3.92582564540913"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "3bd6c072c635472303f0b8fb182ce65bda16ed8fd0a58e4ede5c69db5e03afd3",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.1908320000000021,
+        "wall_seconds": 9.682110668043606,
+        "optimizer_energy": -3.925825645410749,
+        "witness": "results/pilot/witnesses/dev10-dimer-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -3.925825645410749,
+        "energy_interval": [
+          "-3.92582564541075",
+          "-3.92582564541074"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "103a122df48a4fa2d94f488d78d5a481f064c1841b078ca1deb87a0737af12ca",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.4094300000000022,
+        "wall_seconds": 11.83208754309453,
+        "optimizer_energy": -3.925825645410765,
+        "witness": "results/pilot/witnesses/dev10-dimer-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454107614,
+        "energy_interval": [
+          "-3.92582564541077",
+          "-3.92582564541076"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "bc15800f405af614549a2c55ba0193cbe017c0fa7dff051ef830685e7e716b21",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.4094300000000022,
+    "wall_seconds": 11.83208754309453,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 96,
+    "lanczos_iterations": 546,
+    "run_label": "dimer",
+    "energy": -3.9258256454107614,
+    "energy_interval": [
+      "-3.92582564541077",
+      "-3.92582564541076"
+    ],
+    "witness": "results/pilot/witnesses/dev10-dimer-2718/sweep-6.npz",
+    "witness_sha256": "bc15800f405af614549a2c55ba0193cbe017c0fa7dff051ef830685e7e716b21",
+    "best_sweep": 6,
+    "verification_seconds": 4.255885958089493
+  },
+  {
+    "method": "random",
+    "instance": "dev10",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.5001280000000001,
+        "wall_seconds": 4.55365879193414,
+        "optimizer_energy": -3.92578935011621,
+        "witness": "results/pilot/witnesses/dev10-random-2718/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -3.925789350116207,
+        "energy_interval": [
+          "-3.92578935011621",
+          "-3.92578935011620"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "212ae9e590884c4d397c69e0947c0f6f50035fefa191a229ebfc8522ecb7c874",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.8188679999999984,
+        "wall_seconds": 8.51621749997139,
+        "optimizer_energy": -3.9258256435398065,
+        "witness": "results/pilot/witnesses/dev10-random-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -3.9258256435398042,
+        "energy_interval": [
+          "-3.92582564353981",
+          "-3.92582564353980"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "1d16eeb64953d879db661aa1622c455dbdeed397d78f62935d1c2373facbfd45",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 1.121378,
+        "wall_seconds": 12.353269207989797,
+        "optimizer_energy": -3.9258256452013915,
+        "witness": "results/pilot/witnesses/dev10-random-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -3.9258256452013893,
+        "energy_interval": [
+          "-3.92582564520139",
+          "-3.92582564520138"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "175b8156817fc57eaf8eb8859a821a5b2e83627442bb4670bcc264c79e4ed568",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.3432609999999983,
+        "wall_seconds": 14.878023625002243,
+        "optimizer_energy": -3.925825645409178,
+        "witness": "results/pilot/witnesses/dev10-random-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454091778,
+        "energy_interval": [
+          "-3.92582564540918",
+          "-3.92582564540917"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "9963aec7f7e4108fa16654f2c87510b853907cc2ecc47091c08913aaa7ca9ef4",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.5520090000000017,
+        "wall_seconds": 16.74903995904606,
+        "optimizer_energy": -3.9258256454107463,
+        "witness": "results/pilot/witnesses/dev10-random-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454107494,
+        "energy_interval": [
+          "-3.92582564541075",
+          "-3.92582564541074"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "faa0aa7e68df52bc9bddb5044339475759796d710851c6ea63c6348552521ead",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.7556159999999998,
+        "wall_seconds": 18.670722793089226,
+        "optimizer_energy": -3.9258256454107583,
+        "witness": "results/pilot/witnesses/dev10-random-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454107614,
+        "energy_interval": [
+          "-3.92582564541077",
+          "-3.92582564541076"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "c83e1fdab532ebb2ef38a1445925f6377ea581579fe7334ecb4ea7ed1b918e74",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.7556159999999998,
+    "wall_seconds": 18.670722793089226,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 96,
+    "lanczos_iterations": 691,
+    "run_label": "random",
+    "energy": -3.9258256454107614,
+    "energy_interval": [
+      "-3.92582564541077",
+      "-3.92582564541076"
+    ],
+    "witness": "results/pilot/witnesses/dev10-random-2718/sweep-6.npz",
+    "witness_sha256": "c83e1fdab532ebb2ef38a1445925f6377ea581579fe7334ecb4ea7ed1b918e74",
+    "best_sweep": 6,
+    "verification_seconds": 3.81784983293619
+  },
+  {
+    "method": "single_site",
+    "instance": "dev10",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.41681099999999915,
+        "wall_seconds": 4.353650165954605,
+        "optimizer_energy": -3.9142751340998503,
+        "witness": "results/pilot/witnesses/dev10-single_site-2718/sweep-1.npz",
+        "max_bond": 7,
+        "energy": -3.9142751340998423,
+        "energy_interval": [
+          "-3.91427513409985",
+          "-3.91427513409984"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "f460784fd6597ffd50bec0e7c299a151e08f7cbf96e195fe425f256bb03a8454",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.7661090000000002,
+        "wall_seconds": 8.232131624012254,
+        "optimizer_energy": -3.9257679442209255,
+        "witness": "results/pilot/witnesses/dev10-single_site-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -3.925767944220921,
+        "energy_interval": [
+          "-3.92576794422093",
+          "-3.92576794422092"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "106b04e5b5babf40a7d92cbf3cf21bdfb36ab192a469ddc64a33be89c003b582",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 1.1018519999999974,
+        "wall_seconds": 12.467965499032289,
+        "optimizer_energy": -3.925797376575484,
+        "witness": "results/pilot/witnesses/dev10-single_site-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -3.925797376575479,
+        "energy_interval": [
+          "-3.92579737657548",
+          "-3.92579737657547"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "b085b1c14b173b62abebc0b41840e3e9fcbe4269268574d365ab1a7825feda71",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.2891650000000006,
+        "wall_seconds": 14.746589956106618,
+        "optimizer_energy": -3.9257983417324382,
+        "witness": "results/pilot/witnesses/dev10-single_site-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -3.9257983417324285,
+        "energy_interval": [
+          "-3.92579834173243",
+          "-3.92579834173242"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "32364bd17917702e4f21e45c58455cbdcea9dc5527c3b60063ed9ad9999c7844",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.4718820000000008,
+        "wall_seconds": 17.088647789205424,
+        "optimizer_energy": -3.9257983983200266,
+        "witness": "results/pilot/witnesses/dev10-single_site-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -3.9257983983200178,
+        "energy_interval": [
+          "-3.92579839832002",
+          "-3.92579839832001"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "f96730d3cb7816959f7c411584b8d3947538c88ffef5a5cbec4eb7999a0150d1",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.658337000000003,
+        "wall_seconds": 19.85435478913132,
+        "optimizer_energy": -3.9257984010415568,
+        "witness": "results/pilot/witnesses/dev10-single_site-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -3.9257984010415536,
+        "energy_interval": [
+          "-3.92579840104156",
+          "-3.92579840104155"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "eb90b3bf93a6a0d35b3f5c5c733250407a7f604a8d0916f194b9e18698c802e1",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.658337000000003,
+    "wall_seconds": 19.85435478913132,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 108,
+    "lanczos_iterations": 562,
+    "run_label": "single_site",
+    "energy": -3.9257984010415536,
+    "energy_interval": [
+      "-3.92579840104156",
+      "-3.92579840104155"
+    ],
+    "witness": "results/pilot/witnesses/dev10-single_site-2718/sweep-6.npz",
+    "witness_sha256": "eb90b3bf93a6a0d35b3f5c5c733250407a7f604a8d0916f194b9e18698c802e1",
+    "best_sweep": 6,
+    "verification_seconds": 5.427590416977182
+  },
+  {
+    "method": "baseline",
+    "instance": "dev10",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.3750159999999987,
+        "wall_seconds": 3.2777716669952497,
+        "optimizer_energy": -3.925778046120347,
+        "witness": "results/pilot/witnesses/dev10-baseline-2718/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -3.925778046120349,
+        "energy_interval": [
+          "-3.92577804612035",
+          "-3.92577804612034"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "0ffda6c5076331c0d62527dfc7c4ef89a1a74d5f2f6b8915b4167df556937cff",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.5981389999999998,
+        "wall_seconds": 5.097907875082456,
+        "optimizer_energy": -3.925825643513203,
+        "witness": "results/pilot/witnesses/dev10-baseline-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -3.9258256435131975,
+        "energy_interval": [
+          "-3.92582564351320",
+          "-3.92582564351319"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ffbd7c5ae674b52bde3261ae43d6abdeee48f381d407b5269ec303c837cab135",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.8249439999999986,
+        "wall_seconds": 7.101090167067014,
+        "optimizer_energy": -3.9258256452009768,
+        "witness": "results/pilot/witnesses/dev10-baseline-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -3.92582564520098,
+        "energy_interval": [
+          "-3.92582564520098",
+          "-3.92582564520097"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "012a031a9aaf82b77845f71061fd27930e33cbae99f6150d4093771106f4e705",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.006105999999999,
+        "wall_seconds": 8.736965790973045,
+        "optimizer_energy": -3.925825645409178,
+        "witness": "results/pilot/witnesses/dev10-baseline-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -3.925825645409174,
+        "energy_interval": [
+          "-3.92582564540918",
+          "-3.92582564540917"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "decc961dd7c23f810ac062809d0efb152bae12b639ae2a7b8feba6724cee9e92",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.1697749999999978,
+        "wall_seconds": 9.929633416002616,
+        "optimizer_energy": -3.925825645410744,
+        "witness": "results/pilot/witnesses/dev10-baseline-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454107494,
+        "energy_interval": [
+          "-3.92582564541075",
+          "-3.92582564541074"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "d0d950abb0948122d40d5820c5a69cc40a33f6f974a5a6c128ff6bc8d80da174",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.3447940000000003,
+        "wall_seconds": 11.604124873061664,
+        "optimizer_energy": -3.9258256454107565,
+        "witness": "results/pilot/witnesses/dev10-baseline-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -3.9258256454107614,
+        "energy_interval": [
+          "-3.92582564541077",
+          "-3.92582564541076"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "fe7ef018cc88a69d16c5d3664674ba4cc63f31e61cf080467d868f9491ecc1ed",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.3447940000000003,
+    "wall_seconds": 11.604124873061664,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 96,
+    "lanczos_iterations": 609,
+    "run_label": "baseline",
+    "energy": -3.9258256454107614,
+    "energy_interval": [
+      "-3.92582564541077",
+      "-3.92582564541076"
+    ],
+    "witness": "results/pilot/witnesses/dev10-baseline-2718/sweep-6.npz",
+    "witness_sha256": "fe7ef018cc88a69d16c5d3664674ba4cc63f31e61cf080467d868f9491ecc1ed",
+    "best_sweep": 6,
+    "verification_seconds": 3.572239459026605
+  },
+  {
+    "method": "baseline",
+    "instance": "dev12",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.4842890000000004,
+        "wall_seconds": 5.037494166987017,
+        "optimizer_energy": -4.499999970393432,
+        "witness": "results/pilot/witnesses/dev12-baseline-1729/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -4.499999970393426,
+        "energy_interval": [
+          "-4.49999997039343",
+          "-4.49999997039342"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "6b4ef133c26932ee812333a1dd846964907b4b41147296f533e97557813cd65f",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.713988999999998,
+        "wall_seconds": 7.153051499975845,
+        "optimizer_energy": -4.500000000000002,
+        "witness": "results/pilot/witnesses/dev12-baseline-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -4.4999999999999964,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "a8a2108cdc927a22c316cda52dd108d3a97bfd01abc714ff59f4faecbacc10b8",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.9736979999999988,
+        "wall_seconds": 9.944945500115864,
+        "optimizer_energy": -4.500000000000007,
+        "witness": "results/pilot/witnesses/dev12-baseline-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "0f961b84b1d84164ff94f1020ee345166b3bfed8c354cb476e6366f70311a2c4",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.1570890000000027,
+        "wall_seconds": 11.931751750060357,
+        "optimizer_energy": -4.500000000000001,
+        "witness": "results/pilot/witnesses/dev12-baseline-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ac87e763af17adc5b75621d80ada059c57dbf88663bc76e6b2909bfd90a1eee4",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.3455400000000033,
+        "wall_seconds": 13.877609709044918,
+        "optimizer_energy": -4.5000000000000036,
+        "witness": "results/pilot/witnesses/dev12-baseline-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "940d902a0c1f575751ca60d3c945dea6fd368f14c4798d964cf0472e8628af2c",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.512751999999999,
+        "wall_seconds": 15.288572959136218,
+        "optimizer_energy": -4.500000000000009,
+        "witness": "results/pilot/witnesses/dev12-baseline-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "99cc9ff5333abb4ef8d75498cc64b37625cdce0561cedaa2c9122000ee583915",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.512751999999999,
+    "wall_seconds": 15.288572959136218,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 120,
+    "lanczos_iterations": 448,
+    "run_label": "baseline",
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "results/pilot/witnesses/dev12-baseline-1729/sweep-3.npz",
+    "witness_sha256": "0f961b84b1d84164ff94f1020ee345166b3bfed8c354cb476e6366f70311a2c4",
+    "best_sweep": 3,
+    "verification_seconds": 8.75492508301977
+  },
+  {
+    "method": "ramp",
+    "instance": "dev12",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.3570730000000033,
+        "wall_seconds": 2.977544124936685,
+        "optimizer_energy": -4.499811405917811,
+        "witness": "results/pilot/witnesses/dev12-ramp-1729/sweep-1.npz",
+        "max_bond": 2,
+        "energy": -4.499811405917807,
+        "energy_interval": [
+          "-4.49981140591781",
+          "-4.49981140591780"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "0e30766d2846ef1fff2eeef077a84815cc08f7df88d621c1732d57bebdbf0164",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.6650220000000004,
+        "wall_seconds": 5.363814332988113,
+        "optimizer_energy": -4.499999999991412,
+        "witness": "results/pilot/witnesses/dev12-ramp-1729/sweep-2.npz",
+        "max_bond": 4,
+        "energy": -4.499999999991408,
+        "energy_interval": [
+          "-4.49999999999141",
+          "-4.49999999999140"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "544fdf1e8466267f64992f360ece985ea54355561b1b56352b5f46ba5011c982",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.8769550000000024,
+        "wall_seconds": 6.762158625060692,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-ramp-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -4.499999999999995,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "d2fdadefbd001e708918c632bb30c774ef501dc24f62da3f457bcdf6034c00d9",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.0924190000000031,
+        "wall_seconds": 8.223489167052321,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-ramp-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "d951f36b9dfdb58159a856455ee6ec8f096900da5a33eababbb1cc4037c52f7c",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.308604000000006,
+        "wall_seconds": 9.633420666097663,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-ramp-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "f933bf7cb5e42f60a1e65b5ad90311028821c88c0ab589c7920e92a8f551fe6b",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.4894620000000067,
+        "wall_seconds": 10.9016083329916,
+        "optimizer_energy": -4.500000000000003,
+        "witness": "results/pilot/witnesses/dev12-ramp-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4268ff3726733c15c92355b92845db8a0a4339edb5769b14bb1107e91f99f099",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.4894620000000067,
+    "wall_seconds": 10.9016083329916,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true,
+      "chi_list": {
+        "0": 2,
+        "1": 4,
+        "2": 8
+      }
+    },
+    "local_updates": 120,
+    "lanczos_iterations": 407,
+    "run_label": "ramp",
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "results/pilot/witnesses/dev12-ramp-1729/sweep-4.npz",
+    "witness_sha256": "d951f36b9dfdb58159a856455ee6ec8f096900da5a33eababbb1cc4037c52f7c",
+    "best_sweep": 4,
+    "verification_seconds": 5.66565816604998
+  },
+  {
+    "method": "dimer",
+    "instance": "dev12",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.33602100000000235,
+        "wall_seconds": 2.900414166972041,
+        "optimizer_energy": -4.500000000000002,
+        "witness": "results/pilot/witnesses/dev12-dimer-1729/sweep-1.npz",
+        "max_bond": 2,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "70a19f078c48c9db52f0f8fe51589f5692dddf247d49af3a335985c83b1e404b",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.5364690000000003,
+        "wall_seconds": 4.055899251019582,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-dimer-1729/sweep-2.npz",
+        "max_bond": 4,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "2b9e0ae5cd9be597292a200c38bafb23ddcb8ceb0b534f5af8c09f4cb784dc93",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.7652589999999968,
+        "wall_seconds": 5.718803000985645,
+        "optimizer_energy": -4.499999999999998,
+        "witness": "results/pilot/witnesses/dev12-dimer-1729/sweep-3.npz",
+        "max_bond": 4,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "6dc18e17136cad9274feeb5de8e766cdc214c726669014bdab9e08cd90ed34ef",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 0.8924079999999961,
+        "wall_seconds": 6.566236958955415,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-dimer-1729/sweep-4.npz",
+        "max_bond": 2,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "5360b76c0095315ffad0f2801f0a1c6e9a44492f35dc5e5b0a1ff2d5707ce9d4",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.0362249999999946,
+        "wall_seconds": 7.5144702510442585,
+        "optimizer_energy": -4.499999999999999,
+        "witness": "results/pilot/witnesses/dev12-dimer-1729/sweep-5.npz",
+        "max_bond": 2,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "94875f0189152382404e132ac9157c21eac884b0b8e07915fbe2214318be2440",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.1684279999999951,
+        "wall_seconds": 8.291739834123291,
+        "optimizer_energy": -4.499999999999999,
+        "witness": "results/pilot/witnesses/dev12-dimer-1729/sweep-6.npz",
+        "max_bond": 2,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "96234dbdce7aea21c4a9d93aaa5c28e051b7f1919c1333c640cf17e1e30da57c",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.1684279999999951,
+    "wall_seconds": 8.291739834123291,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 120,
+    "lanczos_iterations": 120,
+    "run_label": "dimer",
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "results/pilot/witnesses/dev12-dimer-1729/sweep-1.npz",
+    "witness_sha256": "70a19f078c48c9db52f0f8fe51589f5692dddf247d49af3a335985c83b1e404b",
+    "best_sweep": 1,
+    "verification_seconds": 0.2573098329594359
+  },
+  {
+    "method": "random",
+    "instance": "dev12",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.5338419999999999,
+        "wall_seconds": 3.226946167065762,
+        "optimizer_energy": -4.4999999835362425,
+        "witness": "results/pilot/witnesses/dev12-random-1729/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -4.4999999835362345,
+        "energy_interval": [
+          "-4.49999998353624",
+          "-4.49999998353623"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7135aabc63a5d4652e57407ed7d0db191af69589c5257d7142aaa26958c416f8",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.7731130000000022,
+        "wall_seconds": 5.088444875087589,
+        "optimizer_energy": -4.500000000000008,
+        "witness": "results/pilot/witnesses/dev12-random-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -4.499999999999997,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "dd61afa870b760a909e3e859b1a630e75466df1d3c04698dc1ff6d082be8e7ea",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.9983439999999995,
+        "wall_seconds": 6.723871832946315,
+        "optimizer_energy": -4.500000000000001,
+        "witness": "results/pilot/witnesses/dev12-random-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "bab54858ef9cb7c29fde505a9f9aa3afa17346c768ab1d08349b5deedcfbec72",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.1865009999999998,
+        "wall_seconds": 8.334424998960458,
+        "optimizer_energy": -4.500000000000003,
+        "witness": "results/pilot/witnesses/dev12-random-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "f6f1323c71e9b1bc355df975b6fc49d2247a5d8311b01512c842002023bae852",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.395194,
+        "wall_seconds": 9.905107873957604,
+        "optimizer_energy": -4.499999999999997,
+        "witness": "results/pilot/witnesses/dev12-random-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "558b2ae294567c5698c3324126bbcc87d2bc59adff19bd79a9f1c84a1c2ea04e",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.5591339999999967,
+        "wall_seconds": 11.064331790897995,
+        "optimizer_energy": -4.5000000000000036,
+        "witness": "results/pilot/witnesses/dev12-random-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "baf26f7f89e3f7328129a3418f2fc03de3d0aea6e43ee10031af7aeff81c1f50",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.5591339999999967,
+    "wall_seconds": 11.064331790897995,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 120,
+    "lanczos_iterations": 561,
+    "run_label": "random",
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "results/pilot/witnesses/dev12-random-1729/sweep-3.npz",
+    "witness_sha256": "bab54858ef9cb7c29fde505a9f9aa3afa17346c768ab1d08349b5deedcfbec72",
+    "best_sweep": 3,
+    "verification_seconds": 5.876551165943965
+  },
+  {
+    "method": "single_site",
+    "instance": "dev12",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.49237200000000314,
+        "wall_seconds": 3.896007333067246,
+        "optimizer_energy": -4.499980835517304,
+        "witness": "results/pilot/witnesses/dev12-single_site-1729/sweep-1.npz",
+        "max_bond": 7,
+        "energy": -4.499980835517303,
+        "energy_interval": [
+          "-4.49998083551731",
+          "-4.49998083551730"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "8e4151926668c4b679f3b9faca1d0b83021e4a51e2352285cd8b209792a43a82",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.8646349999999927,
+        "wall_seconds": 7.149339375086129,
+        "optimizer_energy": -4.499999999999043,
+        "witness": "results/pilot/witnesses/dev12-single_site-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -4.499999999999042,
+        "energy_interval": [
+          "-4.49999999999905",
+          "-4.49999999999904"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "98ff75eece863b47d9d1dbcb6bc5af5dff1a0c2ec36e5eb69f59201d607103e2",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 1.1076559999999915,
+        "wall_seconds": 9.234953042119741,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-single_site-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -4.4999999999999964,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "b89959426cc7aac2527a5119ecdca25f11415fb33e5562c3dbd6238404db07f7",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.271528999999994,
+        "wall_seconds": 10.676709208171815,
+        "optimizer_energy": -4.499999999999997,
+        "witness": "results/pilot/witnesses/dev12-single_site-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "02477b9a4bc855b0fdf9969ea43aa0fe4029652babf74286591514bd1db99a19",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.4545199999999952,
+        "wall_seconds": 12.222007125266828,
+        "optimizer_energy": -4.4999999999999964,
+        "witness": "results/pilot/witnesses/dev12-single_site-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "7d420bdad1a93aff35b7d4e3e341c302358726bdb92acf5c134b47844910d327",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.6419579999999954,
+        "wall_seconds": 13.67180125019513,
+        "optimizer_energy": -4.500000000000002,
+        "witness": "results/pilot/witnesses/dev12-single_site-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "acacfa94d74f3886df442a8a66a17b743b6d24bda7a02d1eec19de32a459791b",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.6419579999999954,
+    "wall_seconds": 13.67180125019513,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 132,
+    "lanczos_iterations": 501,
+    "run_label": "single_site",
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "results/pilot/witnesses/dev12-single_site-1729/sweep-4.npz",
+    "witness_sha256": "02477b9a4bc855b0fdf9969ea43aa0fe4029652babf74286591514bd1db99a19",
+    "best_sweep": 4,
+    "verification_seconds": 4.252776584005915
+  },
+  {
+    "method": "ramp",
+    "instance": "dev12",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.2972129999999993,
+        "wall_seconds": 1.6356859999941662,
+        "optimizer_energy": -4.499811405917811,
+        "witness": "results/pilot/witnesses/dev12-ramp-2718/sweep-1.npz",
+        "max_bond": 2,
+        "energy": -4.499811405917807,
+        "energy_interval": [
+          "-4.49981140591781",
+          "-4.49981140591780"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "0e30766d2846ef1fff2eeef077a84815cc08f7df88d621c1732d57bebdbf0164",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.607923999999997,
+        "wall_seconds": 3.47578662505839,
+        "optimizer_energy": -4.499999999991412,
+        "witness": "results/pilot/witnesses/dev12-ramp-2718/sweep-2.npz",
+        "max_bond": 4,
+        "energy": -4.499999999991408,
+        "energy_interval": [
+          "-4.49999999999141",
+          "-4.49999999999140"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "544fdf1e8466267f64992f360ece985ea54355561b1b56352b5f46ba5011c982",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.8446449999999999,
+        "wall_seconds": 5.054305874975398,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-ramp-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -4.499999999999995,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "d2fdadefbd001e708918c632bb30c774ef501dc24f62da3f457bcdf6034c00d9",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.0762970000000038,
+        "wall_seconds": 6.5817995419492945,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-ramp-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "d951f36b9dfdb58159a856455ee6ec8f096900da5a33eababbb1cc4037c52f7c",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.3137270000000072,
+        "wall_seconds": 8.193469083984382,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-ramp-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "f933bf7cb5e42f60a1e65b5ad90311028821c88c0ab589c7920e92a8f551fe6b",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.469967000000004,
+        "wall_seconds": 9.090926292934455,
+        "optimizer_energy": -4.500000000000003,
+        "witness": "results/pilot/witnesses/dev12-ramp-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4268ff3726733c15c92355b92845db8a0a4339edb5769b14bb1107e91f99f099",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.469967000000004,
+    "wall_seconds": 9.090926292934455,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true,
+      "chi_list": {
+        "0": 2,
+        "1": 4,
+        "2": 8
+      }
+    },
+    "local_updates": 120,
+    "lanczos_iterations": 407,
+    "run_label": "ramp",
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "results/pilot/witnesses/dev12-ramp-2718/sweep-4.npz",
+    "witness_sha256": "d951f36b9dfdb58159a856455ee6ec8f096900da5a33eababbb1cc4037c52f7c",
+    "best_sweep": 4,
+    "verification_seconds": 3.5538726249942556
+  },
+  {
+    "method": "dimer",
+    "instance": "dev12",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.24994199999999722,
+        "wall_seconds": 1.2530311250593513,
+        "optimizer_energy": -4.500000000000002,
+        "witness": "results/pilot/witnesses/dev12-dimer-2718/sweep-1.npz",
+        "max_bond": 2,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "70a19f078c48c9db52f0f8fe51589f5692dddf247d49af3a335985c83b1e404b",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.420620999999997,
+        "wall_seconds": 2.011712500010617,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-dimer-2718/sweep-2.npz",
+        "max_bond": 4,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "2b9e0ae5cd9be597292a200c38bafb23ddcb8ceb0b534f5af8c09f4cb784dc93",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.5845219999999998,
+        "wall_seconds": 2.716223624884151,
+        "optimizer_energy": -4.499999999999998,
+        "witness": "results/pilot/witnesses/dev12-dimer-2718/sweep-3.npz",
+        "max_bond": 4,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "6dc18e17136cad9274feeb5de8e766cdc214c726669014bdab9e08cd90ed34ef",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 0.7137650000000022,
+        "wall_seconds": 3.598047834006138,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-dimer-2718/sweep-4.npz",
+        "max_bond": 2,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "5360b76c0095315ffad0f2801f0a1c6e9a44492f35dc5e5b0a1ff2d5707ce9d4",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 0.8325870000000037,
+        "wall_seconds": 4.122939250897616,
+        "optimizer_energy": -4.499999999999999,
+        "witness": "results/pilot/witnesses/dev12-dimer-2718/sweep-5.npz",
+        "max_bond": 2,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "94875f0189152382404e132ac9157c21eac884b0b8e07915fbe2214318be2440",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 0.9529830000000032,
+        "wall_seconds": 4.680640958948061,
+        "optimizer_energy": -4.499999999999999,
+        "witness": "results/pilot/witnesses/dev12-dimer-2718/sweep-6.npz",
+        "max_bond": 2,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "96234dbdce7aea21c4a9d93aaa5c28e051b7f1919c1333c640cf17e1e30da57c",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 0.9529830000000032,
+    "wall_seconds": 4.680640958948061,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 120,
+    "lanczos_iterations": 120,
+    "run_label": "dimer",
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "results/pilot/witnesses/dev12-dimer-2718/sweep-1.npz",
+    "witness_sha256": "70a19f078c48c9db52f0f8fe51589f5692dddf247d49af3a335985c83b1e404b",
+    "best_sweep": 1,
+    "verification_seconds": 0.22683712502475828
+  },
+  {
+    "method": "random",
+    "instance": "dev12",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.4699540000000013,
+        "wall_seconds": 2.257504416978918,
+        "optimizer_energy": -4.499999989752011,
+        "witness": "results/pilot/witnesses/dev12-random-2718/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -4.4999999897520215,
+        "energy_interval": [
+          "-4.49999998975203",
+          "-4.49999998975202"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "d383b59f4e3d55717b86c2c69239d7ed379372e4b5ebc9e00d87678f513ffe0f",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.6934719999999999,
+        "wall_seconds": 3.5276501670014113,
+        "optimizer_energy": -4.500000000000008,
+        "witness": "results/pilot/witnesses/dev12-random-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -4.499999999999998,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "eb3c89a6993451b53f66e0f4a7b1bff4298a64bd8e00988d29fc18e501c29bab",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.887989999999995,
+        "wall_seconds": 4.601813041022979,
+        "optimizer_energy": -4.500000000000001,
+        "witness": "results/pilot/witnesses/dev12-random-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "eeae5ea0dc4d9323355d5f6bb32da968075890dd25867ffcd8bc1834fbdf28ca",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.0385919999999942,
+        "wall_seconds": 5.401799249928445,
+        "optimizer_energy": -4.499999999999998,
+        "witness": "results/pilot/witnesses/dev12-random-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "da708052d89ccac0b6f1ed025ca7a01a365e6d685eee03e52c51b095bb15b9c6",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.1784299999999988,
+        "wall_seconds": 6.124172124895267,
+        "optimizer_energy": -4.499999999999995,
+        "witness": "results/pilot/witnesses/dev12-random-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "83abe45e69399c33205b4dc94f2827fab31c60a87f34b0b6f34164ba8720cec2",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.3348840000000024,
+        "wall_seconds": 6.956134291947819,
+        "optimizer_energy": -4.500000000000007,
+        "witness": "results/pilot/witnesses/dev12-random-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "a7b8f16e91fcc2a3a7b6651ed60b251903d2bb02ed52554d2fef81fafde7319b",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.3348840000000024,
+    "wall_seconds": 6.956134291947819,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 120,
+    "lanczos_iterations": 542,
+    "run_label": "random",
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "results/pilot/witnesses/dev12-random-2718/sweep-3.npz",
+    "witness_sha256": "eeae5ea0dc4d9323355d5f6bb32da968075890dd25867ffcd8bc1834fbdf28ca",
+    "best_sweep": 3,
+    "verification_seconds": 4.758771791006438
+  },
+  {
+    "method": "single_site",
+    "instance": "dev12",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.39643899999999377,
+        "wall_seconds": 2.24464262498077,
+        "optimizer_energy": -4.499980835517304,
+        "witness": "results/pilot/witnesses/dev12-single_site-2718/sweep-1.npz",
+        "max_bond": 7,
+        "energy": -4.499980835517303,
+        "energy_interval": [
+          "-4.49998083551731",
+          "-4.49998083551730"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "8e4151926668c4b679f3b9faca1d0b83021e4a51e2352285cd8b209792a43a82",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.6744350000000026,
+        "wall_seconds": 3.695856499951333,
+        "optimizer_energy": -4.499999999999043,
+        "witness": "results/pilot/witnesses/dev12-single_site-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -4.499999999999042,
+        "energy_interval": [
+          "-4.49999999999905",
+          "-4.49999999999904"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "98ff75eece863b47d9d1dbcb6bc5af5dff1a0c2ec36e5eb69f59201d607103e2",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.8687250000000049,
+        "wall_seconds": 4.698870457941666,
+        "optimizer_energy": -4.5,
+        "witness": "results/pilot/witnesses/dev12-single_site-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -4.4999999999999964,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "b89959426cc7aac2527a5119ecdca25f11415fb33e5562c3dbd6238404db07f7",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.0198210000000003,
+        "wall_seconds": 5.516761708888225,
+        "optimizer_energy": -4.499999999999997,
+        "witness": "results/pilot/witnesses/dev12-single_site-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "02477b9a4bc855b0fdf9969ea43aa0fe4029652babf74286591514bd1db99a19",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.1648830000000032,
+        "wall_seconds": 6.1667447498766705,
+        "optimizer_energy": -4.4999999999999964,
+        "witness": "results/pilot/witnesses/dev12-single_site-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "7d420bdad1a93aff35b7d4e3e341c302358726bdb92acf5c134b47844910d327",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.3194469999999967,
+        "wall_seconds": 7.06035687495023,
+        "optimizer_energy": -4.500000000000002,
+        "witness": "results/pilot/witnesses/dev12-single_site-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "acacfa94d74f3886df442a8a66a17b743b6d24bda7a02d1eec19de32a459791b",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.3194469999999967,
+    "wall_seconds": 7.06035687495023,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 132,
+    "lanczos_iterations": 501,
+    "run_label": "single_site",
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "results/pilot/witnesses/dev12-single_site-2718/sweep-4.npz",
+    "witness_sha256": "02477b9a4bc855b0fdf9969ea43aa0fe4029652babf74286591514bd1db99a19",
+    "best_sweep": 4,
+    "verification_seconds": 4.400647375034168
+  },
+  {
+    "method": "baseline",
+    "instance": "dev12",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.44428800000000024,
+        "wall_seconds": 2.5280323749175295,
+        "optimizer_energy": -4.499999970393432,
+        "witness": "results/pilot/witnesses/dev12-baseline-2718/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -4.499999970393426,
+        "energy_interval": [
+          "-4.49999997039343",
+          "-4.49999997039342"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "6b4ef133c26932ee812333a1dd846964907b4b41147296f533e97557813cd65f",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.6922260000000122,
+        "wall_seconds": 4.006832915940322,
+        "optimizer_energy": -4.500000000000002,
+        "witness": "results/pilot/witnesses/dev12-baseline-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -4.4999999999999964,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "a8a2108cdc927a22c316cda52dd108d3a97bfd01abc714ff59f4faecbacc10b8",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.9220450000000042,
+        "wall_seconds": 5.637300373869948,
+        "optimizer_energy": -4.500000000000007,
+        "witness": "results/pilot/witnesses/dev12-baseline-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "0f961b84b1d84164ff94f1020ee345166b3bfed8c354cb476e6366f70311a2c4",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.0964990000000086,
+        "wall_seconds": 6.76238433283288,
+        "optimizer_energy": -4.500000000000001,
+        "witness": "results/pilot/witnesses/dev12-baseline-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ac87e763af17adc5b75621d80ada059c57dbf88663bc76e6b2909bfd90a1eee4",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.2588230000000138,
+        "wall_seconds": 7.748129206942394,
+        "optimizer_energy": -4.5000000000000036,
+        "witness": "results/pilot/witnesses/dev12-baseline-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "940d902a0c1f575751ca60d3c945dea6fd368f14c4798d964cf0472e8628af2c",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.4258830000000131,
+        "wall_seconds": 8.72756520693656,
+        "optimizer_energy": -4.500000000000009,
+        "witness": "results/pilot/witnesses/dev12-baseline-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "99cc9ff5333abb4ef8d75498cc64b37625cdce0561cedaa2c9122000ee583915",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.4258830000000131,
+    "wall_seconds": 8.72756520693656,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 120,
+    "lanczos_iterations": 448,
+    "run_label": "baseline",
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "results/pilot/witnesses/dev12-baseline-2718/sweep-3.npz",
+    "witness_sha256": "0f961b84b1d84164ff94f1020ee345166b3bfed8c354cb476e6366f70311a2c4",
+    "best_sweep": 3,
+    "verification_seconds": 5.0261102500371635
+  },
+  {
+    "method": "baseline",
+    "instance": "dev24",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 1.1716669999999993,
+        "wall_seconds": 10.695252458099276,
+        "optimizer_energy": -10.541481859909368,
+        "witness": "results/pilot/witnesses/dev24-baseline-1729/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -10.541481859909359,
+        "energy_interval": [
+          "-10.54148185990936",
+          "-10.54148185990935"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7e4234c484f81a50ca9ef412ff58fb9c3c451c9cbe01c51c040069cb6d790ea8",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 2.0457759999999965,
+        "wall_seconds": 17.841682208003476,
+        "optimizer_energy": -10.541881027392137,
+        "witness": "results/pilot/witnesses/dev24-baseline-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -10.541881027392131,
+        "energy_interval": [
+          "-10.54188102739214",
+          "-10.54188102739213"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "dfa8153996d31715c90124b1b9e90a868fcb513ad10cf0ac87cd4b302cb39670",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.8736479999999958,
+        "wall_seconds": 24.59560533298645,
+        "optimizer_energy": -10.54188090292843,
+        "witness": "results/pilot/witnesses/dev24-baseline-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -10.541880902928408,
+        "energy_interval": [
+          "-10.54188090292841",
+          "-10.54188090292840"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "47b8dbfadbc5c5af72811ef15ac10720d3632d9a10d212f7e04898972862bc9e",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 3.539200000000001,
+        "wall_seconds": 29.519187041092664,
+        "optimizer_energy": -10.541880908635736,
+        "witness": "results/pilot/witnesses/dev24-baseline-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -10.541880908635726,
+        "energy_interval": [
+          "-10.54188090863573",
+          "-10.54188090863572"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "3553ab8cd77b3877c3ea3d34de6f6613720c105e27dd01890c3d49a017f2f738",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 4.239841999999996,
+        "wall_seconds": 35.05323874892201,
+        "optimizer_energy": -10.54188090864081,
+        "witness": "results/pilot/witnesses/dev24-baseline-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -10.54188090864079,
+        "energy_interval": [
+          "-10.54188090864080",
+          "-10.54188090864079"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7c80da56b9b979aa9dc0e1d26f09e380cbf7151529ac4101c8bfe06f350bdca0",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 4.892423999999998,
+        "wall_seconds": 39.70266366598662,
+        "optimizer_energy": -10.541880908640824,
+        "witness": "results/pilot/witnesses/dev24-baseline-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -10.541880908640834,
+        "energy_interval": [
+          "-10.54188090864084",
+          "-10.54188090864083"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "31ef2fb583d30beadf34dcef172cddb5708eb79a73c8b19fe5890a65106e3dc2",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 4.892423999999998,
+    "wall_seconds": 39.70266366598662,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 264,
+    "lanczos_iterations": 2902,
+    "run_label": "baseline",
+    "energy": -10.541881027392131,
+    "energy_interval": [
+      "-10.54188102739214",
+      "-10.54188102739213"
+    ],
+    "witness": "results/pilot/witnesses/dev24-baseline-1729/sweep-2.npz",
+    "witness_sha256": "dfa8153996d31715c90124b1b9e90a868fcb513ad10cf0ac87cd4b302cb39670",
+    "best_sweep": 2,
+    "verification_seconds": 32.649494000012055
+  },
+  {
+    "method": "ramp",
+    "instance": "dev24",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.7829209999999946,
+        "wall_seconds": 6.979573791963048,
+        "optimizer_energy": -9.867558158967004,
+        "witness": "results/pilot/witnesses/dev24-ramp-1729/sweep-1.npz",
+        "max_bond": 2,
+        "energy": -9.867558158966975,
+        "energy_interval": [
+          "-9.86755815896698",
+          "-9.86755815896697"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "93370e77e02a377aca2a997edc0d5c111375ebd3afca82164919ca8586181d60",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 1.6609550000000013,
+        "wall_seconds": 16.064089959021658,
+        "optimizer_energy": -10.44003980042207,
+        "witness": "results/pilot/witnesses/dev24-ramp-1729/sweep-2.npz",
+        "max_bond": 4,
+        "energy": -10.440039800422058,
+        "energy_interval": [
+          "-10.44003980042206",
+          "-10.44003980042205"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ad7bcdeb8b3fdc7fea53f67f07bc6e646dd9a1d0dfe4c8226a683699869371b7",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.581420999999999,
+        "wall_seconds": 23.368549959966913,
+        "optimizer_energy": -10.54190975893708,
+        "witness": "results/pilot/witnesses/dev24-ramp-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -10.541909758937075,
+        "energy_interval": [
+          "-10.54190975893708",
+          "-10.54190975893707"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4070d3ce24c2c5d1f6d7511b2c369aef8281fa677ff8a1d7ae4a534e38e55520",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 3.4324730000000017,
+        "wall_seconds": 29.81792462593876,
+        "optimizer_energy": -10.541880889006736,
+        "witness": "results/pilot/witnesses/dev24-ramp-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -10.541880889006736,
+        "energy_interval": [
+          "-10.54188088900674",
+          "-10.54188088900673"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "5b80f218ba4dc57657bc8644f2b8608187d2390de1186351800d445ef7ebea1f",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 4.293945000000008,
+        "wall_seconds": 36.44363487698138,
+        "optimizer_energy": -10.541880902547117,
+        "witness": "results/pilot/witnesses/dev24-ramp-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -10.541880902547067,
+        "energy_interval": [
+          "-10.54188090254707",
+          "-10.54188090254706"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "482dd9e7b7770d9003c9c2e4a0dc1935a8b8c01a12b6759ee12281b0b22c4a63",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 4.927736000000003,
+        "wall_seconds": 40.400643793982454,
+        "optimizer_energy": -10.541880908634376,
+        "witness": "results/pilot/witnesses/dev24-ramp-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -10.541880908634397,
+        "energy_interval": [
+          "-10.54188090863440",
+          "-10.54188090863439"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "261c845908d18727fbab9d6a3601f5d98eb0050fc4faa0794b2c4e1b245cac49",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 4.927736000000003,
+    "wall_seconds": 40.400643793982454,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true,
+      "chi_list": {
+        "0": 2,
+        "1": 4,
+        "2": 8
+      }
+    },
+    "local_updates": 264,
+    "lanczos_iterations": 2552,
+    "run_label": "ramp",
+    "energy": -10.541909758937075,
+    "energy_interval": [
+      "-10.54190975893708",
+      "-10.54190975893707"
+    ],
+    "witness": "results/pilot/witnesses/dev24-ramp-1729/sweep-3.npz",
+    "witness_sha256": "4070d3ce24c2c5d1f6d7511b2c369aef8281fa677ff8a1d7ae4a534e38e55520",
+    "best_sweep": 3,
+    "verification_seconds": 13.824524417053908
+  },
+  {
+    "method": "dimer",
+    "instance": "dev24",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.8155670000000015,
+        "wall_seconds": 4.566590083064511,
+        "optimizer_energy": -10.54189768372155,
+        "witness": "results/pilot/witnesses/dev24-dimer-1729/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -10.541897683721551,
+        "energy_interval": [
+          "-10.54189768372156",
+          "-10.54189768372155"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "8c4dc3dd6d335ba70fb0cf9330ea588a2a0cc14351265db0e1ba51603affbfda",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 1.548299,
+        "wall_seconds": 8.404391499003395,
+        "optimizer_energy": -10.541880853588264,
+        "witness": "results/pilot/witnesses/dev24-dimer-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -10.541880853588278,
+        "energy_interval": [
+          "-10.54188085358828",
+          "-10.54188085358827"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "a6a498ddcd401908a5494693d445165783902081941e6d43b9c8bd5e1437eb49",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.258686999999995,
+        "wall_seconds": 12.110865915892646,
+        "optimizer_energy": -10.541880902353753,
+        "witness": "results/pilot/witnesses/dev24-dimer-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -10.54188090235375,
+        "energy_interval": [
+          "-10.54188090235375",
+          "-10.54188090235374"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "a74f7155aef79c06e7c2092f8a9a39f758d478fde8c8747f29d5c1a864af6036",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 2.871410999999995,
+        "wall_seconds": 15.15367487387266,
+        "optimizer_energy": -10.54188090863362,
+        "witness": "results/pilot/witnesses/dev24-dimer-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -10.541880908633644,
+        "energy_interval": [
+          "-10.54188090863365",
+          "-10.54188090863364"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "913b4592d04d674ddbbc846a7380a50d443dd5fbf226f01f4038b09ca74e4957",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 3.444942999999995,
+        "wall_seconds": 17.635493624024093,
+        "optimizer_energy": -10.541880908640751,
+        "witness": "results/pilot/witnesses/dev24-dimer-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -10.541880908640783,
+        "energy_interval": [
+          "-10.54188090864079",
+          "-10.54188090864078"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "24c201ae6c89a86d6da0e64ce4343ee643bbd8ee7fc36e7644a68796d1d3359c",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 4.042273999999992,
+        "wall_seconds": 20.313081749132834,
+        "optimizer_energy": -10.54188090864082,
+        "witness": "results/pilot/witnesses/dev24-dimer-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -10.541880908640834,
+        "energy_interval": [
+          "-10.54188090864084",
+          "-10.54188090864083"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "f4be024a93122de9ea58d50309d22885fceb24f5fa6d7ef85e5b42f94b6a98be",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 4.042273999999992,
+    "wall_seconds": 20.313081749132834,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 264,
+    "lanczos_iterations": 2710,
+    "run_label": "dimer",
+    "energy": -10.541897683721551,
+    "energy_interval": [
+      "-10.54189768372156",
+      "-10.54189768372155"
+    ],
+    "witness": "results/pilot/witnesses/dev24-dimer-1729/sweep-1.npz",
+    "witness_sha256": "8c4dc3dd6d335ba70fb0cf9330ea588a2a0cc14351265db0e1ba51603affbfda",
+    "best_sweep": 1,
+    "verification_seconds": 23.307731166947633
+  },
+  {
+    "method": "random",
+    "instance": "dev24",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 1.3433449999999993,
+        "wall_seconds": 9.514069249969907,
+        "optimizer_energy": -10.54179476676863,
+        "witness": "results/pilot/witnesses/dev24-random-1729/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -10.54179476676863,
+        "energy_interval": [
+          "-10.54179476676863",
+          "-10.54179476676862"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "a2b21d371f0b94d5b2630e332051b2bcb96e8e674a97afba66d5b7f0a8e82353",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 2.2016809999999936,
+        "wall_seconds": 15.438639917061664,
+        "optimizer_energy": -10.541881077485264,
+        "witness": "results/pilot/witnesses/dev24-random-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -10.541881077485273,
+        "energy_interval": [
+          "-10.54188107748528",
+          "-10.54188107748527"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "382838fe9a7183201029068690afc2ebef33d0c76deb519af78486b73d3b1557",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 3.136055999999982,
+        "wall_seconds": 22.351316501153633,
+        "optimizer_energy": -10.541880902864854,
+        "witness": "results/pilot/witnesses/dev24-random-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -10.54188090286484,
+        "energy_interval": [
+          "-10.54188090286485",
+          "-10.54188090286484"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "35f99d49c0b0c9b3725d0a7f222f145faf33b98578ea54d839776aadfcdf1578",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 3.849062999999987,
+        "wall_seconds": 26.890989043051377,
+        "optimizer_energy": -10.541880908635026,
+        "witness": "results/pilot/witnesses/dev24-random-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -10.541880908634989,
+        "energy_interval": [
+          "-10.54188090863499",
+          "-10.54188090863498"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "e150e790dde50309ff4ac04290bb5b71ba95f928c230eec5aae24493b99e2339",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 4.5321719999999885,
+        "wall_seconds": 31.11073183408007,
+        "optimizer_energy": -10.541880908640803,
+        "witness": "results/pilot/witnesses/dev24-random-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -10.541880908640787,
+        "energy_interval": [
+          "-10.54188090864079",
+          "-10.54188090864078"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "632d77550f955b8c1207202b8114058e10754ad82aa5b2451e71af3a1b723e21",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 5.218054999999978,
+        "wall_seconds": 35.53130558307748,
+        "optimizer_energy": -10.541880908640806,
+        "witness": "results/pilot/witnesses/dev24-random-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -10.541880908640834,
+        "energy_interval": [
+          "-10.54188090864084",
+          "-10.54188090864083"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "5d916e37626f196c9076beee4d69b4c749ba915fe3387a410d174d404833484f",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 5.218054999999978,
+    "wall_seconds": 35.53130558307748,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 264,
+    "lanczos_iterations": 3130,
+    "run_label": "random",
+    "energy": -10.541881077485273,
+    "energy_interval": [
+      "-10.54188107748528",
+      "-10.54188107748527"
+    ],
+    "witness": "results/pilot/witnesses/dev24-random-1729/sweep-2.npz",
+    "witness_sha256": "382838fe9a7183201029068690afc2ebef33d0c76deb519af78486b73d3b1557",
+    "best_sweep": 2,
+    "verification_seconds": 15.989040834014304
+  },
+  {
+    "method": "single_site",
+    "instance": "dev24",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.7712120000000056,
+        "wall_seconds": 3.6676361249992624,
+        "optimizer_energy": -10.430660793779214,
+        "witness": "results/pilot/witnesses/dev24-single_site-1729/sweep-1.npz",
+        "max_bond": 7,
+        "energy": -10.430660793779193,
+        "energy_interval": [
+          "-10.43066079377920",
+          "-10.43066079377919"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "efdc020e5034646da3b3e0fe4a2570024d56de10c0c5d06495f5a7d5f1e31649",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 1.5033070000000066,
+        "wall_seconds": 7.235859667067416,
+        "optimizer_energy": -10.528833264790151,
+        "witness": "results/pilot/witnesses/dev24-single_site-1729/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -10.528833264790109,
+        "energy_interval": [
+          "-10.52883326479011",
+          "-10.52883326479010"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ee3d6b69addff7a5a27330e1672b295871e0dc3f7816c3688b487213df6f17fd",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.0596120000000155,
+        "wall_seconds": 9.530560083105229,
+        "optimizer_energy": -10.529295457328793,
+        "witness": "results/pilot/witnesses/dev24-single_site-1729/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -10.52929545732874,
+        "energy_interval": [
+          "-10.52929545732874",
+          "-10.52929545732873"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "b004c695ddadd907ea4721775648323e6bf46cd9491b056265a266bfccb7e00a",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 2.472496000000021,
+        "wall_seconds": 11.422448166180402,
+        "optimizer_energy": -10.529335884736382,
+        "witness": "results/pilot/witnesses/dev24-single_site-1729/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -10.52933588473635,
+        "energy_interval": [
+          "-10.52933588473635",
+          "-10.52933588473634"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "8ccbc596e243c1c89fac2f4af43b07a2becf23b3c849757dafc6c387da7618da",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 2.8965310000000244,
+        "wall_seconds": 13.358577125007287,
+        "optimizer_energy": -10.534176602313671,
+        "witness": "results/pilot/witnesses/dev24-single_site-1729/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -10.534176602313602,
+        "energy_interval": [
+          "-10.53417660231361",
+          "-10.53417660231360"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7ec9a666e53d05de541d3c7f6a5ff8077c64df3828eb1186621aeeb2024d16c4",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 3.335214000000036,
+        "wall_seconds": 15.174253873992711,
+        "optimizer_energy": -10.538314885673397,
+        "witness": "results/pilot/witnesses/dev24-single_site-1729/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -10.53831488567336,
+        "energy_interval": [
+          "-10.53831488567337",
+          "-10.53831488567336"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ebee47102ef14571cb1e461e72c37bfbd2b53810f6280aa539bb79575ec6358f",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 3.335214000000036,
+    "wall_seconds": 15.174253873992711,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 276,
+    "lanczos_iterations": 2290,
+    "run_label": "single_site",
+    "energy": -10.53831488567336,
+    "energy_interval": [
+      "-10.53831488567337",
+      "-10.53831488567336"
+    ],
+    "witness": "results/pilot/witnesses/dev24-single_site-1729/sweep-6.npz",
+    "witness_sha256": "ebee47102ef14571cb1e461e72c37bfbd2b53810f6280aa539bb79575ec6358f",
+    "best_sweep": 6,
+    "verification_seconds": 14.589091790956445
+  },
+  {
+    "method": "ramp",
+    "instance": "dev24",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.6485550000000018,
+        "wall_seconds": 3.66791399999056,
+        "optimizer_energy": -9.867558158967004,
+        "witness": "results/pilot/witnesses/dev24-ramp-2718/sweep-1.npz",
+        "max_bond": 2,
+        "energy": -9.867558158966975,
+        "energy_interval": [
+          "-9.86755815896698",
+          "-9.86755815896697"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "93370e77e02a377aca2a997edc0d5c111375ebd3afca82164919ca8586181d60",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 1.314312000000001,
+        "wall_seconds": 7.612879333901219,
+        "optimizer_energy": -10.44003980042207,
+        "witness": "results/pilot/witnesses/dev24-ramp-2718/sweep-2.npz",
+        "max_bond": 4,
+        "energy": -10.440039800422058,
+        "energy_interval": [
+          "-10.44003980042206",
+          "-10.44003980042205"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ad7bcdeb8b3fdc7fea53f67f07bc6e646dd9a1d0dfe4c8226a683699869371b7",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.033348999999987,
+        "wall_seconds": 12.000713584013283,
+        "optimizer_energy": -10.54190975893708,
+        "witness": "results/pilot/witnesses/dev24-ramp-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -10.541909758937075,
+        "energy_interval": [
+          "-10.54190975893708",
+          "-10.54190975893707"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4070d3ce24c2c5d1f6d7511b2c369aef8281fa677ff8a1d7ae4a534e38e55520",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 2.7287869999999828,
+        "wall_seconds": 15.64441041694954,
+        "optimizer_energy": -10.541880889006736,
+        "witness": "results/pilot/witnesses/dev24-ramp-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -10.541880889006736,
+        "energy_interval": [
+          "-10.54188088900674",
+          "-10.54188088900673"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "5b80f218ba4dc57657bc8644f2b8608187d2390de1186351800d445ef7ebea1f",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 3.400691999999978,
+        "wall_seconds": 19.07274479197804,
+        "optimizer_energy": -10.541880902547117,
+        "witness": "results/pilot/witnesses/dev24-ramp-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -10.541880902547067,
+        "energy_interval": [
+          "-10.54188090254707",
+          "-10.54188090254706"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "482dd9e7b7770d9003c9c2e4a0dc1935a8b8c01a12b6759ee12281b0b22c4a63",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 3.9692209999999903,
+        "wall_seconds": 22.469143998925574,
+        "optimizer_energy": -10.541880908634376,
+        "witness": "results/pilot/witnesses/dev24-ramp-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -10.541880908634397,
+        "energy_interval": [
+          "-10.54188090863440",
+          "-10.54188090863439"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "261c845908d18727fbab9d6a3601f5d98eb0050fc4faa0794b2c4e1b245cac49",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 3.9692209999999903,
+    "wall_seconds": 22.469143998925574,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true,
+      "chi_list": {
+        "0": 2,
+        "1": 4,
+        "2": 8
+      }
+    },
+    "local_updates": 264,
+    "lanczos_iterations": 2552,
+    "run_label": "ramp",
+    "energy": -10.541909758937075,
+    "energy_interval": [
+      "-10.54190975893708",
+      "-10.54190975893707"
+    ],
+    "witness": "results/pilot/witnesses/dev24-ramp-2718/sweep-3.npz",
+    "witness_sha256": "4070d3ce24c2c5d1f6d7511b2c369aef8281fa677ff8a1d7ae4a534e38e55520",
+    "best_sweep": 3,
+    "verification_seconds": 13.53634216694627
+  },
+  {
+    "method": "dimer",
+    "instance": "dev24",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.7978659999999991,
+        "wall_seconds": 4.987002999987453,
+        "optimizer_energy": -10.54189768372155,
+        "witness": "results/pilot/witnesses/dev24-dimer-2718/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -10.541897683721551,
+        "energy_interval": [
+          "-10.54189768372156",
+          "-10.54189768372155"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "8c4dc3dd6d335ba70fb0cf9330ea588a2a0cc14351265db0e1ba51603affbfda",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 1.4989619999999917,
+        "wall_seconds": 9.452332416898571,
+        "optimizer_energy": -10.541880853588264,
+        "witness": "results/pilot/witnesses/dev24-dimer-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -10.541880853588278,
+        "energy_interval": [
+          "-10.54188085358828",
+          "-10.54188085358827"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "a6a498ddcd401908a5494693d445165783902081941e6d43b9c8bd5e1437eb49",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.1899379999999837,
+        "wall_seconds": 13.930402499972843,
+        "optimizer_energy": -10.541880902353753,
+        "witness": "results/pilot/witnesses/dev24-dimer-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -10.54188090235375,
+        "energy_interval": [
+          "-10.54188090235375",
+          "-10.54188090235374"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "a74f7155aef79c06e7c2092f8a9a39f758d478fde8c8747f29d5c1a864af6036",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 2.7641909999999825,
+        "wall_seconds": 17.10081841587089,
+        "optimizer_energy": -10.54188090863362,
+        "witness": "results/pilot/witnesses/dev24-dimer-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -10.541880908633644,
+        "energy_interval": [
+          "-10.54188090863365",
+          "-10.54188090863364"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "913b4592d04d674ddbbc846a7380a50d443dd5fbf226f01f4038b09ca74e4957",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 3.349806999999984,
+        "wall_seconds": 20.072992123896256,
+        "optimizer_energy": -10.541880908640751,
+        "witness": "results/pilot/witnesses/dev24-dimer-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -10.541880908640783,
+        "energy_interval": [
+          "-10.54188090864079",
+          "-10.54188090864078"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "24c201ae6c89a86d6da0e64ce4343ee643bbd8ee7fc36e7644a68796d1d3359c",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 3.924995999999979,
+        "wall_seconds": 23.023248415905982,
+        "optimizer_energy": -10.54188090864082,
+        "witness": "results/pilot/witnesses/dev24-dimer-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -10.541880908640834,
+        "energy_interval": [
+          "-10.54188090864084",
+          "-10.54188090864083"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "f4be024a93122de9ea58d50309d22885fceb24f5fa6d7ef85e5b42f94b6a98be",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 3.924995999999979,
+    "wall_seconds": 23.023248415905982,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 264,
+    "lanczos_iterations": 2710,
+    "run_label": "dimer",
+    "energy": -10.541897683721551,
+    "energy_interval": [
+      "-10.54189768372156",
+      "-10.54189768372155"
+    ],
+    "witness": "results/pilot/witnesses/dev24-dimer-2718/sweep-1.npz",
+    "witness_sha256": "8c4dc3dd6d335ba70fb0cf9330ea588a2a0cc14351265db0e1ba51603affbfda",
+    "best_sweep": 1,
+    "verification_seconds": 25.55501849995926
+  },
+  {
+    "method": "random",
+    "instance": "dev24",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 1.2251440000000002,
+        "wall_seconds": 10.027917584055103,
+        "optimizer_energy": -10.541803677567941,
+        "witness": "results/pilot/witnesses/dev24-random-2718/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -10.541803677567975,
+        "energy_interval": [
+          "-10.54180367756798",
+          "-10.54180367756797"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "e0f553cc2372fabe9d6f56893c6693ea20901d07668ae0ca487ad9b0d8828cdc",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 1.988632999999993,
+        "wall_seconds": 15.204104000004008,
+        "optimizer_energy": -10.541881024881967,
+        "witness": "results/pilot/witnesses/dev24-random-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -10.541881024881949,
+        "energy_interval": [
+          "-10.54188102488195",
+          "-10.54188102488194"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "8e1213c84a0f8d042275ae472122b452d5c84cdfc02a729a3463bad5d6590414",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.8163749999999936,
+        "wall_seconds": 22.933822583057918,
+        "optimizer_energy": -10.541880902752112,
+        "witness": "results/pilot/witnesses/dev24-random-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -10.541880902752125,
+        "energy_interval": [
+          "-10.54188090275213",
+          "-10.54188090275212"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "b7ae523b484b1134056c6b719a35592ea61cc16175b868a2590ac76531f63af1",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 3.5295150000000035,
+        "wall_seconds": 29.970331708085723,
+        "optimizer_energy": -10.541880908634845,
+        "witness": "results/pilot/witnesses/dev24-random-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -10.541880908634806,
+        "energy_interval": [
+          "-10.54188090863481",
+          "-10.54188090863480"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "f897e0ec6807bddf81388bdf7fae232a4fd4123cebbb17536f907e02ec508e31",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 4.168825000000012,
+        "wall_seconds": 35.06693154096138,
+        "optimizer_energy": -10.541880908640774,
+        "witness": "results/pilot/witnesses/dev24-random-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -10.541880908640787,
+        "energy_interval": [
+          "-10.54188090864079",
+          "-10.54188090864078"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "99d86ef2b960c0d89b106002a7ab815cdbacbe68e91332876e039ac8570553da",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 4.793264000000008,
+        "wall_seconds": 39.967228333000094,
+        "optimizer_energy": -10.541880908640865,
+        "witness": "results/pilot/witnesses/dev24-random-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -10.541880908640834,
+        "energy_interval": [
+          "-10.54188090864084",
+          "-10.54188090864083"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4ef9cfac960a603dda67a0f7968ee21f501e9982f27e367c2e3248f68ce36db5",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 4.793264000000008,
+    "wall_seconds": 39.967228333000094,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 264,
+    "lanczos_iterations": 3119,
+    "run_label": "random",
+    "energy": -10.541881024881949,
+    "energy_interval": [
+      "-10.54188102488195",
+      "-10.54188102488194"
+    ],
+    "witness": "results/pilot/witnesses/dev24-random-2718/sweep-2.npz",
+    "witness_sha256": "8e1213c84a0f8d042275ae472122b452d5c84cdfc02a729a3463bad5d6590414",
+    "best_sweep": 2,
+    "verification_seconds": 14.137414457974955
+  },
+  {
+    "method": "single_site",
+    "instance": "dev24",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.7837559999999968,
+        "wall_seconds": 3.6990115420194343,
+        "optimizer_energy": -10.430660793779214,
+        "witness": "results/pilot/witnesses/dev24-single_site-2718/sweep-1.npz",
+        "max_bond": 7,
+        "energy": -10.430660793779193,
+        "energy_interval": [
+          "-10.43066079377920",
+          "-10.43066079377919"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "efdc020e5034646da3b3e0fe4a2570024d56de10c0c5d06495f5a7d5f1e31649",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 1.5204639999999898,
+        "wall_seconds": 7.1109772509662434,
+        "optimizer_energy": -10.528833264790151,
+        "witness": "results/pilot/witnesses/dev24-single_site-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -10.528833264790109,
+        "energy_interval": [
+          "-10.52883326479011",
+          "-10.52883326479010"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ee3d6b69addff7a5a27330e1672b295871e0dc3f7816c3688b487213df6f17fd",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.0940589999999872,
+        "wall_seconds": 9.617649334017187,
+        "optimizer_energy": -10.529295457328793,
+        "witness": "results/pilot/witnesses/dev24-single_site-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -10.52929545732874,
+        "energy_interval": [
+          "-10.52929545732874",
+          "-10.52929545732873"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "b004c695ddadd907ea4721775648323e6bf46cd9491b056265a266bfccb7e00a",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 2.4976839999999925,
+        "wall_seconds": 11.441621167003177,
+        "optimizer_energy": -10.529335884736382,
+        "witness": "results/pilot/witnesses/dev24-single_site-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -10.52933588473635,
+        "energy_interval": [
+          "-10.52933588473635",
+          "-10.52933588473634"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "8ccbc596e243c1c89fac2f4af43b07a2becf23b3c849757dafc6c387da7618da",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 2.916762999999989,
+        "wall_seconds": 13.322578458115458,
+        "optimizer_energy": -10.534176602313671,
+        "witness": "results/pilot/witnesses/dev24-single_site-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -10.534176602313602,
+        "energy_interval": [
+          "-10.53417660231361",
+          "-10.53417660231360"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7ec9a666e53d05de541d3c7f6a5ff8077c64df3828eb1186621aeeb2024d16c4",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 3.3732769999999874,
+        "wall_seconds": 15.33628962514922,
+        "optimizer_energy": -10.538314885673397,
+        "witness": "results/pilot/witnesses/dev24-single_site-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -10.53831488567336,
+        "energy_interval": [
+          "-10.53831488567337",
+          "-10.53831488567336"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ebee47102ef14571cb1e461e72c37bfbd2b53810f6280aa539bb79575ec6358f",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 3.3732769999999874,
+    "wall_seconds": 15.33628962514922,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 276,
+    "lanczos_iterations": 2290,
+    "run_label": "single_site",
+    "energy": -10.53831488567336,
+    "energy_interval": [
+      "-10.53831488567337",
+      "-10.53831488567336"
+    ],
+    "witness": "results/pilot/witnesses/dev24-single_site-2718/sweep-6.npz",
+    "witness_sha256": "ebee47102ef14571cb1e461e72c37bfbd2b53810f6280aa539bb79575ec6358f",
+    "best_sweep": 6,
+    "verification_seconds": 12.662486665998586
+  },
+  {
+    "method": "baseline",
+    "instance": "dev24",
+    "seed": 2718,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.9012469999999979,
+        "wall_seconds": 4.885500625008717,
+        "optimizer_energy": -10.541481859909368,
+        "witness": "results/pilot/witnesses/dev24-baseline-2718/sweep-1.npz",
+        "max_bond": 8,
+        "energy": -10.541481859909359,
+        "energy_interval": [
+          "-10.54148185990936",
+          "-10.54148185990935"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7e4234c484f81a50ca9ef412ff58fb9c3c451c9cbe01c51c040069cb6d790ea8",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 1.6194310000000058,
+        "wall_seconds": 9.716945874039084,
+        "optimizer_energy": -10.541881027392137,
+        "witness": "results/pilot/witnesses/dev24-baseline-2718/sweep-2.npz",
+        "max_bond": 8,
+        "energy": -10.541881027392131,
+        "energy_interval": [
+          "-10.54188102739214",
+          "-10.54188102739213"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "dfa8153996d31715c90124b1b9e90a868fcb513ad10cf0ac87cd4b302cb39670",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.289949000000007,
+        "wall_seconds": 13.871078874915838,
+        "optimizer_energy": -10.54188090292843,
+        "witness": "results/pilot/witnesses/dev24-baseline-2718/sweep-3.npz",
+        "max_bond": 8,
+        "energy": -10.541880902928408,
+        "energy_interval": [
+          "-10.54188090292841",
+          "-10.54188090292840"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "47b8dbfadbc5c5af72811ef15ac10720d3632d9a10d212f7e04898972862bc9e",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 2.8864149999999995,
+        "wall_seconds": 17.547006249893457,
+        "optimizer_energy": -10.541880908635736,
+        "witness": "results/pilot/witnesses/dev24-baseline-2718/sweep-4.npz",
+        "max_bond": 8,
+        "energy": -10.541880908635726,
+        "energy_interval": [
+          "-10.54188090863573",
+          "-10.54188090863572"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "3553ab8cd77b3877c3ea3d34de6f6613720c105e27dd01890c3d49a017f2f738",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 3.478860999999995,
+        "wall_seconds": 20.93376133288257,
+        "optimizer_energy": -10.54188090864081,
+        "witness": "results/pilot/witnesses/dev24-baseline-2718/sweep-5.npz",
+        "max_bond": 8,
+        "energy": -10.54188090864079,
+        "energy_interval": [
+          "-10.54188090864080",
+          "-10.54188090864079"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7c80da56b9b979aa9dc0e1d26f09e380cbf7151529ac4101c8bfe06f350bdca0",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 4.05139299999999,
+        "wall_seconds": 24.831560916034505,
+        "optimizer_energy": -10.541880908640824,
+        "witness": "results/pilot/witnesses/dev24-baseline-2718/sweep-6.npz",
+        "max_bond": 8,
+        "energy": -10.541880908640834,
+        "energy_interval": [
+          "-10.54188090864084",
+          "-10.54188090864083"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "31ef2fb583d30beadf34dcef172cddb5708eb79a73c8b19fe5890a65106e3dc2",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 4.05139299999999,
+    "wall_seconds": 24.831560916034505,
+    "tenpy_version": "1.1.0",
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "local_updates": 264,
+    "lanczos_iterations": 2902,
+    "run_label": "baseline",
+    "energy": -10.541881027392131,
+    "energy_interval": [
+      "-10.54188102739214",
+      "-10.54188102739213"
+    ],
+    "witness": "results/pilot/witnesses/dev24-baseline-2718/sweep-2.npz",
+    "witness_sha256": "dfa8153996d31715c90124b1b9e90a868fcb513ad10cf0ac87cd4b302cb39670",
+    "best_sweep": 2,
+    "verification_seconds": 28.832554333028384
+  }
+]

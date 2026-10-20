@@ -1,0 +1,20 @@
+{
+  "selected": "ramp",
+  "dev_scores_per_site": {
+    "ramp": -3.9904918078567976e-07,
+    "dimer": -2.3133790860718761e-07,
+    "random": -3.304372207956085e-10,
+    "single_site": 5.0437891734301924e-05
+  },
+  "frozen_at": "2026-10-20T21:21:51.900543+00:00",
+  "source_hashes": {
+    "qground/__init__.py": "3e4878d60e62d6016e993e14dc7e3c423483385cb950250626b7d1b68cf2fc41",
+    "qground/check.py": "6222002daa03b4a254ed3dbe510484ad2d4e0edbc6e985b58a28cd26df8a9fe6",
+    "qground/evaluator.py": "17b113e653d95f19d14f52135fb0d349ce26c8e7e965d5aa86c1503dce24a88b",
+    "qground/exactdiag.py": "db2e810ad01c5da828f3010b0ec0fa6158f0977770d1858a17a653f42b6120d4",
+    "qground/experiment.py": "b79dcb212172dd32ee2296549214fe14585766bb0fccc0934e4802ccf8d9a97a",
+    "qground/optimize.py": "b9b8c1337367a97dd0be4ac014d239df3148b0d823c96698063a8dec7bc9d7aa"
+  },
+  "suite_sha256": "5a051ecc792fc19545c0a910d7c6d6490d8f6451a4d8e88f2898469bc848a66c",
+  "policy": "best development alternative; selection does not assert improvement"
+}

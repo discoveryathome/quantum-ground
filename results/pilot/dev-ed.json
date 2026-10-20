@@ -1,0 +1,12 @@
+{
+  "dev10": {
+    "energy": -3.9258362715154997,
+    "residual_norm": 2.586781443905478e-15,
+    "status": "numerical full-Hilbert-space ED reference, not certified global lower bound"
+  },
+  "dev12": {
+    "energy": -4.499999999999995,
+    "residual_norm": 6.216460953521693e-15,
+    "status": "numerical full-Hilbert-space ED reference, not certified global lower bound"
+  }
+}

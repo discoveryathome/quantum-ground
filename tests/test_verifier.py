@@ -79,3 +79,14 @@ def test_reject_invalid(tmp_path,problem):
     if problem=='extra': np.savez(path,A0=tensors[0],A1=tensors[1],hamiltonian_id=hamiltonian_id(c),extra=1)
     with pytest.raises((ValueError,TypeError)):
         verify(path,c,claim=-100 if problem=='claim' else None)
+
+
+def test_known_open_majumdar_ghosh_dimer():
+    c=case(6,'0.5','1')
+    a=np.zeros((1,2,2));a[0,0,0]=2**-0.5;a[0,1,1]=2**-0.5
+    b=np.zeros((2,2,1));b[0,1,0]=1;b[1,0,0]=-1
+    tensors=[a,b,a,b,a,b]
+    e,n=contraction(tensors,c)
+    assert e == Fraction(-3*c['L'],8)
+    v=dense_state(tensors)
+    assert np.linalg.norm(matrix(c)@v-float(e)*v)<1e-14

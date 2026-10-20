@@ -1,0 +1,19 @@
+{
+  "task": "optimization-01",
+  "seed": "aca2df3262a7c47f8b48667ea9034a42",
+  "start_utc": "2026-10-20T21:10:57Z",
+  "budget_minutes": 60,
+  "base": "05e28e9723c0eb9de860eb1eec51cf91f0bfa7f2",
+  "question": "Can a short reasoning-led session improve exact variational bounds at equal work, and is that a compelling featured pilot?",
+  "plan": [
+    "Check existing baseline and verification",
+    "Use J2 structure to test next-neighbor singlet starts and a coupling-continuation schedule",
+    "Compare with all development alternatives, freeze winner, draw fresh test Hamiltonians",
+    "Report all attempts, exact candidate checks and budget-aware outcomes",
+    "Assess public demo, agent contribution, home CPU cost and scientific headroom"
+  ],
+  "constraints": "chi<=8,6 sweeps,L<=32; all initialization/continuation work charged; no tuning on heldout; no scientific novelty claim",
+  "upstream_preparation": "Harness and initial validation preceded this timed contributor trial; not an independent cold-start contributor or independent human replication.",
+  "target_minutes": 45,
+  "budget_note": "User authorized 30\u201360 minutes. Target extended from 30 to 45 within that range to finish serial controlled runs under observed competing machine load. Hard cap 60 minutes from 21:10:57Z."
+}
