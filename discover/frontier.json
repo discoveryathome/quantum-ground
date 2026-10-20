@@ -1,14 +1,16 @@
 {
   "schema": "discover-frontier/v0",
-  "statement": "Known DMRG/MPS methods provide variational ground-state candidates. This local pilot is reproducing six frozen finite-chain cases; numerical results will be added only after verification.",
-  "status": "LOCAL proposal; experiments in progress; no accepted discovery",
+  "statement": "Six frozen initial-chain instances have exactly checked local variational upper bounds, including contributor improvements on development cases and a known exact dimer control. Initial chi ramping had no mean held-out gain. A 38.4-minute contributor trial found hybrid polishing improvements; the primary fresh test tied on solved dimer cases, and a separately labeled post-hoc coverage supplement won 3/3 cases at matched budgets. No scientific novelty or general ground-state proof is claimed.",
+  "status": "LOCAL author-checked incumbents and exploratory benchmark; no maintainer acceptance; intake paused",
   "evidence_level": [
     "author-checked"
   ],
   "claim_kind": [
-    "model"
+    "certified",
+    "measured",
+    "argument"
   ],
-  "scope": "open-j1j2-real-mps-v1; exact Hamiltonians in benchmarks/suite.json; chi<=8; CPU; no global optimality claim",
+  "scope": "open-j1j2-real-mps-v1, six initial cases, real binary64 MPS chi<=8 and six sweeps; supplementary cases are separately frozen in research/contributor-001. Exact score enclosures concern saved normalized states, not general global optima.",
   "formulation": {
     "id": "open-j1j2-real-mps-v1",
     "doc": "docs/FORMULATION.md",
@@ -17,13 +19,154 @@
   "sources": [
     "https://arxiv.org/abs/1008.3477",
     "https://doi.org/10.21468/SciPostPhysCodeb.41",
-    "docs/LITERATURE.md"
+    "docs/LITERATURE.md",
+    "docs/RESULTS.md",
+    "research/contributor-001/README.md"
   ],
   "reproduce": "./scripts/reproduce.sh",
-  "reproduce_minutes": 3,
+  "reproduce_minutes": 5,
   "prerequisites": [
     "Python 3.13; local venv installed from requirements.lock"
   ],
   "review": "docs/REVIEW.md",
-  "updated_on": "2026-10-20"
+  "updated_on": "2026-10-20",
+  "reproduce_full": "./scripts/cpu.sh -m qground.experiment dev --out results/replay && ./scripts/cpu.sh -m qground.experiment heldout --out results/replay && ./scripts/cpu.sh -m scripts.replay_contributor --out results/contributor-replay",
+  "assumptions": [
+    {
+      "id": "independent-review",
+      "statement": "No independent contributor has audited or replayed the package; no formal proof assistant verified the exact checker.",
+      "status": "open",
+      "link": "docs/REVIEW.md"
+    },
+    {
+      "id": "generalization",
+      "statement": "Tiny public test suites and a post-hoc supplement do not establish population-level or literature-frontier improvement.",
+      "status": "open",
+      "link": "docs/FEATURE_ASSESSMENT.md"
+    }
+  ],
+  "pinned_heads": {
+    "tenpy": "3c3304e2a7a1b90a9cd983c095da6678b9e7d2b1",
+    "initial_experiment_base": "05e28e9723c0eb9de860eb1eec51cf91f0bfa7f2"
+  },
+  "table": {
+    "path": "discover/records.json",
+    "format": "json",
+    "key": [
+      "instance"
+    ],
+    "value": "energy",
+    "direction": "lower-is-better",
+    "bound": "proven_lower_bound",
+    "object": "witness",
+    "by": "by",
+    "source": "source",
+    "updated": "updated",
+    "check_row": [
+      "./scripts/cpu.sh",
+      "-m",
+      "qground.check",
+      "--case",
+      "{instance}",
+      "--witness",
+      "{witness}",
+      "--claim",
+      "{energy}"
+    ],
+    "check_row_minutes": 1
+  },
+  "artifacts": [
+    {
+      "path": "benchmarks/suite.json",
+      "sha256": "5a051ecc792fc19545c0a910d7c6d6490d8f6451a4d8e88f2898469bc848a66c"
+    },
+    {
+      "path": "requirements.lock",
+      "sha256": "7025484bd8174b2c3c522370ba745d826cf883bf97a45ae28e977ce3f0151efc"
+    },
+    {
+      "path": "discover/records.json",
+      "sha256": "617c50c771c40673ce8d095285bd60dbf0e3d59316ce809e6ab3c0e9c60f2462"
+    },
+    {
+      "path": "results/pilot/dev.json",
+      "sha256": "7d4ecc57b616aa25604ccd1d6d6144a99372505db88b9768ca12834d68367595"
+    },
+    {
+      "path": "results/pilot/heldout.json",
+      "sha256": "02819fcb662127de306720611749b6ec8756af9cf4aa3bddcc5a3ee2348504f0"
+    },
+    {
+      "path": "results/pilot/selection.json",
+      "sha256": "d74ed1d9ce9bc890772c3a16ac14d30261d771f1793c8a978810f3a12d1e43db"
+    },
+    {
+      "path": "results/pilot/summary.json",
+      "sha256": "2e2377da470a9bffa2c6cf7dcf6f1afe05f4d761e6c7364249830d5170c31202"
+    },
+    {
+      "path": "examples/known-dimer.npz",
+      "sha256": "9f678673f079c0ced97c092d293d30fabf1c324dc5c10e245dfaa8425aa4aa42"
+    },
+    {
+      "path": "research/contributor-001/dev.json",
+      "sha256": "54bef425a2cb9bfd1acb109449865376c5cbad7fb6f073ada7eba57a1de20abf"
+    },
+    {
+      "path": "research/contributor-001/test.json",
+      "sha256": "23b810d3368ed6414ef10178170b0195d39e7202a7ec1c0623728b948c8d91b2"
+    },
+    {
+      "path": "research/contributor-001/selection.json",
+      "sha256": "86eacad939ce50281ba66bacae998e7758519324838cf7e572648fdd517a72d7"
+    },
+    {
+      "path": "research/contributor-001/fresh-suite.json",
+      "sha256": "3d108f0b51a35b074f3a4cb7274005a4dfe6dda7ccd94f2b4f4b6f268d99867f"
+    },
+    {
+      "path": "research/contributor-001/summary.json",
+      "sha256": "a7cb9b1599001be301fee24d1d650950d350c79e979f644b2e9a197660599074"
+    },
+    {
+      "path": "research/contributor-001/supplement/preregistration.json",
+      "sha256": "7de60d0fd1afd6e6f6a9fca0fed5cf146b5580630753f8a56708ef3f0410efe9"
+    },
+    {
+      "path": "research/contributor-001/supplement/runs.json",
+      "sha256": "8758f41edafb79b7b0d14e6186705be5e14b0f4c47a4a095876cebec754576e0"
+    },
+    {
+      "path": "research/contributor-001/supplement/summary.json",
+      "sha256": "bd1155d6082fa56c3d51bfc3bd5b8dff8f2967e550bdcb2e3386e54710d01b6c"
+    },
+    {
+      "path": "research/contributor-001/long-reference/run.json",
+      "sha256": "67a181c3a3ca8b80fcad08cab2fda0429c61f64479bd93579b883abd86f568d7"
+    },
+    {
+      "path": "qground/__init__.py",
+      "sha256": "3e4878d60e62d6016e993e14dc7e3c423483385cb950250626b7d1b68cf2fc41"
+    },
+    {
+      "path": "qground/check.py",
+      "sha256": "6222002daa03b4a254ed3dbe510484ad2d4e0edbc6e985b58a28cd26df8a9fe6"
+    },
+    {
+      "path": "qground/evaluator.py",
+      "sha256": "17b113e653d95f19d14f52135fb0d349ce26c8e7e965d5aa86c1503dce24a88b"
+    },
+    {
+      "path": "qground/exactdiag.py",
+      "sha256": "db2e810ad01c5da828f3010b0ec0fa6158f0977770d1858a17a653f42b6120d4"
+    },
+    {
+      "path": "qground/experiment.py",
+      "sha256": "b79dcb212172dd32ee2296549214fe14585766bb0fccc0934e4802ccf8d9a97a"
+    },
+    {
+      "path": "qground/optimize.py",
+      "sha256": "b9b8c1337367a97dd0be4ac014d239df3148b0d823c96698063a8dec7bc9d7aa"
+    }
+  ]
 }

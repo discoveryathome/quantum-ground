@@ -1,0 +1,22 @@
+{
+  "selected": "hybrid_polish",
+  "scores_per_site": {
+    "continuation": -4.756988100318438e-07,
+    "dimer": -2.3133790860718761e-07,
+    "hybrid_polish": -1.4503878396619918e-06,
+    "nnn_dimers": -3.2380894839552826e-07,
+    "ramp": -3.9904918078567976e-07,
+    "random": -6.957380844280832e-10,
+    "single_site": 5.043789173430192e-05
+  },
+  "frozen_at": "2026-10-20T21:38:05.722418+00:00",
+  "source_hashes": {
+    "scripts/contributor_trial.py": "b2e9d8327efe8cb3660652f7994b2dde10c1e332d8ccc643054c49423bf48b2f",
+    "qground/optimize.py": "b9b8c1337367a97dd0be4ac014d239df3148b0d823c96698063a8dec7bc9d7aa",
+    "qground/check.py": "6222002daa03b4a254ed3dbe510484ad2d4e0edbc6e985b58a28cd26df8a9fe6",
+    "qground/__init__.py": "3e4878d60e62d6016e993e14dc7e3c423483385cb950250626b7d1b68cf2fc41",
+    "qground/experiment.py": "b79dcb212172dd32ee2296549214fe14585766bb0fccc0934e4802ccf8d9a97a",
+    "qground/exactdiag.py": "db2e810ad01c5da828f3010b0ec0fa6158f0977770d1858a17a653f42b6120d4",
+    "qground/evaluator.py": "17b113e653d95f19d14f52135fb0d349ce26c8e7e965d5aa86c1503dce24a88b"
+  }
+}

@@ -66,6 +66,12 @@ def main():
             'method':r['method'],'witness':r['witness'],'witness_sha256':r['witness_sha256'],
             'by':'local pilot (TeNPy DMRG)', 'source':r['_source'],
             'updated':'2026-10-20'})
+    control_path=Path('examples/known-dimer.json')
+    if control_path.exists():
+        r=json.loads(control_path.read_text())
+        frontier=[x for x in frontier if x['instance']!=r['instance']]
+        frontier.append({**r,'energy':r['energy_interval'][1],'updated':'2026-10-20'})
+        frontier.sort(key=lambda r:r['instance'])
     Path('discover/records.json').write_text(json.dumps(frontier,indent=2)+'\n')
     print(json.dumps(summary,indent=2))
 

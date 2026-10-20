@@ -1,0 +1,198 @@
+{
+  "selected": "ramp",
+  "pairs": [
+    {
+      "instance": "hold12",
+      "seed": 1729,
+      "equal_sweeps": {
+        "gain": 6.606729385794097e-08,
+        "gain_interval": [
+          "6606729/100000000000000",
+          "6606731/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "results/pilot/witnesses/hold12-baseline-1729/sweep-3.npz",
+        "candidate_witness": "results/pilot/witnesses/hold12-selected-1729/sweep-3.npz"
+      },
+      "common_cpu_seconds": 2.1417289999999998,
+      "matched_cpu": {
+        "gain": 6.606729385794097e-08,
+        "gain_interval": [
+          "6606729/100000000000000",
+          "6606731/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "results/pilot/witnesses/hold12-baseline-1729/sweep-3.npz",
+        "candidate_witness": "results/pilot/witnesses/hold12-selected-1729/sweep-3.npz"
+      },
+      "cpu_ratio_candidate_over_baseline": 1.0099284269858602,
+      "aa_energy_difference": 0.0,
+      "aa_cpu_ratio": 1.0631527144657433
+    },
+    {
+      "instance": "hold12",
+      "seed": 2718,
+      "equal_sweeps": {
+        "gain": 6.606729385794097e-08,
+        "gain_interval": [
+          "6606729/100000000000000",
+          "6606731/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "results/pilot/witnesses/hold12-baseline-2718/sweep-3.npz",
+        "candidate_witness": "results/pilot/witnesses/hold12-selected-2718/sweep-3.npz"
+      },
+      "common_cpu_seconds": 1.9907460000000121,
+      "matched_cpu": {
+        "gain": 6.606729385794097e-08,
+        "gain_interval": [
+          "6606729/100000000000000",
+          "6606731/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "results/pilot/witnesses/hold12-baseline-2718/sweep-3.npz",
+        "candidate_witness": "results/pilot/witnesses/hold12-selected-2718/sweep-3.npz"
+      },
+      "cpu_ratio_candidate_over_baseline": 1.1739413265177896,
+      "aa_energy_difference": 0.0,
+      "aa_cpu_ratio": 1.0332940515766373
+    },
+    {
+      "instance": "hold14",
+      "seed": 1729,
+      "equal_sweeps": {
+        "gain": 4.487031102229366e-08,
+        "gain_interval": [
+          "4487031/100000000000000",
+          "4487033/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "results/pilot/witnesses/hold14-baseline-1729/sweep-2.npz",
+        "candidate_witness": "results/pilot/witnesses/hold14-selected-1729/sweep-3.npz"
+      },
+      "common_cpu_seconds": 2.0928419999999974,
+      "matched_cpu": {
+        "gain": 4.487031102229366e-08,
+        "gain_interval": [
+          "4487031/100000000000000",
+          "4487033/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "results/pilot/witnesses/hold14-baseline-1729/sweep-2.npz",
+        "candidate_witness": "results/pilot/witnesses/hold14-selected-1729/sweep-3.npz"
+      },
+      "cpu_ratio_candidate_over_baseline": 0.8613213246829785,
+      "aa_energy_difference": 0.0,
+      "aa_cpu_ratio": 0.92441324485432
+    },
+    {
+      "instance": "hold14",
+      "seed": 2718,
+      "equal_sweeps": {
+        "gain": 4.487031102229366e-08,
+        "gain_interval": [
+          "4487031/100000000000000",
+          "4487033/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "results/pilot/witnesses/hold14-baseline-2718/sweep-2.npz",
+        "candidate_witness": "results/pilot/witnesses/hold14-selected-2718/sweep-3.npz"
+      },
+      "common_cpu_seconds": 1.9480000000000075,
+      "matched_cpu": {
+        "gain": 4.487031102229366e-08,
+        "gain_interval": [
+          "4487031/100000000000000",
+          "4487033/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "results/pilot/witnesses/hold14-baseline-2718/sweep-2.npz",
+        "candidate_witness": "results/pilot/witnesses/hold14-selected-2718/sweep-3.npz"
+      },
+      "cpu_ratio_candidate_over_baseline": 1.0612094455852066,
+      "aa_energy_difference": 0.0,
+      "aa_cpu_ratio": 1.1006447638603758
+    },
+    {
+      "instance": "hold28",
+      "seed": 1729,
+      "equal_sweeps": {
+        "gain": -5.610131097455451e-07,
+        "gain_interval": [
+          "-876583/1562500000000",
+          "-5610131/10000000000000"
+        ],
+        "outcome": "loss",
+        "baseline_witness": "results/pilot/witnesses/hold28-baseline-1729/sweep-2.npz",
+        "candidate_witness": "results/pilot/witnesses/hold28-selected-1729/sweep-6.npz"
+      },
+      "common_cpu_seconds": 5.5935579999999945,
+      "matched_cpu": {
+        "gain": -5.71162008355941e-07,
+        "gain_interval": [
+          "-28558101/50000000000000",
+          "-285581/500000000000"
+        ],
+        "outcome": "loss",
+        "baseline_witness": "results/pilot/witnesses/hold28-baseline-1729/sweep-2.npz",
+        "candidate_witness": "results/pilot/witnesses/hold28-selected-1729/sweep-5.npz"
+      },
+      "cpu_ratio_candidate_over_baseline": 1.043319833279643,
+      "aa_energy_difference": 0.0,
+      "aa_cpu_ratio": 1.13048814368243
+    },
+    {
+      "instance": "hold28",
+      "seed": 2718,
+      "equal_sweeps": {
+        "gain": -5.610131097455451e-07,
+        "gain_interval": [
+          "-876583/1562500000000",
+          "-5610131/10000000000000"
+        ],
+        "outcome": "loss",
+        "baseline_witness": "results/pilot/witnesses/hold28-baseline-2718/sweep-2.npz",
+        "candidate_witness": "results/pilot/witnesses/hold28-selected-2718/sweep-6.npz"
+      },
+      "common_cpu_seconds": 6.018204999999995,
+      "matched_cpu": {
+        "gain": -5.610131097455451e-07,
+        "gain_interval": [
+          "-876583/1562500000000",
+          "-5610131/10000000000000"
+        ],
+        "outcome": "loss",
+        "baseline_witness": "results/pilot/witnesses/hold28-baseline-2718/sweep-2.npz",
+        "candidate_witness": "results/pilot/witnesses/hold28-selected-2718/sweep-6.npz"
+      },
+      "cpu_ratio_candidate_over_baseline": 0.9165972160031407,
+      "aa_energy_difference": 0.0,
+      "aa_cpu_ratio": 1.0455003889846448
+    }
+  ],
+  "equal_sweep_counts": {
+    "win": 4,
+    "tie": 0,
+    "loss": 2
+  },
+  "matched_cpu_counts": {
+    "win": 4,
+    "tie": 0,
+    "loss": 2
+  },
+  "mean_gain_per_site_equal_sweeps": -3.775184151179708e-09,
+  "mean_gain_per_site_matched_cpu": -3.835594261955874e-09,
+  "median_cpu_ratio": 1.0266241301327517,
+  "max_aa_energy_difference": 0.0,
+  "aa_cpu_ratio_range": [
+    0.92441324485432,
+    1.13048814368243
+  ],
+  "limitations": [
+    "Three public, frozen held-out Hamiltonians; no population-level inference.",
+    "Two seeds are repeated runs for deterministic methods, not independent Hamiltonian samples.",
+    "Other workloads were present; wall-time speedup claims are unsupported.",
+    "CPU matching uses best completed sweep at common per-pair ceiling; unused remainder is below one next sweep.",
+    "Variants are established methods; novelty is not claimed."
+  ]
+}

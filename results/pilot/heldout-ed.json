@@ -1,0 +1,12 @@
+{
+  "hold12": {
+    "energy": -4.950195339221378,
+    "residual_norm": 5.34139135504452e-15,
+    "status": "numerical full-Hilbert-space ED reference, not certified global lower bound"
+  },
+  "hold14": {
+    "energy": -5.352531743994856,
+    "residual_norm": 3.917087767923348e-15,
+    "status": "numerical full-Hilbert-space ED reference, not certified global lower bound"
+  }
+}

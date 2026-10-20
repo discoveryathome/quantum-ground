@@ -133,3 +133,15 @@ lower-bound argument specific to the isotropic J2=1/2 control. It does not
 apply to the other suite instances. The rational verifier test reproduces
 its energy exactly and independently checks its full-vector residual.
 The general dimer prior art includes https://arxiv.org/abs/cond-mat/0205072 .
+
+The contributor's primary fresh draw landed at J2=1/2, delta=1.25 for all
+three sizes. These are also known dimer cases, not unexplored ground states.
+The open-chain argument extends to delta>=-1/2: replace T_i^2 in the triangle
+term by T_i^2+(delta-1)(T_i^z)^2 and its constant by 3(2+delta)/4. The minimum
+triangle contribution is -(delta+2)/8, attained in the total-spin-1/2 sectors.
+Each half-strength end bond has the same minimum. Thus
+E0=-(delta+2)*L/8 is attained by the adjacent-singlet product. For delta=1.25,
+the L=16,20,32 values are -6.5, -8.125 and -13. The broader anisotropic dimer
+prior art is discussed at https://www.nature.com/articles/s41598-021-85483-0 .
+The primary draw is retained; the separate coverage supplement is explicitly
+post-hoc and makes no population-level inference.

@@ -5,6 +5,9 @@ bond dimension and comparable CPU budget? This working pilot uses TeNPy DMRG
 and an independent **exact-integer MPS energy verifier**. It runs on a home CPU,
 with no accelerator or remote service.
 
+Start with [the featured-pilot assessment](docs/FEATURE_ASSESSMENT.md) and
+[38-minute contributor receipt](research/contributor-001/README.md).
+
 Read [the measured result](docs/RESULTS.md), [the frozen formulation](docs/FORMULATION.md),
 and [the evidence audit](docs/LITERATURE.md). The established baseline is mature
 finite-system DMRG; this project claims no new algorithm or global ground-state
@@ -29,8 +32,8 @@ an OS sandbox: use your agent/container's sandbox in those environments.
 The sandbox does not block all filesystem reads; run only screened code.
 
 `reproduce.sh` tests the independent checker, validates Discovery metadata,
-and rechecks each of the 48 run-winning states using exact integer arithmetic.
-Typical expected runtime is a few minutes including imports. It does not
+recomputes the small-system ED references, and rechecks the initial, contributor, supplemental and reference winners using exact integer arithmetic.
+Typical expected runtime is a few minutes including imports; allow up to ten minutes on a busy machine. It does not
 rerun the entire search. To check every sweep, use:
 
 ```sh
@@ -63,3 +66,22 @@ New agents start at [AGENTS.md](AGENTS.md). No repository has been published,
 no messages have been posted, and no maintainer has consented. This remains a
 local proposal with intake paused. Code and original text: MIT; dependency
 licenses remain their own. TeNPy: Apache-2.0.
+
+A known exact worked example is provided as `examples/known-dimer.npz`:
+
+```sh
+./scripts/cpu.sh -m qground.check --case dev12 --witness examples/known-dimer.npz --claim -4.5
+```
+
+It prints the exact energy enclosure `[-4.50000000000000, -4.50000000000000]`.
+The special-case lower-bound argument is in FORMULATION.md. This is prior art
+used to test the checker, not a new result.
+
+Replay the contributor search on its archived Hamiltonians and seeds:
+
+```sh
+./scripts/cpu.sh -m scripts.replay_contributor --out results/contributor-replay
+```
+
+For a short optimizer replay, add `--case dev10 --method hybrid_polish`.
+The recorded primary fresh draw and post-hoc coverage supplement stay separate.

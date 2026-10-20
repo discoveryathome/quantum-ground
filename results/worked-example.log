@@ -1,0 +1,21 @@
+{
+  "energy": -4.5,
+  "energy_interval": [
+    "-4.50000000000000",
+    "-4.50000000000000"
+  ],
+  "norm_interval": [
+    "1.00000000000000",
+    "1.00000000000001"
+  ],
+  "witness_sha256": "9f678673f079c0ced97c092d293d30fabf1c324dc5c10e245dfaa8425aa4aa42",
+  "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+  "max_bond": 2,
+  "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure",
+  "instance": "dev12",
+  "witness": "examples/known-dimer.npz",
+  "method": "known-exact-dimer",
+  "by": "Known Majumdar\u2013Ghosh construction",
+  "source": "docs/FORMULATION.md#solved-positive-control-at-the-majumdarghosh-point",
+  "proven_lower_bound": "-9/2"
+}

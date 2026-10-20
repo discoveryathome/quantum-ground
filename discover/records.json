@@ -1,0 +1,99 @@
+[
+  {
+    "instance": "dev10",
+    "energy": "-3.92582571767929",
+    "energy_interval": [
+      "-3.92582571767930",
+      "-3.92582571767929"
+    ],
+    "proven_lower_bound": "-33/4",
+    "method": "hybrid_polish",
+    "witness": "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-6.npz",
+    "witness_sha256": "a23c058719ad62c6f4f1bbb25bcbe5904829e587b8a8816e333d31fe53ba60dd",
+    "by": "local pilot (TeNPy DMRG)",
+    "source": "research/contributor-001/dev.json",
+    "updated": "2026-10-20"
+  },
+  {
+    "energy": "-4.50000000000000",
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.50000000000000"
+    ],
+    "norm_interval": [
+      "1.00000000000000",
+      "1.00000000000001"
+    ],
+    "witness_sha256": "9f678673f079c0ced97c092d293d30fabf1c324dc5c10e245dfaa8425aa4aa42",
+    "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+    "max_bond": 2,
+    "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure",
+    "instance": "dev12",
+    "witness": "examples/known-dimer.npz",
+    "method": "known-exact-dimer",
+    "by": "Known Majumdar\u2013Ghosh construction",
+    "source": "docs/FORMULATION.md#solved-positive-control-at-the-majumdarghosh-point",
+    "proven_lower_bound": "-9/2",
+    "updated": "2026-10-20"
+  },
+  {
+    "instance": "dev24",
+    "energy": "-10.54198528187209",
+    "energy_interval": [
+      "-10.54198528187210",
+      "-10.54198528187209"
+    ],
+    "proven_lower_bound": "-1027/32",
+    "method": "hybrid_polish",
+    "witness": "research/contributor-001/witnesses/dev24-hybrid_polish-1729/sweep-6.npz",
+    "witness_sha256": "4e577d8821ce3af194d13d1fd590c21c887ed048a9e6ff4bfc8480c4d8501312",
+    "by": "local pilot (TeNPy DMRG)",
+    "source": "research/contributor-001/dev.json",
+    "updated": "2026-10-20"
+  },
+  {
+    "instance": "hold12",
+    "energy": "-4.95016428300698",
+    "energy_interval": [
+      "-4.95016428300699",
+      "-4.95016428300698"
+    ],
+    "proven_lower_bound": "-767/64",
+    "method": "ramp",
+    "witness": "results/pilot/witnesses/hold12-selected-1729/sweep-3.npz",
+    "witness_sha256": "7231b583c670224bf08ed0fee58a6827b5d35743b5a1cae266c27f8125712142",
+    "by": "local pilot (TeNPy DMRG)",
+    "source": "results/pilot/heldout.json",
+    "updated": "2026-10-20"
+  },
+  {
+    "instance": "hold14",
+    "energy": "-5.35236399975928",
+    "energy_interval": [
+      "-5.35236399975929",
+      "-5.35236399975928"
+    ],
+    "proven_lower_bound": "-123/8",
+    "method": "ramp",
+    "witness": "results/pilot/witnesses/hold14-selected-1729/sweep-3.npz",
+    "witness_sha256": "90435716f18212fa93771be071e2fcc4d972f34f78f1ead6806df5aa324ac737",
+    "by": "local pilot (TeNPy DMRG)",
+    "source": "results/pilot/heldout.json",
+    "updated": "2026-10-20"
+  },
+  {
+    "instance": "hold28",
+    "energy": "-13.30719203023476",
+    "energy_interval": [
+      "-13.30719203023477",
+      "-13.30719203023476"
+    ],
+    "proven_lower_bound": "-2587/64",
+    "method": "baseline",
+    "witness": "results/pilot/witnesses/hold28-baseline-1729/sweep-2.npz",
+    "witness_sha256": "ff6af387adfac5273452b060ae08b5bbd456353e12c7f19bed39e5bcc5adffc9",
+    "by": "local pilot (TeNPy DMRG)",
+    "source": "results/pilot/heldout.json",
+    "updated": "2026-10-20"
+  }
+]

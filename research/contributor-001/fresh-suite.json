@@ -1,0 +1,41 @@
+{
+  "seed": "bcbd4068b56c50e74d7ab51eb085630e",
+  "drawn_at": "2026-10-20T21:38:05.728775+00:00",
+  "instances": [
+    {
+      "id": "fresh16",
+      "L": 16,
+      "J1": "1",
+      "J2": "0.5",
+      "delta": "1.25",
+      "boundary": "open",
+      "basis": "down,up",
+      "chi_max": 8,
+      "split": "fresh-heldout"
+    },
+    {
+      "id": "fresh20",
+      "L": 20,
+      "J1": "1",
+      "J2": "0.5",
+      "delta": "1.25",
+      "boundary": "open",
+      "basis": "down,up",
+      "chi_max": 8,
+      "split": "fresh-heldout"
+    },
+    {
+      "id": "fresh32",
+      "L": 32,
+      "J1": "1",
+      "J2": "0.5",
+      "delta": "1.25",
+      "boundary": "open",
+      "basis": "down,up",
+      "chi_max": 8,
+      "split": "fresh-heldout"
+    }
+  ],
+  "generator": "NumPy default_rng(int(seed,16)); L=16,20,32; J2=integers(5,21)/16; delta=choice([1,1.25])",
+  "note": "Local OS randomness after method freeze, not a public beacon or secret sealed set."
+}

@@ -1,0 +1,39 @@
+{
+  "card": "optimization-01",
+  "catalog_revision": 1,
+  "scope": "Timed contributor trial of variational MPS improvements and featured-pilot suitability.",
+  "scope_status": "refined",
+  "scope_change_reason": "User requested a 30\u201360 minute suitability test; an uninformative primary draw prompted a separately labeled stratified coverage supplement without retuning.",
+  "bottleneck_link": "DISCOVERY.md",
+  "budget_minutes": 60,
+  "outcome": "partial",
+  "evidence_level": "author-checked",
+  "not_checked": [
+    "Independent-person reproduction",
+    "Global optima except known dimer controls",
+    "Algorithmic novelty",
+    "Population-level generalization",
+    "Cold-start onboarding",
+    "Windows/Linux execution"
+  ],
+  "next_questions": [
+    {
+      "question": "Can independent contributors improve the strengthened incumbent?",
+      "why_it_matters": "Establish sustained launch value rather than a single known heuristic gain.",
+      "first_step": "Run scripts/reproduce.sh, then preregister a fresh stratified suite and a bounded adaptive-switching hypothesis.",
+      "blocked_by": "A consenting maintainer and a fresh test suite."
+    },
+    {
+      "question": "Can another implementation confirm the exact checker?",
+      "why_it_matters": "The verifier is the trust boundary for all contributed states.",
+      "first_step": "Reimplement the integer transfer or rational full-vector score and compare known-dimer.npz.",
+      "blocked_by": "Independent reviewer time; no technical dependency."
+    }
+  ],
+  "credit": [
+    "User research specification",
+    "Codex-assisted implementation and local checks",
+    "TeNPy and cited algorithm authors"
+  ],
+  "ai_assistance": "Single Codex session; no subagents; harness author also performed contributor trial."
+}

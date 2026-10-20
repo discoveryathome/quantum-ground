@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-20T21:43:14.790647+00:00",
+  "seed": "e55d6a7900dfe824bb908435bae0ad93",
+  "instances": [
+    {
+      "id": "coverage16",
+      "L": 16,
+      "J1": "1",
+      "J2": "0.3125",
+      "delta": "1.25",
+      "boundary": "open",
+      "basis": "down,up",
+      "chi_max": 8,
+      "split": "post-hoc-coverage"
+    },
+    {
+      "id": "coverage20",
+      "L": 20,
+      "J1": "1",
+      "J2": "0.5625",
+      "delta": "1",
+      "boundary": "open",
+      "basis": "down,up",
+      "chi_max": 8,
+      "split": "post-hoc-coverage"
+    },
+    {
+      "id": "coverage32",
+      "L": 32,
+      "J1": "1",
+      "J2": "0.8125",
+      "delta": "1.25",
+      "boundary": "open",
+      "basis": "down,up",
+      "chi_max": 8,
+      "split": "post-hoc-coverage"
+    }
+  ],
+  "selected": "hybrid_polish",
+  "selected_source_hashes": {
+    "scripts/contributor_trial.py": "b2e9d8327efe8cb3660652f7994b2dde10c1e332d8ccc643054c49423bf48b2f",
+    "qground/optimize.py": "b9b8c1337367a97dd0be4ac014d239df3148b0d823c96698063a8dec7bc9d7aa",
+    "qground/check.py": "6222002daa03b4a254ed3dbe510484ad2d4e0edbc6e985b58a28cd26df8a9fe6",
+    "qground/__init__.py": "3e4878d60e62d6016e993e14dc7e3c423483385cb950250626b7d1b68cf2fc41",
+    "qground/experiment.py": "b79dcb212172dd32ee2296549214fe14585766bb0fccc0934e4802ccf8d9a97a",
+    "qground/exactdiag.py": "db2e810ad01c5da828f3010b0ec0fa6158f0977770d1858a17a653f42b6120d4",
+    "qground/evaluator.py": "17b113e653d95f19d14f52135fb0d349ce26c8e7e965d5aa86c1503dce24a88b"
+  },
+  "supplement_script_sha256": "f46f6658ab8da1b3e93a043ffa0a4116166d1c356a916b8f80ee025260c3b3ab",
+  "reason": "Original fresh draw independently reproduced, but all three cases landed at the exactly dimerized J2=0.5 line. Preserve them and add stratified coverage, without method changes.",
+  "generator": "default_rng(int(seed,16)); integers(5,8)/16 at L16; integers(9,13)/16 at L20; integers(13,21)/16 at L32; delta=1.25,1,1.25",
+  "status": "Post-hoc additional test, not the preregistered primary test; no hypothesis retuning.",
+  "budget": "six sweeps, chi<=8, same tolerances; compare common per-pair CPU ceilings; all trials reported"
+}

@@ -1,0 +1,1478 @@
+[
+  {
+    "instance": "dev10",
+    "method": "nnn_dimers",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.29663500000000065,
+        "wall_seconds": 2.2527407079469413,
+        "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-1.npz",
+        "optimizer_energy": -3.9258255292581254,
+        "energy": -3.9258255292581254,
+        "energy_interval": [
+          "-3.92582552925813",
+          "-3.92582552925812"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4128976e0d9604dd945b1ccf270cb02607a59d9185b12ca4e499c0c95b698f39",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.4972060000000007,
+        "wall_seconds": 3.6144312089309096,
+        "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-2.npz",
+        "optimizer_energy": -3.9258256430577325,
+        "energy": -3.9258256430577356,
+        "energy_interval": [
+          "-3.92582564305774",
+          "-3.92582564305773"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "81e13086f2132bda3980e5196f995135f0a25cd4d6b20c3e80c1827ef4c92328",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.6858290000000005,
+        "wall_seconds": 4.634352792054415,
+        "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-3.npz",
+        "optimizer_energy": -3.925825645194535,
+        "energy": -3.9258256451945326,
+        "energy_interval": [
+          "-3.92582564519454",
+          "-3.92582564519453"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7c330bc12da4cb8edb86ce62f5a4097922c243247d1bd5c0f83fcaae3b4d3f0e",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 0.8300909999999999,
+        "wall_seconds": 5.410196999902837,
+        "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-4.npz",
+        "optimizer_energy": -3.9258256454091356,
+        "energy": -3.925825645409134,
+        "energy_interval": [
+          "-3.92582564540914",
+          "-3.92582564540913"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "dfb0230fa36cc8765597c401c87fb5fd108ebeb8a7ee1fbf5e08f60fb530ec77",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 0.9747460000000001,
+        "wall_seconds": 6.168523291940801,
+        "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-5.npz",
+        "optimizer_energy": -3.925825645410746,
+        "energy": -3.925825645410749,
+        "energy_interval": [
+          "-3.92582564541075",
+          "-3.92582564541074"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "b34866c18447ea944eb67aa02253e8616c4c087b7409741e4f459de26745402b",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.157404,
+        "wall_seconds": 7.4351397508289665,
+        "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-6.npz",
+        "optimizer_energy": -3.9258256454107645,
+        "energy": -3.9258256454107614,
+        "energy_interval": [
+          "-3.92582564541077",
+          "-3.92582564541076"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7e13d9bf771f02297f644111e4d7d1ba91da687703db12e427336eb6415398d4",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.157404,
+    "wall_seconds": 7.4351397508289665,
+    "local_updates": 96,
+    "lanczos_iterations": 542,
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "energy": -3.9258256454107614,
+    "energy_interval": [
+      "-3.92582564541077",
+      "-3.92582564541076"
+    ],
+    "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-6.npz",
+    "witness_sha256": "7e13d9bf771f02297f644111e4d7d1ba91da687703db12e427336eb6415398d4",
+    "best_sweep": 6,
+    "run_label": "nnn_dimers",
+    "verification_seconds": 3.001394666964188,
+    "started_at": "2026-10-20T21:35:12.705534+00:00",
+    "finished_at": "2026-10-20T21:35:23.307847+00:00"
+  },
+  {
+    "instance": "dev10",
+    "method": "continuation",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.2892640000000002,
+        "wall_seconds": 1.9358268330106512,
+        "witness": "research/contributor-001/witnesses/dev10-continuation-1729/sweep-1.npz",
+        "optimizer_energy": -3.7500000000000018,
+        "energy": -3.75,
+        "energy_interval": [
+          "-3.75000000000000",
+          "-3.74999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "63a95ee05290406ac3b33ae6aa7986120f0a09bb1b581b5c981eaae1babbe630",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 2,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.45861399999999986,
+        "wall_seconds": 3.3240710409590974,
+        "witness": "research/contributor-001/witnesses/dev10-continuation-1729/sweep-2.npz",
+        "optimizer_energy": -3.750000000000005,
+        "energy": -3.75,
+        "energy_interval": [
+          "-3.75000000000000",
+          "-3.74999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "2bc557f51ba054eeb5f932a12ded1a5f25587d554b6329a9be23ef939b8c235a",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 4,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.8087489999999997,
+        "wall_seconds": 6.221402790979482,
+        "witness": "research/contributor-001/witnesses/dev10-continuation-1729/sweep-3.npz",
+        "optimizer_energy": -3.9258251939978983,
+        "energy": -3.9258251939979054,
+        "energy_interval": [
+          "-3.92582519399791",
+          "-3.92582519399790"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "f5af5ab458f0d0cac9f103fa2fdba252dbbe5d5da0a6a419c3e03ddf2775b7a9",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.0540819999999993,
+        "wall_seconds": 8.495043831993826,
+        "witness": "research/contributor-001/witnesses/dev10-continuation-1729/sweep-4.npz",
+        "optimizer_energy": -3.9258256431413927,
+        "energy": -3.925825643141386,
+        "energy_interval": [
+          "-3.92582564314139",
+          "-3.92582564314138"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "eabe027670a8352f8c69f99e4c1bdbde584b9c0a78d0fe743fb697aa5df8c60b",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.2771239999999997,
+        "wall_seconds": 10.094020290882327,
+        "witness": "research/contributor-001/witnesses/dev10-continuation-1729/sweep-5.npz",
+        "optimizer_energy": -3.9258256451952294,
+        "energy": -3.925825645195223,
+        "energy_interval": [
+          "-3.92582564519523",
+          "-3.92582564519522"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "bb094454d2380617705d20d0ce0bdb69323aa3fadd67ccee610b1d8cea25ce56",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.4668599999999996,
+        "wall_seconds": 11.530703123891726,
+        "witness": "research/contributor-001/witnesses/dev10-continuation-1729/sweep-6.npz",
+        "optimizer_energy": -3.9258256454091414,
+        "energy": -3.925825645409138,
+        "energy_interval": [
+          "-3.92582564540914",
+          "-3.92582564540913"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "42d5746dec4cd6505670a81546ceafaad425ceda5fc5f28b57787a0ae0b32a44",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.4668599999999996,
+    "wall_seconds": 11.530703123891726,
+    "local_updates": 96,
+    "lanczos_iterations": 446,
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "energy": -3.925825645409138,
+    "energy_interval": [
+      "-3.92582564540914",
+      "-3.92582564540913"
+    ],
+    "witness": "research/contributor-001/witnesses/dev10-continuation-1729/sweep-6.npz",
+    "witness_sha256": "42d5746dec4cd6505670a81546ceafaad425ceda5fc5f28b57787a0ae0b32a44",
+    "best_sweep": 6,
+    "run_label": "continuation",
+    "verification_seconds": 1.7233364579733461,
+    "started_at": "2026-10-20T21:35:23.311179+00:00",
+    "finished_at": "2026-10-20T21:35:37.129863+00:00"
+  },
+  {
+    "instance": "dev10",
+    "method": "hybrid_polish",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.36634999999999973,
+        "wall_seconds": 2.5325237080687657,
+        "witness": "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-1.npz",
+        "optimizer_energy": -3.925778046120347,
+        "energy": -3.925778046120349,
+        "energy_interval": [
+          "-3.92577804612035",
+          "-3.92577804612034"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "0ffda6c5076331c0d62527dfc7c4ef89a1a74d5f2f6b8915b4167df556937cff",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.6265530000000004,
+        "wall_seconds": 5.143142375047319,
+        "witness": "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-2.npz",
+        "optimizer_energy": -3.925825643513203,
+        "energy": -3.9258256435131975,
+        "energy_interval": [
+          "-3.92582564351320",
+          "-3.92582564351319"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "ffbd7c5ae674b52bde3261ae43d6abdeee48f381d407b5269ec303c837cab135",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.8667150000000001,
+        "wall_seconds": 7.397967083146796,
+        "witness": "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-3.npz",
+        "optimizer_energy": -3.9258256452009768,
+        "energy": -3.92582564520098,
+        "energy_interval": [
+          "-3.92582564520098",
+          "-3.92582564520097"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "012a031a9aaf82b77845f71061fd27930e33cbae99f6150d4093771106f4e705",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.042638000000001,
+        "wall_seconds": 9.162216042168438,
+        "witness": "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-4.npz",
+        "optimizer_energy": -3.9258257173621502,
+        "energy": -3.925825717362151,
+        "energy_interval": [
+          "-3.92582571736216",
+          "-3.92582571736215"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "5aeff38d70220e07c99726e4df22d6c2a5ea5be6ab93d10d9f0579d3ed298d8e",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.1604680000000007,
+        "wall_seconds": 10.040788792190142,
+        "witness": "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-5.npz",
+        "optimizer_energy": -3.9258257176659606,
+        "energy": -3.9258257176659592,
+        "energy_interval": [
+          "-3.92582571766596",
+          "-3.92582571766595"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "d8f38bea5ab00cf40624efa7a3f2031116eea9a7a947236590f314b08ad3bd8b",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.2839730000000005,
+        "wall_seconds": 10.927143250242807,
+        "witness": "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-6.npz",
+        "optimizer_energy": -3.925825717679291,
+        "energy": -3.925825717679298,
+        "energy_interval": [
+          "-3.92582571767930",
+          "-3.92582571767929"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "a23c058719ad62c6f4f1bbb25bcbe5904829e587b8a8816e333d31fe53ba60dd",
+        "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.2839730000000005,
+    "wall_seconds": 10.927143250242807,
+    "local_updates": 102,
+    "lanczos_iterations": 495,
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "energy": -3.925825717679298,
+    "energy_interval": [
+      "-3.92582571767930",
+      "-3.92582571767929"
+    ],
+    "witness": "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-6.npz",
+    "witness_sha256": "a23c058719ad62c6f4f1bbb25bcbe5904829e587b8a8816e333d31fe53ba60dd",
+    "best_sweep": 6,
+    "run_label": "hybrid_polish",
+    "verification_seconds": 3.238302542013116,
+    "started_at": "2026-10-20T21:35:37.131253+00:00",
+    "finished_at": "2026-10-20T21:35:51.770200+00:00"
+  },
+  {
+    "instance": "dev12",
+    "method": "nnn_dimers",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.4051329999999993,
+        "wall_seconds": 2.381646207999438,
+        "witness": "research/contributor-001/witnesses/dev12-nnn_dimers-1729/sweep-1.npz",
+        "optimizer_energy": -4.499999999500314,
+        "energy": -4.499999999500307,
+        "energy_interval": [
+          "-4.49999999950031",
+          "-4.49999999950030"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "11d3184a5409f5fc7a99e136d6cafb1751e7976bd0daf8efc964b77b8bbf9c4a",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.6493539999999989,
+        "wall_seconds": 3.9057678329991177,
+        "witness": "research/contributor-001/witnesses/dev12-nnn_dimers-1729/sweep-2.npz",
+        "optimizer_energy": -4.500000000000002,
+        "energy": -4.499999999999999,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "55456aeb8ffb68e69908a00f81eb5ade8a0bfaeadfbfebda65859e53ef8e3b11",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.912392999999998,
+        "wall_seconds": 6.322437125025317,
+        "witness": "research/contributor-001/witnesses/dev12-nnn_dimers-1729/sweep-3.npz",
+        "optimizer_energy": -4.499999999999993,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "a939b36b4db44ada2ad2afe60d30f32df9fe0d7ba36acd36be33928cbd988897",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.0756599999999992,
+        "wall_seconds": 7.433630623971112,
+        "witness": "research/contributor-001/witnesses/dev12-nnn_dimers-1729/sweep-4.npz",
+        "optimizer_energy": -4.499999999999992,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "7281c927b6c0fe7e80b27b97fa11b546fef1b2efba4153f524afa27abfb7e121",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.2411189999999994,
+        "wall_seconds": 8.510232540895231,
+        "witness": "research/contributor-001/witnesses/dev12-nnn_dimers-1729/sweep-5.npz",
+        "optimizer_energy": -4.4999999999999964,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "44c010fafe6d5d4f9eb0888b99ad861af6a8e20cb1803da1b1cd4bf5afca7f1e",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.427351999999999,
+        "wall_seconds": 10.26034558180254,
+        "witness": "research/contributor-001/witnesses/dev12-nnn_dimers-1729/sweep-6.npz",
+        "optimizer_energy": -4.499999999999999,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "e60911fdc21c43183570b9f55b14d7071e73830cedb75f2ef3eef92b9175d913",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 4,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.427351999999999,
+    "wall_seconds": 10.26034558180254,
+    "local_updates": 120,
+    "lanczos_iterations": 334,
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "research/contributor-001/witnesses/dev12-nnn_dimers-1729/sweep-3.npz",
+    "witness_sha256": "a939b36b4db44ada2ad2afe60d30f32df9fe0d7ba36acd36be33928cbd988897",
+    "best_sweep": 3,
+    "run_label": "nnn_dimers",
+    "verification_seconds": 6.767655208008364,
+    "started_at": "2026-10-20T21:35:51.772478+00:00",
+    "finished_at": "2026-10-20T21:36:09.185745+00:00"
+  },
+  {
+    "instance": "dev12",
+    "method": "continuation",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.4093579999999992,
+        "wall_seconds": 3.14299379196018,
+        "witness": "research/contributor-001/witnesses/dev12-continuation-1729/sweep-1.npz",
+        "optimizer_energy": -4.500000000000002,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "70a19f078c48c9db52f0f8fe51589f5692dddf247d49af3a335985c83b1e404b",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 2,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.6291669999999989,
+        "wall_seconds": 4.691916582989506,
+        "witness": "research/contributor-001/witnesses/dev12-continuation-1729/sweep-2.npz",
+        "optimizer_energy": -4.5,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "2b9e0ae5cd9be597292a200c38bafb23ddcb8ceb0b534f5af8c09f4cb784dc93",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 4,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.9522440000000003,
+        "wall_seconds": 8.172635499970056,
+        "witness": "research/contributor-001/witnesses/dev12-continuation-1729/sweep-3.npz",
+        "optimizer_energy": -4.500000000000002,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "81aad48393db0b350488f91a7726c186a4ad46ac9c7f5bf769342bae03a5d216",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 4,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 1.1509639999999983,
+        "wall_seconds": 9.499405624927022,
+        "witness": "research/contributor-001/witnesses/dev12-continuation-1729/sweep-4.npz",
+        "optimizer_energy": -4.499999999999999,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "8b03a746ad1679519fe40bc7ba89ca04d9e50c9676c077741a582a5c32c7c80b",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 4,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.3614889999999988,
+        "wall_seconds": 11.203674624906853,
+        "witness": "research/contributor-001/witnesses/dev12-continuation-1729/sweep-5.npz",
+        "optimizer_energy": -4.500000000000003,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7dac0dfb9a34e85c8d123d1454bd6f9e9224bf8255189b825eb5c233f919fa98",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 5,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.4992959999999993,
+        "wall_seconds": 12.121183291892521,
+        "witness": "research/contributor-001/witnesses/dev12-continuation-1729/sweep-6.npz",
+        "optimizer_energy": -4.499999999999998,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "43a58436b8643330a5750afaaa740593d43a5e4ef4023d065721073040492a80",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 2,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.4992959999999993,
+    "wall_seconds": 12.121183291892521,
+    "local_updates": 120,
+    "lanczos_iterations": 120,
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "research/contributor-001/witnesses/dev12-continuation-1729/sweep-1.npz",
+    "witness_sha256": "70a19f078c48c9db52f0f8fe51589f5692dddf247d49af3a335985c83b1e404b",
+    "best_sweep": 1,
+    "run_label": "continuation",
+    "verification_seconds": 0.549005167093128,
+    "started_at": "2026-10-20T21:36:09.190604+00:00",
+    "finished_at": "2026-10-20T21:36:22.279570+00:00"
+  },
+  {
+    "instance": "dev12",
+    "method": "hybrid_polish",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.4203539999999997,
+        "wall_seconds": 2.4799272920936346,
+        "witness": "research/contributor-001/witnesses/dev12-hybrid_polish-1729/sweep-1.npz",
+        "optimizer_energy": -4.499999970393432,
+        "energy": -4.499999970393426,
+        "energy_interval": [
+          "-4.49999997039343",
+          "-4.49999997039342"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "6b4ef133c26932ee812333a1dd846964907b4b41147296f533e97557813cd65f",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.6233190000000004,
+        "wall_seconds": 3.5440338330809027,
+        "witness": "research/contributor-001/witnesses/dev12-hybrid_polish-1729/sweep-2.npz",
+        "optimizer_energy": -4.500000000000002,
+        "energy": -4.4999999999999964,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "a8a2108cdc927a22c316cda52dd108d3a97bfd01abc714ff59f4faecbacc10b8",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 0.8353409999999997,
+        "wall_seconds": 4.9730677920160815,
+        "witness": "research/contributor-001/witnesses/dev12-hybrid_polish-1729/sweep-3.npz",
+        "optimizer_energy": -4.500000000000007,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "0f961b84b1d84164ff94f1020ee345166b3bfed8c354cb476e6366f70311a2c4",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 0.9553989999999999,
+        "wall_seconds": 5.438658209051937,
+        "witness": "research/contributor-001/witnesses/dev12-hybrid_polish-1729/sweep-4.npz",
+        "optimizer_energy": -4.500000000000005,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4c591148a2cf16a1d46031728c82655d8fe4232508e2f9b182c79d87e3462f77",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 1.0804899999999975,
+        "wall_seconds": 6.05842987599317,
+        "witness": "research/contributor-001/witnesses/dev12-hybrid_polish-1729/sweep-5.npz",
+        "optimizer_energy": -4.500000000000003,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "e4c3c7fc72295c6cc40b8d5860c9099266fc60ed5d9f6883c32c830e4ca5e705",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 1.2117779999999971,
+        "wall_seconds": 6.78499166702386,
+        "witness": "research/contributor-001/witnesses/dev12-hybrid_polish-1729/sweep-6.npz",
+        "optimizer_energy": -4.500000000000003,
+        "energy": -4.5,
+        "energy_interval": [
+          "-4.50000000000000",
+          "-4.49999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7289610379586a3d9618456f029dd34b210aa9b364e43d78999ddc2a2c1a85c6",
+        "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 1.2117779999999971,
+    "wall_seconds": 6.78499166702386,
+    "local_updates": 126,
+    "lanczos_iterations": 460,
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "energy": -4.5,
+    "energy_interval": [
+      "-4.50000000000000",
+      "-4.49999999999999"
+    ],
+    "witness": "research/contributor-001/witnesses/dev12-hybrid_polish-1729/sweep-3.npz",
+    "witness_sha256": "0f961b84b1d84164ff94f1020ee345166b3bfed8c354cb476e6366f70311a2c4",
+    "best_sweep": 3,
+    "run_label": "hybrid_polish",
+    "verification_seconds": 4.772445625043474,
+    "started_at": "2026-10-20T21:36:22.280976+00:00",
+    "finished_at": "2026-10-20T21:36:34.137516+00:00"
+  },
+  {
+    "instance": "dev24",
+    "method": "nnn_dimers",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.9896059999999984,
+        "wall_seconds": 7.657672541914508,
+        "witness": "research/contributor-001/witnesses/dev24-nnn_dimers-1729/sweep-1.npz",
+        "optimizer_energy": -10.541904341636394,
+        "energy": -10.541904341636416,
+        "energy_interval": [
+          "-10.54190434163642",
+          "-10.54190434163641"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "466f0f7211f5a3ad53645f6e55ebfb2616a53b0d0cb20e95f5247d65d7704574",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 1.7934690000000018,
+        "wall_seconds": 14.015758833964355,
+        "witness": "research/contributor-001/witnesses/dev24-nnn_dimers-1729/sweep-2.npz",
+        "optimizer_energy": -10.541880941832725,
+        "energy": -10.541880941832737,
+        "energy_interval": [
+          "-10.54188094183274",
+          "-10.54188094183273"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "2339886406282aa5dbcd2afb40d42ef90fd2d0b97d18106ae67709ac99d03336",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.5297560000000026,
+        "wall_seconds": 17.948831583955325,
+        "witness": "research/contributor-001/witnesses/dev24-nnn_dimers-1729/sweep-3.npz",
+        "optimizer_energy": -10.541880902632581,
+        "energy": -10.541880902632572,
+        "energy_interval": [
+          "-10.54188090263258",
+          "-10.54188090263257"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "fad90ca6608e8a751e31e669138cfcc702f72b8850a9b3d6974aaf4430191c4d",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 3.128333999999999,
+        "wall_seconds": 20.953198835020885,
+        "witness": "research/contributor-001/witnesses/dev24-nnn_dimers-1729/sweep-4.npz",
+        "optimizer_energy": -10.541880908634585,
+        "energy": -10.541880908634582,
+        "energy_interval": [
+          "-10.54188090863459",
+          "-10.54188090863458"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "3a4e00c026a4221c0d900a0818a12e260cfd0736985176e88a854bc1256eef26",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 3.7350770000000004,
+        "wall_seconds": 23.952101083938032,
+        "witness": "research/contributor-001/witnesses/dev24-nnn_dimers-1729/sweep-5.npz",
+        "optimizer_energy": -10.54188090864076,
+        "energy": -10.541880908640787,
+        "energy_interval": [
+          "-10.54188090864079",
+          "-10.54188090864078"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "fda80f77327de9f84b94a04dc0ac31b31cc3624d106dc7a3b7d192e3bc8be326",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 4.343343999999998,
+        "wall_seconds": 27.762533416971564,
+        "witness": "research/contributor-001/witnesses/dev24-nnn_dimers-1729/sweep-6.npz",
+        "optimizer_energy": -10.541880908640834,
+        "energy": -10.541880908640834,
+        "energy_interval": [
+          "-10.54188090864084",
+          "-10.54188090864083"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "046107216aaa176f550e2d1adc4c8fe09cf9b44f54e014d335d9d8b7b6ff7787",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 4.343343999999998,
+    "wall_seconds": 27.762533416971564,
+    "local_updates": 264,
+    "lanczos_iterations": 2785,
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "energy": -10.541904341636416,
+    "energy_interval": [
+      "-10.54190434163642",
+      "-10.54190434163641"
+    ],
+    "witness": "research/contributor-001/witnesses/dev24-nnn_dimers-1729/sweep-1.npz",
+    "witness_sha256": "466f0f7211f5a3ad53645f6e55ebfb2616a53b0d0cb20e95f5247d65d7704574",
+    "best_sweep": 1,
+    "run_label": "nnn_dimers",
+    "verification_seconds": 15.729210625053383,
+    "started_at": "2026-10-20T21:36:34.138271+00:00",
+    "finished_at": "2026-10-20T21:37:18.615287+00:00"
+  },
+  {
+    "instance": "dev24",
+    "method": "continuation",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.5969259999999998,
+        "wall_seconds": 2.1165714169619605,
+        "witness": "research/contributor-001/witnesses/dev24-continuation-1729/sweep-1.npz",
+        "optimizer_energy": -9.750000000000004,
+        "energy": -9.75,
+        "energy_interval": [
+          "-9.75000000000000",
+          "-9.74999999999999"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "a24bb6cc2980b0deb4b8cbb5c627060ecbcf2cd07bf38bdf273809264c442c33",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 2,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 0.9806859999999986,
+        "wall_seconds": 3.613622417091392,
+        "witness": "research/contributor-001/witnesses/dev24-continuation-1729/sweep-2.npz",
+        "optimizer_energy": -9.75,
+        "energy": -9.75,
+        "energy_interval": [
+          "-9.75000000000001",
+          "-9.75000000000000"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "ce5feeaa0fa49ee375e1c5077995dca3f83ed1771d036a5a666d24663a2a5af4",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 4,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 1.940463999999995,
+        "wall_seconds": 7.015154625987634,
+        "witness": "research/contributor-001/witnesses/dev24-continuation-1729/sweep-3.npz",
+        "optimizer_energy": -10.541915277710329,
+        "energy": -10.54191527771035,
+        "energy_interval": [
+          "-10.54191527771036",
+          "-10.54191527771035"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "1bee465f73b2b5d3cc2116fe50e1891dd99a8e117166ccac1f01f465791d1e64",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 2.668586999999995,
+        "wall_seconds": 10.015292750904337,
+        "witness": "research/contributor-001/witnesses/dev24-continuation-1729/sweep-4.npz",
+        "optimizer_energy": -10.54188094052981,
+        "energy": -10.541880940529794,
+        "energy_interval": [
+          "-10.54188094052980",
+          "-10.54188094052979"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "acd2eb84f6b2012368ad1023ac94fae75df1462e7b548ef52cee2141b04b352d",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 3.3835449999999945,
+        "wall_seconds": 12.96394945983775,
+        "witness": "research/contributor-001/witnesses/dev24-continuation-1729/sweep-5.npz",
+        "optimizer_energy": -10.541880902689861,
+        "energy": -10.541880902689867,
+        "energy_interval": [
+          "-10.54188090268987",
+          "-10.54188090268986"
+        ],
+        "norm_interval": [
+          "0.99999999999999",
+          "1.00000000000000"
+        ],
+        "witness_sha256": "ddf043a44ec9737de458ab448dddb0d0d206e5816513988638db35175b64a89e",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 3.9816839999999942,
+        "wall_seconds": 15.30147266795393,
+        "witness": "research/contributor-001/witnesses/dev24-continuation-1729/sweep-6.npz",
+        "optimizer_energy": -10.541880908634875,
+        "energy": -10.541880908634862,
+        "energy_interval": [
+          "-10.54188090863487",
+          "-10.54188090863486"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "de2eadc60e79b32e5796ca1e879851e355e4eff34c1ea80419c9cac7daba3279",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 3.9816839999999942,
+    "wall_seconds": 15.30147266795393,
+    "local_updates": 264,
+    "lanczos_iterations": 2093,
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "energy": -10.54191527771035,
+    "energy_interval": [
+      "-10.54191527771036",
+      "-10.54191527771035"
+    ],
+    "witness": "research/contributor-001/witnesses/dev24-continuation-1729/sweep-3.npz",
+    "witness_sha256": "1bee465f73b2b5d3cc2116fe50e1891dd99a8e117166ccac1f01f465791d1e64",
+    "best_sweep": 3,
+    "run_label": "continuation",
+    "verification_seconds": 7.7059223329415545,
+    "started_at": "2026-10-20T21:37:18.616341+00:00",
+    "finished_at": "2026-10-20T21:37:42.167155+00:00"
+  },
+  {
+    "instance": "dev24",
+    "method": "hybrid_polish",
+    "seed": 1729,
+    "history": [
+      {
+        "sweep": 1,
+        "cpu_seconds": 0.8941100000000013,
+        "wall_seconds": 3.8900207499973476,
+        "witness": "research/contributor-001/witnesses/dev24-hybrid_polish-1729/sweep-1.npz",
+        "optimizer_energy": -10.541481859909368,
+        "energy": -10.541481859909359,
+        "energy_interval": [
+          "-10.54148185990936",
+          "-10.54148185990935"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "7e4234c484f81a50ca9ef412ff58fb9c3c451c9cbe01c51c040069cb6d790ea8",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 2,
+        "cpu_seconds": 1.5741850000000035,
+        "wall_seconds": 6.381699166027829,
+        "witness": "research/contributor-001/witnesses/dev24-hybrid_polish-1729/sweep-2.npz",
+        "optimizer_energy": -10.541881027392137,
+        "energy": -10.541881027392131,
+        "energy_interval": [
+          "-10.54188102739214",
+          "-10.54188102739213"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "dfa8153996d31715c90124b1b9e90a868fcb513ad10cf0ac87cd4b302cb39670",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 3,
+        "cpu_seconds": 2.240547000000003,
+        "wall_seconds": 8.83434408402536,
+        "witness": "research/contributor-001/witnesses/dev24-hybrid_polish-1729/sweep-3.npz",
+        "optimizer_energy": -10.54188090292843,
+        "energy": -10.541880902928408,
+        "energy_interval": [
+          "-10.54188090292841",
+          "-10.54188090292840"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "47b8dbfadbc5c5af72811ef15ac10720d3632d9a10d212f7e04898972862bc9e",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 4,
+        "cpu_seconds": 2.698052000000004,
+        "wall_seconds": 10.249974292120896,
+        "witness": "research/contributor-001/witnesses/dev24-hybrid_polish-1729/sweep-4.npz",
+        "optimizer_energy": -10.541985269326224,
+        "energy": -10.54198526932619,
+        "energy_interval": [
+          "-10.54198526932620",
+          "-10.54198526932619"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "782fd19f3d18658ecf6362406763e3f1b4e6e5c0c3429ce91baac7d793c6ceb8",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 5,
+        "cpu_seconds": 3.0036360000000073,
+        "wall_seconds": 11.151270043104887,
+        "witness": "research/contributor-001/witnesses/dev24-hybrid_polish-1729/sweep-5.npz",
+        "optimizer_energy": -10.541985281853714,
+        "energy": -10.541985281853695,
+        "energy_interval": [
+          "-10.54198528185370",
+          "-10.54198528185369"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "a24415a93a9025f468b3651d7cf77377d0305d03b9f92841247c24bdc6ebbfae",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      },
+      {
+        "sweep": 6,
+        "cpu_seconds": 3.2816860000000077,
+        "wall_seconds": 12.01948237605393,
+        "witness": "research/contributor-001/witnesses/dev24-hybrid_polish-1729/sweep-6.npz",
+        "optimizer_energy": -10.541985281872133,
+        "energy": -10.5419852818721,
+        "energy_interval": [
+          "-10.54198528187210",
+          "-10.54198528187209"
+        ],
+        "norm_interval": [
+          "1.00000000000000",
+          "1.00000000000001"
+        ],
+        "witness_sha256": "4e577d8821ce3af194d13d1fd590c21c887ed048a9e6ff4bfc8480c4d8501312",
+        "hamiltonian_id": "e4e00f6062350407def666ad850943131d02dfc31988a58b53eb81d9bebcea62",
+        "max_bond": 8,
+        "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+      }
+    ],
+    "cpu_seconds": 3.2816860000000077,
+    "wall_seconds": 12.01948237605393,
+    "local_updates": 270,
+    "lanczos_iterations": 2094,
+    "options": {
+      "trunc_params": {
+        "chi_max": 8,
+        "svd_min": 1e-14,
+        "trunc_cut": null
+      },
+      "mixer": true,
+      "mixer_params": {
+        "amplitude": 1e-05,
+        "decay": 10.0,
+        "disable_after": 3
+      },
+      "diag_method": "lanczos",
+      "lanczos_params": {
+        "N_max": 40,
+        "N_min": 2,
+        "P_tol": 1e-12,
+        "E_tol": 1e-12
+      },
+      "combine": true
+    },
+    "energy": -10.5419852818721,
+    "energy_interval": [
+      "-10.54198528187210",
+      "-10.54198528187209"
+    ],
+    "witness": "research/contributor-001/witnesses/dev24-hybrid_polish-1729/sweep-6.npz",
+    "witness_sha256": "4e577d8821ce3af194d13d1fd590c21c887ed048a9e6ff4bfc8480c4d8501312",
+    "best_sweep": 6,
+    "run_label": "hybrid_polish",
+    "verification_seconds": 10.850452207960188,
+    "started_at": "2026-10-20T21:37:42.168406+00:00",
+    "finished_at": "2026-10-20T21:38:05.697790+00:00"
+  }
+]

@@ -1,0 +1,54 @@
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold12 baseline seed=1729: E=-4.950164216940; CPU=2.142s; verify=5.050s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold12 selected seed=1729: E=-4.950164283007; CPU=2.163s; verify=4.419s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold12 aa seed=1729: E=-4.950164216940; CPU=2.277s; verify=5.925s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold12 selected seed=2718: E=-4.950164283007; CPU=2.337s; verify=3.621s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold12 aa seed=2718: E=-4.950164216940; CPU=2.057s; verify=3.899s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold12 baseline seed=2718: E=-4.950164216940; CPU=1.991s; verify=4.312s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold14 baseline seed=1729: E=-5.352363954889; CPU=2.430s; verify=8.846s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold14 selected seed=1729: E=-5.352363999759; CPU=2.093s; verify=4.613s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold14 aa seed=1729: E=-5.352363954889; CPU=2.246s; verify=4.768s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold14 selected seed=2718: E=-5.352363999759; CPU=2.067s; verify=3.454s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold14 aa seed=2718: E=-5.352363954889; CPU=2.144s; verify=4.314s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold14 baseline seed=2718: E=-5.352363954889; CPU=1.948s; verify=5.049s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold28 baseline seed=1729: E=-13.307192030235; CPU=5.594s; verify=29.623s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold28 selected seed=1729: E=-13.307191469222; CPU=5.836s; verify=21.108s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold28 aa seed=1729: E=-13.307192030235; CPU=6.323s; verify=52.741s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold28 selected seed=2718: E=-13.307191469222; CPU=6.018s; verify=21.589s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold28 aa seed=2718: E=-13.307192030235; CPU=6.865s; verify=40.526s
+/Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/project/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+  super().__init__(sites, bc, unit_cell_width)
+hold28 baseline seed=2718: E=-13.307192030235; CPU=6.566s; verify=31.486s

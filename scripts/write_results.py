@@ -12,6 +12,7 @@ def main():
     counts=summary['equal_sweep_counts'];cpu=summary['matched_cpu_counts']
     text=['# Initial pilot: measured results','',
       f"The development-selected method was **{summary['selected']}**. On three held-out Hamiltonians, each run twice, it recorded **{counts['win']} wins, {counts['tie']} ties, {counts['loss']} losses** against fixed-chi two-site DMRG at six sweeps. At common per-pair CPU ceilings: **{cpu['win']} wins, {cpu['tie']} ties, {cpu['loss']} losses**.",'',
+      'The selected ramp did not improve mean held-out energy per site in this initial test.', '',
       'A win requires an exact interval separation exceeding 1e-10 J1. Two repeats of a deterministic method are not two independent Hamiltonians. These are local benchmark results, not scientific novelty or a claim of universal superiority.','',
       '| Held-out case | Baseline energy | Ramp energy | Energy reduction | Candidate/baseline CPU |',
       '|---|---:|---:|---:|---:|']

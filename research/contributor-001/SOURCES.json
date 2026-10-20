@@ -1,0 +1,205 @@
+{
+  "base_commit": "05e28e9723c0eb9de860eb1eec51cf91f0bfa7f2",
+  "hypothesis_commit": "94965480efb63c492ae0201dbcfa2ab3d1fd51ee",
+  "initial_preregistration": {
+    "created_at": "2026-10-20T21:08:38.963083+00:00",
+    "suite_sha256": "5a051ecc792fc19545c0a910d7c6d6490d8f6451a4d8e88f2898469bc848a66c",
+    "source_hashes": {
+      "qground/__init__.py": "3e4878d60e62d6016e993e14dc7e3c423483385cb950250626b7d1b68cf2fc41",
+      "qground/check.py": "6222002daa03b4a254ed3dbe510484ad2d4e0edbc6e985b58a28cd26df8a9fe6",
+      "qground/evaluator.py": "17b113e653d95f19d14f52135fb0d349ce26c8e7e965d5aa86c1503dce24a88b",
+      "qground/exactdiag.py": "db2e810ad01c5da828f3010b0ec0fa6158f0977770d1858a17a653f42b6120d4",
+      "qground/experiment.py": "b79dcb212172dd32ee2296549214fe14585766bb0fccc0934e4802ccf8d9a97a",
+      "qground/optimize.py": "b9b8c1337367a97dd0be4ac014d239df3148b0d823c96698063a8dec7bc9d7aa"
+    },
+    "methods": [
+      "baseline",
+      "ramp",
+      "dimer",
+      "random",
+      "single_site"
+    ],
+    "machine": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.0",
+    "threads": [],
+    "git_base": "05e28e9723c0eb9de860eb1eec51cf91f0bfa7f2",
+    "budget_note": "6 sweeps; each update Lanczos N_max=40; BLAS one thread; also common CPU checkpoints"
+  },
+  "contributor_selection": {
+    "selected": "hybrid_polish",
+    "scores_per_site": {
+      "continuation": -4.756988100318438e-07,
+      "dimer": -2.3133790860718761e-07,
+      "hybrid_polish": -1.4503878396619918e-06,
+      "nnn_dimers": -3.2380894839552826e-07,
+      "ramp": -3.9904918078567976e-07,
+      "random": -6.957380844280832e-10,
+      "single_site": 5.043789173430192e-05
+    },
+    "frozen_at": "2026-10-20T21:38:05.722418+00:00",
+    "source_hashes": {
+      "scripts/contributor_trial.py": "b2e9d8327efe8cb3660652f7994b2dde10c1e332d8ccc643054c49423bf48b2f",
+      "qground/optimize.py": "b9b8c1337367a97dd0be4ac014d239df3148b0d823c96698063a8dec7bc9d7aa",
+      "qground/check.py": "6222002daa03b4a254ed3dbe510484ad2d4e0edbc6e985b58a28cd26df8a9fe6",
+      "qground/__init__.py": "3e4878d60e62d6016e993e14dc7e3c423483385cb950250626b7d1b68cf2fc41",
+      "qground/experiment.py": "b79dcb212172dd32ee2296549214fe14585766bb0fccc0934e4802ccf8d9a97a",
+      "qground/exactdiag.py": "db2e810ad01c5da828f3010b0ec0fa6158f0977770d1858a17a653f42b6120d4",
+      "qground/evaluator.py": "17b113e653d95f19d14f52135fb0d349ce26c8e7e965d5aa86c1503dce24a88b"
+    }
+  },
+  "inputs": [
+    {
+      "path": "benchmarks/suite.json",
+      "sha256": "5a051ecc792fc19545c0a910d7c6d6490d8f6451a4d8e88f2898469bc848a66c"
+    },
+    {
+      "path": "discover/records.json",
+      "sha256": "617c50c771c40673ce8d095285bd60dbf0e3d59316ce809e6ab3c0e9c60f2462"
+    },
+    {
+      "path": "examples/known-dimer.npz",
+      "sha256": "9f678673f079c0ced97c092d293d30fabf1c324dc5c10e245dfaa8425aa4aa42"
+    },
+    {
+      "path": "qground/__init__.py",
+      "sha256": "3e4878d60e62d6016e993e14dc7e3c423483385cb950250626b7d1b68cf2fc41"
+    },
+    {
+      "path": "qground/check.py",
+      "sha256": "6222002daa03b4a254ed3dbe510484ad2d4e0edbc6e985b58a28cd26df8a9fe6"
+    },
+    {
+      "path": "qground/evaluator.py",
+      "sha256": "17b113e653d95f19d14f52135fb0d349ce26c8e7e965d5aa86c1503dce24a88b"
+    },
+    {
+      "path": "qground/exactdiag.py",
+      "sha256": "db2e810ad01c5da828f3010b0ec0fa6158f0977770d1858a17a653f42b6120d4"
+    },
+    {
+      "path": "qground/experiment.py",
+      "sha256": "b79dcb212172dd32ee2296549214fe14585766bb0fccc0934e4802ccf8d9a97a"
+    },
+    {
+      "path": "qground/optimize.py",
+      "sha256": "b9b8c1337367a97dd0be4ac014d239df3148b0d823c96698063a8dec7bc9d7aa"
+    },
+    {
+      "path": "requirements.lock",
+      "sha256": "7025484bd8174b2c3c522370ba745d826cf883bf97a45ae28e977ce3f0151efc"
+    },
+    {
+      "path": "research/contributor-001/dev.json",
+      "sha256": "54bef425a2cb9bfd1acb109449865376c5cbad7fb6f073ada7eba57a1de20abf"
+    },
+    {
+      "path": "research/contributor-001/fresh-suite.json",
+      "sha256": "3d108f0b51a35b074f3a4cb7274005a4dfe6dda7ccd94f2b4f4b6f268d99867f"
+    },
+    {
+      "path": "research/contributor-001/long-reference/run.json",
+      "sha256": "67a181c3a3ca8b80fcad08cab2fda0429c61f64479bd93579b883abd86f568d7"
+    },
+    {
+      "path": "research/contributor-001/selection.json",
+      "sha256": "86eacad939ce50281ba66bacae998e7758519324838cf7e572648fdd517a72d7"
+    },
+    {
+      "path": "research/contributor-001/summary.json",
+      "sha256": "a7cb9b1599001be301fee24d1d650950d350c79e979f644b2e9a197660599074"
+    },
+    {
+      "path": "research/contributor-001/supplement/preregistration.json",
+      "sha256": "7de60d0fd1afd6e6f6a9fca0fed5cf146b5580630753f8a56708ef3f0410efe9"
+    },
+    {
+      "path": "research/contributor-001/supplement/runs.json",
+      "sha256": "8758f41edafb79b7b0d14e6186705be5e14b0f4c47a4a095876cebec754576e0"
+    },
+    {
+      "path": "research/contributor-001/supplement/summary.json",
+      "sha256": "bd1155d6082fa56c3d51bfc3bd5b8dff8f2967e550bdcb2e3386e54710d01b6c"
+    },
+    {
+      "path": "research/contributor-001/test.json",
+      "sha256": "23b810d3368ed6414ef10178170b0195d39e7202a7ec1c0623728b948c8d91b2"
+    },
+    {
+      "path": "results/pilot/dev.json",
+      "sha256": "7d4ecc57b616aa25604ccd1d6d6144a99372505db88b9768ca12834d68367595"
+    },
+    {
+      "path": "results/pilot/heldout.json",
+      "sha256": "02819fcb662127de306720611749b6ec8756af9cf4aa3bddcc5a3ee2348504f0"
+    },
+    {
+      "path": "results/pilot/selection.json",
+      "sha256": "d74ed1d9ce9bc890772c3a16ac14d30261d771f1793c8a978810f3a12d1e43db"
+    },
+    {
+      "path": "results/pilot/summary.json",
+      "sha256": "2e2377da470a9bffa2c6cf7dcf6f1afe05f4d761e6c7364249830d5170c31202"
+    },
+    {
+      "path": "scripts/analyze.py",
+      "sha256": "ab64def66a7bfc8ad42ede68005693f74a620ce9a7d8489a729e2e729bebf7dc"
+    },
+    {
+      "path": "scripts/analyze_trial.py",
+      "sha256": "4ffed81744b719a663325edd3243e9f2b067468a3d61ac9c21f808b990036b0d"
+    },
+    {
+      "path": "scripts/check_ed.py",
+      "sha256": "8c4d2fa0f905f5f42b312f0ac2cae3eff3f904179fd9952fe0cc505252bb4a41"
+    },
+    {
+      "path": "scripts/check_supplement.py",
+      "sha256": "1fb069bc0997692bbc278c0a4b528d04842e842a9e2ce1524401425b32972cc5"
+    },
+    {
+      "path": "scripts/check_trial.py",
+      "sha256": "1bd30234cb69d1d8e167ebcda88200c5b06ed487ef71caddb89b839c266b4e06"
+    },
+    {
+      "path": "scripts/contributor_trial.py",
+      "sha256": "b2e9d8327efe8cb3660652f7994b2dde10c1e332d8ccc643054c49423bf48b2f"
+    },
+    {
+      "path": "scripts/long_reference.py",
+      "sha256": "081b05c85f780364e3df8f2aae8efa2b998ce51e48fd44dadc6d64ba726ae0c1"
+    },
+    {
+      "path": "scripts/pick.py",
+      "sha256": "fc67f2f878be7bbc1fdf0ee7dd73c32d84fd11cf09e03187478c908c15c9c36b"
+    },
+    {
+      "path": "scripts/plot_results.py",
+      "sha256": "5b5a3cc5ccfbedb39fd1500facf4c07888b8a8bbe2101807d01c127652203e64"
+    },
+    {
+      "path": "scripts/replay_contributor.py",
+      "sha256": "030c6c05b6226265f5b1e6f65b2b3c1ef6a6205dcb59193281103cdcd35ff5ed"
+    },
+    {
+      "path": "scripts/supplement.py",
+      "sha256": "f46f6658ab8da1b3e93a043ffa0a4116166d1c356a916b8f80ee025260c3b3ab"
+    },
+    {
+      "path": "scripts/validate_discovery.py",
+      "sha256": "03028a01b8c7fe2001dfcb0687bf6552d75264c5024884d921b4b77e7450f13b"
+    },
+    {
+      "path": "scripts/worked_example.py",
+      "sha256": "efb96821119316a3e6a9cf1e517b40799b3a754555ceb3b78a882d3d9fbc113d"
+    },
+    {
+      "path": "scripts/write_contributor_report.py",
+      "sha256": "408483539fc8d2bfb5a983f35b93e74b06171d76259f390a36375a94eb98981e"
+    },
+    {
+      "path": "scripts/write_results.py",
+      "sha256": "093948108a6550cf12faf043a4c57e438b38a9e97cf0c4602e66090f7e746abf"
+    }
+  ],
+  "note": "Witness hashes are recorded per checkpoint in run JSON. This is author provenance, not an externally timestamped commitment."
+}

@@ -1,0 +1,164 @@
+{
+  "instance": "dev10",
+  "method": "nnn_dimers",
+  "seed": 1729,
+  "history": [
+    {
+      "sweep": 1,
+      "cpu_seconds": 0.29663500000000065,
+      "wall_seconds": 2.2527407079469413,
+      "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-1.npz",
+      "optimizer_energy": -3.9258255292581254,
+      "energy": -3.9258255292581254,
+      "energy_interval": [
+        "-3.92582552925813",
+        "-3.92582552925812"
+      ],
+      "norm_interval": [
+        "1.00000000000000",
+        "1.00000000000001"
+      ],
+      "witness_sha256": "4128976e0d9604dd945b1ccf270cb02607a59d9185b12ca4e499c0c95b698f39",
+      "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+      "max_bond": 8,
+      "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+    },
+    {
+      "sweep": 2,
+      "cpu_seconds": 0.4972060000000007,
+      "wall_seconds": 3.6144312089309096,
+      "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-2.npz",
+      "optimizer_energy": -3.9258256430577325,
+      "energy": -3.9258256430577356,
+      "energy_interval": [
+        "-3.92582564305774",
+        "-3.92582564305773"
+      ],
+      "norm_interval": [
+        "0.99999999999999",
+        "1.00000000000000"
+      ],
+      "witness_sha256": "81e13086f2132bda3980e5196f995135f0a25cd4d6b20c3e80c1827ef4c92328",
+      "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+      "max_bond": 8,
+      "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+    },
+    {
+      "sweep": 3,
+      "cpu_seconds": 0.6858290000000005,
+      "wall_seconds": 4.634352792054415,
+      "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-3.npz",
+      "optimizer_energy": -3.925825645194535,
+      "energy": -3.9258256451945326,
+      "energy_interval": [
+        "-3.92582564519454",
+        "-3.92582564519453"
+      ],
+      "norm_interval": [
+        "1.00000000000000",
+        "1.00000000000001"
+      ],
+      "witness_sha256": "7c330bc12da4cb8edb86ce62f5a4097922c243247d1bd5c0f83fcaae3b4d3f0e",
+      "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+      "max_bond": 8,
+      "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+    },
+    {
+      "sweep": 4,
+      "cpu_seconds": 0.8300909999999999,
+      "wall_seconds": 5.410196999902837,
+      "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-4.npz",
+      "optimizer_energy": -3.9258256454091356,
+      "energy": -3.925825645409134,
+      "energy_interval": [
+        "-3.92582564540914",
+        "-3.92582564540913"
+      ],
+      "norm_interval": [
+        "1.00000000000000",
+        "1.00000000000001"
+      ],
+      "witness_sha256": "dfb0230fa36cc8765597c401c87fb5fd108ebeb8a7ee1fbf5e08f60fb530ec77",
+      "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+      "max_bond": 8,
+      "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+    },
+    {
+      "sweep": 5,
+      "cpu_seconds": 0.9747460000000001,
+      "wall_seconds": 6.168523291940801,
+      "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-5.npz",
+      "optimizer_energy": -3.925825645410746,
+      "energy": -3.925825645410749,
+      "energy_interval": [
+        "-3.92582564541075",
+        "-3.92582564541074"
+      ],
+      "norm_interval": [
+        "0.99999999999999",
+        "1.00000000000000"
+      ],
+      "witness_sha256": "b34866c18447ea944eb67aa02253e8616c4c087b7409741e4f459de26745402b",
+      "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+      "max_bond": 8,
+      "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+    },
+    {
+      "sweep": 6,
+      "cpu_seconds": 1.157404,
+      "wall_seconds": 7.4351397508289665,
+      "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-6.npz",
+      "optimizer_energy": -3.9258256454107645,
+      "energy": -3.9258256454107614,
+      "energy_interval": [
+        "-3.92582564541077",
+        "-3.92582564541076"
+      ],
+      "norm_interval": [
+        "1.00000000000000",
+        "1.00000000000001"
+      ],
+      "witness_sha256": "7e13d9bf771f02297f644111e4d7d1ba91da687703db12e427336eb6415398d4",
+      "hamiltonian_id": "40b42c71f7cd3ab851f85ed677a916119cb0214f7386ec398b7d2355353f27d1",
+      "max_bond": 8,
+      "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+    }
+  ],
+  "cpu_seconds": 1.157404,
+  "wall_seconds": 7.4351397508289665,
+  "local_updates": 96,
+  "lanczos_iterations": 542,
+  "options": {
+    "trunc_params": {
+      "chi_max": 8,
+      "svd_min": 1e-14,
+      "trunc_cut": null
+    },
+    "mixer": true,
+    "mixer_params": {
+      "amplitude": 1e-05,
+      "decay": 10.0,
+      "disable_after": 3
+    },
+    "diag_method": "lanczos",
+    "lanczos_params": {
+      "N_max": 40,
+      "N_min": 2,
+      "P_tol": 1e-12,
+      "E_tol": 1e-12
+    },
+    "combine": true
+  },
+  "energy": -3.9258256454107614,
+  "energy_interval": [
+    "-3.92582564541077",
+    "-3.92582564541076"
+  ],
+  "witness": "research/contributor-001/witnesses/dev10-nnn_dimers-1729/sweep-6.npz",
+  "witness_sha256": "7e13d9bf771f02297f644111e4d7d1ba91da687703db12e427336eb6415398d4",
+  "best_sweep": 6,
+  "run_label": "nnn_dimers",
+  "verification_seconds": 3.001394666964188,
+  "started_at": "2026-10-20T21:35:12.705534+00:00",
+  "finished_at": "2026-10-20T21:35:23.307847+00:00"
+}

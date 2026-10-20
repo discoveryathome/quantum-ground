@@ -1,6 +1,6 @@
 {
   "schema": "discover-catalog/v0",
-  "priority_revision": 1,
+  "priority_revision": 2,
   "assessed_on": "2026-10-20",
   "priority_log": "discover/priority-log.md",
   "status": "LOCAL proposal; intake paused",
@@ -36,8 +36,8 @@
           ],
           "existing_checks": [
             {
-              "scope": "Initial local author checks only",
-              "evidence": "docs/RESULTS.md",
+              "scope": "17-test validation, exact saved-state scoring, initial benchmark and timed contributor trial",
+              "evidence": "research/contributor-001/README.md",
               "remaining": "Independent contributor replication and broader held-out evidence",
               "status": "author-checked"
             }
@@ -82,8 +82,8 @@
           ],
           "existing_checks": [
             {
-              "scope": "Initial local author checks only",
-              "evidence": "docs/RESULTS.md",
+              "scope": "17-test validation, exact saved-state scoring, initial benchmark and timed contributor trial",
+              "evidence": "research/contributor-001/README.md",
               "remaining": "Independent contributor replication and broader held-out evidence",
               "status": "author-checked"
             }
@@ -98,16 +98,16 @@
       "tasks": [
         {
           "id": "optimization-01",
-          "question": "Do dimer initialization or schedule changes help under a stronger matched-budget comparison?",
+          "question": "Can adaptive switching or initialization improve the hybrid-polishing incumbent under fixed bond and CPU limits?",
           "starting_points": [
             "docs/FORMULATION.md",
             "docs/LITERATURE.md",
             "docs/RESULTS.md"
           ],
           "methods": [
-            "initialization ablation",
-            "chi-ramp ablation",
-            "fresh held-out preregistration"
+            "switch-point ablation",
+            "initialization plus polishing",
+            "fresh stratified held-out preregistration"
           ],
           "acceptance_gate": "Freeze changes on development only, budget all attempts, use new holdouts, save witnesses, report wins and losses.",
           "first_step": {
@@ -116,11 +116,12 @@
               "-m",
               "qground.check",
               "--case",
-              "hold28",
+              "dev10",
               "--witness",
-              "results/pilot/witnesses/hold28-baseline-1729/sweep-6.npz"
+              "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-6.npz"
             ],
-            "expected": "Exact normalization and energy enclosure printed."
+            "expected": "Exact energy and norm enclosure for the checked hybrid incumbent.",
+            "scope": "Positive control only; this known improvement is already recorded."
           },
           "bottleneck_link": "DISCOVERY.md",
           "claim_kind": [
@@ -129,9 +130,9 @@
           ],
           "existing_checks": [
             {
-              "scope": "Initial local author checks only",
-              "evidence": "docs/RESULTS.md",
-              "remaining": "Independent contributor replication and broader held-out evidence",
+              "scope": "17-test validation, exact saved-state scoring, initial benchmark and timed contributor trial",
+              "evidence": "research/contributor-001/README.md",
+              "remaining": "Beat the upgraded incumbent on a new suite; do not rediscover the same three-plus-three polishing result.",
               "status": "author-checked"
             }
           ]
@@ -162,7 +163,7 @@
               "-m",
               "scripts.pick",
               "--seed",
-              "00000000000000630000000000000000"
+              "00000063000000000000000000000000"
             ],
             "expected": "A literature task with sources and a concrete acceptance gate is printed."
           },
@@ -173,8 +174,8 @@
           ],
           "existing_checks": [
             {
-              "scope": "Initial local author checks only",
-              "evidence": "docs/RESULTS.md",
+              "scope": "17-test validation, exact saved-state scoring, initial benchmark and timed contributor trial",
+              "evidence": "research/contributor-001/README.md",
               "remaining": "Independent contributor replication and broader held-out evidence",
               "status": "author-checked"
             }

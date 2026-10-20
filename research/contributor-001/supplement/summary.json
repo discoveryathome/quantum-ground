@@ -1,0 +1,176 @@
+{
+  "selected": "hybrid_polish",
+  "pairs": [
+    {
+      "instance": "coverage16",
+      "case": {
+        "id": "coverage16",
+        "L": 16,
+        "J1": "1",
+        "J2": "0.3125",
+        "delta": "1.25",
+        "boundary": "open",
+        "basis": "down,up",
+        "chi_max": 8,
+        "split": "post-hoc-coverage"
+      },
+      "baseline_energy": -6.722337043591503,
+      "candidate_energy": -6.722342281986466,
+      "strong_control_energy": -6.722337139259492,
+      "strong_control_method": "ramp",
+      "equal_sweeps": {
+        "gain": 5.2383949631362725e-06,
+        "gain_interval": [
+          "104767899/20000000000000",
+          "523839497/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "research/contributor-001/witnesses/coverage16-coverage-baseline-1729/sweep-4.npz",
+        "candidate_witness": "research/contributor-001/witnesses/coverage16-coverage-selected-1729/sweep-6.npz"
+      },
+      "matched_cpu": {
+        "gain": 5.2383949631362725e-06,
+        "gain_interval": [
+          "104767899/20000000000000",
+          "523839497/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "research/contributor-001/witnesses/coverage16-coverage-baseline-1729/sweep-4.npz",
+        "candidate_witness": "research/contributor-001/witnesses/coverage16-coverage-selected-1729/sweep-6.npz"
+      },
+      "common_cpu_seconds": 2.011632999999998,
+      "versus_initial_winner_equal_sweeps": {
+        "gain": 5.142726974050049e-06,
+        "gain_interval": [
+          "64284087/12500000000000",
+          "257136349/50000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "research/contributor-001/witnesses/coverage16-coverage-strong-1729/sweep-4.npz",
+        "candidate_witness": "research/contributor-001/witnesses/coverage16-coverage-selected-1729/sweep-6.npz"
+      },
+      "candidate_cpu_ratio": 0.9461953139735542
+    },
+    {
+      "instance": "coverage20",
+      "case": {
+        "id": "coverage20",
+        "L": 20,
+        "J1": "1",
+        "J2": "0.5625",
+        "delta": "1",
+        "boundary": "open",
+        "basis": "down,up",
+        "chi_max": 8,
+        "split": "post-hoc-coverage"
+      },
+      "baseline_energy": -7.539179761292379,
+      "candidate_energy": -7.539180706294859,
+      "strong_control_energy": -7.539179761282577,
+      "strong_control_method": "ramp",
+      "equal_sweeps": {
+        "gain": 9.450024798240975e-07,
+        "gain_interval": [
+          "94500247/100000000000000",
+          "94500249/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "research/contributor-001/witnesses/coverage20-coverage-baseline-1729/sweep-4.npz",
+        "candidate_witness": "research/contributor-001/witnesses/coverage20-coverage-selected-1729/sweep-6.npz"
+      },
+      "matched_cpu": {
+        "gain": 9.450024798240975e-07,
+        "gain_interval": [
+          "94500247/100000000000000",
+          "94500249/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "research/contributor-001/witnesses/coverage20-coverage-baseline-1729/sweep-4.npz",
+        "candidate_witness": "research/contributor-001/witnesses/coverage20-coverage-selected-1729/sweep-6.npz"
+      },
+      "common_cpu_seconds": 2.255714000000003,
+      "versus_initial_winner_equal_sweeps": {
+        "gain": 9.450122817611373e-07,
+        "gain_interval": [
+          "94501227/100000000000000",
+          "94501229/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "research/contributor-001/witnesses/coverage20-coverage-strong-1729/sweep-6.npz",
+        "candidate_witness": "research/contributor-001/witnesses/coverage20-coverage-selected-1729/sweep-6.npz"
+      },
+      "candidate_cpu_ratio": 0.8718345128683418
+    },
+    {
+      "instance": "coverage32",
+      "case": {
+        "id": "coverage32",
+        "L": 32,
+        "J1": "1",
+        "J2": "0.8125",
+        "delta": "1.25",
+        "boundary": "open",
+        "basis": "down,up",
+        "chi_max": 8,
+        "split": "post-hoc-coverage"
+      },
+      "baseline_energy": -14.621737817446936,
+      "candidate_energy": -14.621833636861595,
+      "strong_control_energy": -14.621737817436733,
+      "strong_control_method": "ramp",
+      "equal_sweeps": {
+        "gain": 9.581941465874877e-05,
+        "gain_interval": [
+          "1916388293/20000000000000",
+          "9581941467/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "research/contributor-001/witnesses/coverage32-coverage-baseline-1729/sweep-5.npz",
+        "candidate_witness": "research/contributor-001/witnesses/coverage32-coverage-selected-1729/sweep-6.npz"
+      },
+      "matched_cpu": {
+        "gain": 9.581941465874877e-05,
+        "gain_interval": [
+          "1916388293/20000000000000",
+          "9581941467/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "research/contributor-001/witnesses/coverage32-coverage-baseline-1729/sweep-5.npz",
+        "candidate_witness": "research/contributor-001/witnesses/coverage32-coverage-selected-1729/sweep-6.npz"
+      },
+      "common_cpu_seconds": 4.84619099999999,
+      "versus_initial_winner_equal_sweeps": {
+        "gain": 9.581942486214245e-05,
+        "gain_interval": [
+          "1916388497/20000000000000",
+          "9581942487/100000000000000"
+        ],
+        "outcome": "win",
+        "baseline_witness": "research/contributor-001/witnesses/coverage32-coverage-strong-1729/sweep-6.npz",
+        "candidate_witness": "research/contributor-001/witnesses/coverage32-coverage-selected-1729/sweep-6.npz"
+      },
+      "candidate_cpu_ratio": 0.961636845391914
+    }
+  ],
+  "counts": {
+    "equal_sweeps": {
+      "win": 3,
+      "tie": 0,
+      "loss": 0
+    },
+    "matched_cpu": {
+      "win": 3,
+      "tie": 0,
+      "loss": 0
+    },
+    "versus_initial_winner_equal_sweeps": {
+      "win": 3,
+      "tie": 0,
+      "loss": 0
+    }
+  },
+  "optimizer_cpu_seconds": 28.48977299999998,
+  "optimizer_wall_seconds": 52.11749341187533,
+  "verification_wall_seconds": 62.03250866790768,
+  "status": "post-hoc stratified coverage; separate from primary test"
+}

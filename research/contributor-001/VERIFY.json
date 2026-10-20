@@ -1,0 +1,42 @@
+{
+  "cwd": "project repository root",
+  "dependency_pins": "requirements.lock",
+  "commands": [
+    {
+      "argv": [
+        "./scripts/reproduce.sh"
+      ],
+      "timeout_seconds": 600,
+      "expected": "17 tests; recomputed ED; exact initial/contributor/supplemental witnesses; artifact hashes pass."
+    },
+    {
+      "argv": [
+        "./scripts/cpu.sh",
+        "-m",
+        "scripts.replay_contributor",
+        "--out",
+        "results/replay-smoke",
+        "--case",
+        "dev10",
+        "--method",
+        "hybrid_polish"
+      ],
+      "timeout_seconds": 120,
+      "expected": "One replay passes exact scoring and <=1e-9 J1 energy drift."
+    }
+  ],
+  "full_search_replay": [
+    "./scripts/cpu.sh",
+    "-m",
+    "scripts.replay_contributor",
+    "--out",
+    "results/contributor-replay"
+  ],
+  "full_search_timeout_seconds": 1800,
+  "inputs": [
+    "benchmarks/suite.json",
+    "research/contributor-001/fresh-suite.json",
+    "research/contributor-001/supplement/preregistration.json"
+  ],
+  "evidence_level": "author-checked"
+}

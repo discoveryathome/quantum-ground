@@ -29,7 +29,7 @@ def main(supplement=False):
     axes[0].set_yscale('symlog',linthresh=1e-8)
     axes[0].set_xlabel('Completed sweeps (same bond cap: 8)')
     axes[0].set_ylabel('Energy above best saved candidate, J1')
-    axes[0].set_title('Development: changing the starting strategy',loc='left',fontweight='bold')
+    axes[0].set_title('Development: changing the optimization strategy',loc='left',fontweight='bold')
     axes[0].legend(fontsize=9,frameon=False)
     axes[0].grid(axis='y',alpha=.15)
     pairs=trial['pairs'];x=np.arange(len(pairs));width=.26
@@ -46,7 +46,7 @@ def main(supplement=False):
     axes[1].legend(fontsize=8,frameon=False)
     axes[1].grid(axis='y',alpha=.15)
     fig.suptitle('A quantum magnet is a checkable optimization puzzle',x=.04,ha='left',fontsize=18,fontweight='bold')
-    fig.text(.04,.01,'Every score is checked by exact integer arithmetic. Lower energy is a better variational upper bound, not a ground-state proof.\nPositive bars mean improvement; negative bars mean regression. CPU timings were collected on a shared, busy machine.',fontsize=9,color='#4b5563')
+    fig.text(.04,.01,'Every score is checked by exact integer arithmetic. Lower energy is a better variational upper bound, not a ground-state proof.\nPositive bars mean improvement; negative bars mean regression. Differences <=1e-10 J1 are shown as zero. Timings reflect a busy shared machine.',fontsize=9,color='#4b5563')
     fig.tight_layout(rect=[.02,.09,.99,.92])
     base='docs/contributor-supplement' if supplement else 'docs/contributor-demo'
     fig.savefig(base+'.png',dpi=160)

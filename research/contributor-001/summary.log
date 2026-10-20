@@ -1,0 +1,183 @@
+{
+  "selected": "hybrid_polish",
+  "pairs": [
+    {
+      "instance": "fresh16",
+      "case": {
+        "id": "fresh16",
+        "L": 16,
+        "J1": "1",
+        "J2": "0.5",
+        "delta": "1.25",
+        "boundary": "open",
+        "basis": "down,up",
+        "chi_max": 8,
+        "split": "fresh-heldout"
+      },
+      "equal_sweeps": {
+        "gain": 0.0,
+        "gain_interval": [
+          "-1/100000000000000",
+          "1/100000000000000"
+        ],
+        "outcome": "tie",
+        "baseline_witness": "research/contributor-001/witnesses/fresh16-baseline-1729/sweep-3.npz",
+        "candidate_witness": "research/contributor-001/witnesses/fresh16-selected-1729/sweep-3.npz"
+      },
+      "matched_cpu": {
+        "gain": 0.0,
+        "gain_interval": [
+          "-1/100000000000000",
+          "1/100000000000000"
+        ],
+        "outcome": "tie",
+        "baseline_witness": "research/contributor-001/witnesses/fresh16-baseline-1729/sweep-3.npz",
+        "candidate_witness": "research/contributor-001/witnesses/fresh16-selected-1729/sweep-3.npz"
+      },
+      "common_cpu_seconds": 1.6008129999999978,
+      "versus_initial_winner_equal_sweeps": {
+        "gain": 0.0,
+        "gain_interval": [
+          "-1/100000000000000",
+          "1/100000000000000"
+        ],
+        "outcome": "tie",
+        "baseline_witness": "research/contributor-001/witnesses/fresh16-strong-control-1729/sweep-4.npz",
+        "candidate_witness": "research/contributor-001/witnesses/fresh16-selected-1729/sweep-3.npz"
+      },
+      "baseline_energy": -6.5,
+      "candidate_energy": -6.5,
+      "strong_control_energy": -6.5,
+      "strong_control_method": "ramp",
+      "candidate_cpu_ratio": 0.9790306403278066,
+      "aa_energy_difference": 0.0,
+      "aa_cpu_ratio": 1.2121772368662453
+    },
+    {
+      "instance": "fresh20",
+      "case": {
+        "id": "fresh20",
+        "L": 20,
+        "J1": "1",
+        "J2": "0.5",
+        "delta": "1.25",
+        "boundary": "open",
+        "basis": "down,up",
+        "chi_max": 8,
+        "split": "fresh-heldout"
+      },
+      "equal_sweeps": {
+        "gain": 0.0,
+        "gain_interval": [
+          "-1/100000000000000",
+          "1/100000000000000"
+        ],
+        "outcome": "tie",
+        "baseline_witness": "research/contributor-001/witnesses/fresh20-baseline-1729/sweep-3.npz",
+        "candidate_witness": "research/contributor-001/witnesses/fresh20-selected-1729/sweep-3.npz"
+      },
+      "matched_cpu": {
+        "gain": 0.0,
+        "gain_interval": [
+          "-1/100000000000000",
+          "1/100000000000000"
+        ],
+        "outcome": "tie",
+        "baseline_witness": "research/contributor-001/witnesses/fresh20-baseline-1729/sweep-3.npz",
+        "candidate_witness": "research/contributor-001/witnesses/fresh20-selected-1729/sweep-3.npz"
+      },
+      "common_cpu_seconds": 1.9494209999999939,
+      "versus_initial_winner_equal_sweeps": {
+        "gain": 0.0,
+        "gain_interval": [
+          "-1/100000000000000",
+          "1/100000000000000"
+        ],
+        "outcome": "tie",
+        "baseline_witness": "research/contributor-001/witnesses/fresh20-strong-control-1729/sweep-4.npz",
+        "candidate_witness": "research/contributor-001/witnesses/fresh20-selected-1729/sweep-3.npz"
+      },
+      "baseline_energy": -8.125,
+      "candidate_energy": -8.125,
+      "strong_control_energy": -8.125,
+      "strong_control_method": "ramp",
+      "candidate_cpu_ratio": 1.0685608701250344,
+      "aa_energy_difference": 0.0,
+      "aa_cpu_ratio": 1.0432010325117098
+    },
+    {
+      "instance": "fresh32",
+      "case": {
+        "id": "fresh32",
+        "L": 32,
+        "J1": "1",
+        "J2": "0.5",
+        "delta": "1.25",
+        "boundary": "open",
+        "basis": "down,up",
+        "chi_max": 8,
+        "split": "fresh-heldout"
+      },
+      "equal_sweeps": {
+        "gain": 0.0,
+        "gain_interval": [
+          "-1/100000000000000",
+          "1/100000000000000"
+        ],
+        "outcome": "tie",
+        "baseline_witness": "research/contributor-001/witnesses/fresh32-baseline-1729/sweep-3.npz",
+        "candidate_witness": "research/contributor-001/witnesses/fresh32-selected-1729/sweep-3.npz"
+      },
+      "matched_cpu": {
+        "gain": 0.0,
+        "gain_interval": [
+          "-1/100000000000000",
+          "1/100000000000000"
+        ],
+        "outcome": "tie",
+        "baseline_witness": "research/contributor-001/witnesses/fresh32-baseline-1729/sweep-3.npz",
+        "candidate_witness": "research/contributor-001/witnesses/fresh32-selected-1729/sweep-3.npz"
+      },
+      "common_cpu_seconds": 3.6015649999999937,
+      "versus_initial_winner_equal_sweeps": {
+        "gain": 0.0,
+        "gain_interval": [
+          "-1/100000000000000",
+          "1/100000000000000"
+        ],
+        "outcome": "tie",
+        "baseline_witness": "research/contributor-001/witnesses/fresh32-strong-control-1729/sweep-4.npz",
+        "candidate_witness": "research/contributor-001/witnesses/fresh32-selected-1729/sweep-3.npz"
+      },
+      "baseline_energy": -13.0,
+      "candidate_energy": -13.0,
+      "strong_control_energy": -13.0,
+      "strong_control_method": "ramp",
+      "candidate_cpu_ratio": 0.9891697276406077,
+      "aa_energy_difference": 0.0,
+      "aa_cpu_ratio": 0.8991161214590072
+    }
+  ],
+  "equal_sweep_counts": {
+    "win": 0,
+    "tie": 3,
+    "loss": 0
+  },
+  "matched_cpu_counts": {
+    "win": 0,
+    "tie": 3,
+    "loss": 0
+  },
+  "versus_initial_winner_counts": {
+    "win": 0,
+    "tie": 3,
+    "loss": 0
+  },
+  "mean_gain_per_site": 0.0,
+  "search_and_test_optimizer_cpu_seconds": 49.04167299999998,
+  "search_and_test_optimizer_wall_seconds": 223.28462878311984,
+  "verification_wall_seconds": 227.77483308291994,
+  "attempts": 21,
+  "saved_states": 126,
+  "disclosure": "Same agent as harness author; prepared environment; not a blinded independent contributor test; all trial attempts recorded."
+}

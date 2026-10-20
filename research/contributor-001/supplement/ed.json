@@ -1,0 +1,7 @@
+{
+  "coverage16": {
+    "energy": -6.722520368235909,
+    "residual_norm": 1.1342697763469132e-14,
+    "status": "numerical full-Hilbert-space ED reference, not certified global lower bound"
+  }
+}

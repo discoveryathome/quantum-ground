@@ -15,5 +15,9 @@
   "constraints": "chi<=8,6 sweeps,L<=32; all initialization/continuation work charged; no tuning on heldout; no scientific novelty claim",
   "upstream_preparation": "Harness and initial validation preceded this timed contributor trial; not an independent cold-start contributor or independent human replication.",
   "target_minutes": 45,
-  "budget_note": "User authorized 30\u201360 minutes. Target extended from 30 to 45 within that range to finish serial controlled runs under observed competing machine load. Hard cap 60 minutes from 21:10:57Z."
+  "budget_note": "User authorized 30\u201360 minutes. Target extended from 30 to 45 within that range to finish serial controlled runs under observed competing machine load. Hard cap 60 minutes from 21:10:57Z.",
+  "hypothesis_commit": "94965480efb63c492ae0201dbcfa2ab3d1fd51ee",
+  "experiments_finished_at": "2026-10-20T21:49:18Z",
+  "experiment_elapsed_minutes": 38.35,
+  "qa_note": "Fresh-clone packaging/verification follows the timed experiment and is accounted separately."
 }
