@@ -1,0 +1,16 @@
+{
+  "formulation": "open-j1j2-real-mps-v1",
+  "precision": "binary64 optimizer; exact integer verifier of dyadic witness",
+  "sweeps": 6,
+  "seeds": [1729, 2718],
+  "selection": "minimum mean energy difference from baseline on development instances, divided by L; ties within 1e-10 favor lower mean CPU time",
+  "heldout_gate": "selected method frozen before heldout; compare exact energy at equal sweeps and compare best completed sweep under common per-pair CPU budget; no retuning",
+  "instances": [
+    {"id":"dev10", "split":"dev", "L":10, "J1":"1", "J2":"0.25", "delta":"1", "boundary":"open", "basis":"down,up", "chi_max":8},
+    {"id":"dev12", "split":"dev", "L":12, "J1":"1", "J2":"0.5", "delta":"1", "boundary":"open", "basis":"down,up", "chi_max":8},
+    {"id":"dev24", "split":"dev", "L":24, "J1":"1", "J2":"0.75", "delta":"1.25", "boundary":"open", "basis":"down,up", "chi_max":8},
+    {"id":"hold12", "split":"heldout", "L":12, "J1":"1", "J2":"0.375", "delta":"1.25", "boundary":"open", "basis":"down,up", "chi_max":8},
+    {"id":"hold14", "split":"heldout", "L":14, "J1":"1", "J2":"0.625", "delta":"1", "boundary":"open", "basis":"down,up", "chi_max":8},
+    {"id":"hold28", "split":"heldout", "L":28, "J1":"1", "J2":"0.875", "delta":"1.25", "boundary":"open", "basis":"down,up", "chi_max":8}
+  ]
+}

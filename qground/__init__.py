@@ -1,0 +1,1 @@
+"""Frozen-Hamiltonian variational pilot."""
