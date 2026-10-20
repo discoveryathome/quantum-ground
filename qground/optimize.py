@@ -64,14 +64,16 @@ def run(case, method, seed, directory, sweeps=6):
         if sweep == sweeps - 1 and engine.mixer is not None:
             engine.mixer_deactivate()
         engine.mixer_cleanup()
+        snapshot = psi.copy()
+        snapshot.canonical_form()
         elapsed_cpu = time.process_time() - start_cpu - excluded_cpu
         elapsed_wall = time.perf_counter() - start_wall - excluded_wall
         t_cpu, t_wall = time.process_time(), time.perf_counter()
-        tensors = arrays(psi)
+        tensors = arrays(snapshot)
         path = directory / f'sweep-{sweep+1}.npz'
         save(path, tensors, case)
         history.append({'sweep': sweep+1, 'cpu_seconds': elapsed_cpu, 'wall_seconds': elapsed_wall,
-                        'optimizer_energy': float(m.H_MPO.expectation_value(psi)),
+                        'optimizer_energy': float(m.H_MPO.expectation_value(snapshot)),
                         'witness': str(path), 'max_bond': int(max(psi.chi))})
         excluded_cpu += time.process_time() - t_cpu
         excluded_wall += time.perf_counter() - t_wall
