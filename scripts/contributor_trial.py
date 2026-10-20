@@ -71,6 +71,7 @@ def proposed(case,method,directory):
         'local_updates':updates,'lanczos_iterations':int(iters),'options':options}
 
 def execute(case,method,label,seed=1729):
+    started_at=now()
     directory=OUT/'witnesses'/f'{case["id"]}-{label}-{seed}'
     directory.mkdir(parents=True,exist_ok=False)
     if method in METHODS:r=proposed(case,method,directory)
@@ -81,6 +82,7 @@ def execute(case,method,label,seed=1729):
     r.update({k:best[k] for k in ('energy','energy_interval','witness','witness_sha256')})
     r['best_sweep']=best['sweep'];r['run_label']=label
     r['verification_seconds']=time.perf_counter()-start
+    r['started_at']=started_at;r['finished_at']=now()
     write(directory/'run.json',r)
     print(f'{case["id"]} {label}: E={r["energy"]:.12f}, cpu={r["cpu_seconds"]:.3f}, verify={r["verification_seconds"]:.3f}',flush=True)
     return r
