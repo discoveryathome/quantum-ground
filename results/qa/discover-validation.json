@@ -1,0 +1,20 @@
+{
+  "source": ".",
+  "conformant": true,
+  "problems": [],
+  "conventions": {
+    "catalog": true,
+    "priority_log": true,
+    "coordination": "manifest has no `coordination` channel",
+    "reproduce": true,
+    "ledger": true,
+    "packages": true
+  },
+  "warnings": [],
+  "manifest_origin": "discover.json",
+  "table": {
+    "rows": 6,
+    "open": 6
+  },
+  "license": "LICENSE"
+}

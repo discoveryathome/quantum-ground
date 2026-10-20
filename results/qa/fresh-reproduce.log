@@ -1,0 +1,30 @@
+.................                                                        [100%]
+=============================== warnings summary ===============================
+tests/test_checkpoint.py::test_single_site_all_checkpoints
+tests/test_verifier.py::test_dmrg_small_system_matches_ed
+  /Users/colkitt/discover-work/incubatedPilots/quantum-ground/start-quantum-ground/fresh-check/.venv/lib/python3.13/site-packages/tenpy/networks/mps.py:1629: UserWarning: unit_cell_width is a new argument for MPS and similar classes. It is optional for now, but will become mandatory in a future release. The default value (unit_cell_width=len(sites)) is correct, iff the lattice is a Chain. For other lattices, it is incorrect. It is used for dipolar charges and correlation_function2.
+    super().__init__(sites, bc, unit_cell_width)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+17 passed, 2 warnings in 6.50s
+PASS: 6 full-Hilbert-space numerical ED references; residuals <1e-9; energies agree <1e-10
+{
+  "energy": -4.5,
+  "energy_interval": [
+    "-4.50000000000000",
+    "-4.50000000000000"
+  ],
+  "norm_interval": [
+    "1.00000000000000",
+    "1.00000000000001"
+  ],
+  "witness_sha256": "9f678673f079c0ced97c092d293d30fabf1c324dc5c10e245dfaa8425aa4aa42",
+  "hamiltonian_id": "f674daab32b3199172fad956e8c47e123daa61bdb06dbf7866a018e09af1b4bb",
+  "max_bond": 2,
+  "certificate": "exact dyadic integer contraction; outward decimal Rayleigh quotient enclosure"
+}
+PASS: 48 witnesses; exact rational energies and normalization; 16.06s
+PASS: 21 contributor witnesses and frozen source hashes; 13.94s
+PASS: 10 supplemental/reference witnesses and supplement code hash
+PASS: manifest, frontier, catalog schemas and weights
+PASS: frontier artifact hashes

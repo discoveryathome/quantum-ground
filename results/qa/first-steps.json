@@ -1,0 +1,42 @@
+[
+  {
+    "task": "verifier-01",
+    "command": [
+      "./scripts/cpu.sh",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_verifier.py",
+      "-p",
+      "no:cacheprovider"
+    ],
+    "exit_code": 0,
+    "seconds": 6.188959541963413
+  },
+  {
+    "task": "optimization-01",
+    "command": [
+      "./scripts/cpu.sh",
+      "-m",
+      "qground.check",
+      "--case",
+      "dev10",
+      "--witness",
+      "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-6.npz"
+    ],
+    "exit_code": 0,
+    "seconds": 0.6853528330102563
+  },
+  {
+    "task": "literature-01",
+    "command": [
+      "./scripts/cpu.sh",
+      "-m",
+      "scripts.pick",
+      "--seed",
+      "00000063000000000000000000000000"
+    ],
+    "exit_code": 0,
+    "seconds": 0.18217316700611264
+  }
+]

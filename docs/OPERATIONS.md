@@ -10,7 +10,7 @@ Free disk before installation: approximately 33 GiB. Initial environment and
 source footprint: 242 MiB, below the protocol's 2 GiB approval threshold.
 Hardware: arm64 Mac14,2; 24 GiB RAM; eight logical CPUs. Numerical libraries are
 restricted to one thread. The interpreter is CPython 3.13.0; package versions
-are in requirements.lock and BLAS metadata is in preregistration.json.
+are in requirements.lock and loaded BLAS metadata is in results/qa/numerical-runtime.json.
 
 The pinned TeNPy v1.1.0 source commit is
 3c3304e2a7a1b90a9cd983c095da6678b9e7d2b1. The source was screened before use,
@@ -41,3 +41,6 @@ initial development phase restarted. Failed directories are preserved outside
 versioned results, with logs in results/failed-dev-*.log. They are excluded from
 scientific comparisons. The exact verifier caught the export problem; a
 regression test now covers every single-site checkpoint.
+
+Final task footprint, including both virtual environments, source, witnesses and
+cache: approximately 540 MiB. Fresh-checkout verification is documented in QA.md.

@@ -1,0 +1,42 @@
+{
+  "seed": "00000063000000000000000000000000",
+  "track": "literature",
+  "task": {
+    "id": "literature-01",
+    "question": "What stronger baselines or known failure regimes should the next formulation include?",
+    "starting_points": [
+      "docs/FORMULATION.md",
+      "docs/LITERATURE.md",
+      "docs/RESULTS.md"
+    ],
+    "methods": [
+      "primary-source audit",
+      "implementation comparison"
+    ],
+    "acceptance_gate": "Cite primary evidence, distinguish published method from new hypothesis, propose reproducible fixed-budget baseline.",
+    "first_step": {
+      "command": [
+        "./scripts/cpu.sh",
+        "-m",
+        "scripts.pick",
+        "--seed",
+        "00000063000000000000000000000000"
+      ],
+      "expected": "A literature task with sources and a concrete acceptance gate is printed."
+    },
+    "bottleneck_link": "DISCOVERY.md",
+    "claim_kind": [
+      "certified",
+      "measured"
+    ],
+    "existing_checks": [
+      {
+        "scope": "17-test validation, exact saved-state scoring, initial benchmark and timed contributor trial",
+        "evidence": "research/contributor-001/README.md",
+        "remaining": "Independent contributor replication and broader held-out evidence",
+        "status": "author-checked"
+      }
+    ]
+  },
+  "status": "LOCAL proposal. Check discover/coordination.jsonl for overlap; no donor intake."
+}

@@ -9,7 +9,7 @@ Start with [the featured-pilot assessment](docs/FEATURE_ASSESSMENT.md) and
 [38-minute contributor receipt](research/contributor-001/README.md).
 
 Read [the measured result](docs/RESULTS.md), [the frozen formulation](docs/FORMULATION.md),
-and [the evidence audit](docs/LITERATURE.md). The established baseline is mature
+and [the evidence audit](docs/LITERATURE.md). [Fresh-checkout QA passed](docs/QA.md). The established baseline is mature
 finite-system DMRG; this project claims no new algorithm or global ground-state
 proof. The authoritative **local** record is [discover/frontier.json](discover/frontier.json).
 

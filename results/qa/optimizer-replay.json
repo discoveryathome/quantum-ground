@@ -1,0 +1,15 @@
+{
+  "command": [
+    "./scripts/cpu.sh",
+    "-m",
+    "scripts.replay_contributor",
+    "--out",
+    "results/replay-smoke",
+    "--case",
+    "dev10",
+    "--method",
+    "hybrid_polish"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 8.917421040940098
+}

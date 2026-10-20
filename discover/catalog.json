@@ -27,7 +27,7 @@
             "command": [
               "./scripts/reproduce.sh"
             ],
-            "expected": "All tests and 48 winning witnesses pass."
+            "expected": "17 tests, six ED references, 80 saved-state checks and metadata checks pass."
           },
           "bottleneck_link": "DISCOVERY.md",
           "claim_kind": [
