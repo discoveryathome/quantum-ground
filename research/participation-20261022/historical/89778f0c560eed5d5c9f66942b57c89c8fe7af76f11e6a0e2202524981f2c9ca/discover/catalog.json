@@ -1,0 +1,187 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 2,
+  "assessed_on": "2026-10-20",
+  "priority_log": "discover/priority-log.md",
+  "status": "LOCAL proposal; intake paused",
+  "tracks": [
+    {
+      "id": "replication",
+      "weight": 35,
+      "useful_outcome": "Can a fresh local checkout reproduce the exact saved-state scores and ED controls?",
+      "tasks": [
+        {
+          "id": "replication-01",
+          "question": "Can a fresh local checkout reproduce the exact saved-state scores and ED controls?",
+          "starting_points": [
+            "docs/FORMULATION.md",
+            "docs/LITERATURE.md",
+            "docs/RESULTS.md"
+          ],
+          "methods": [
+            "fresh-checkout replay",
+            "cross-platform check"
+          ],
+          "acceptance_gate": "Report platform, source hashes, verifier output and any numerical deviations.",
+          "first_step": {
+            "command": [
+              "./scripts/reproduce.sh"
+            ],
+            "expected": "17 tests, six ED references, 80 saved-state checks and metadata checks pass."
+          },
+          "bottleneck_link": "DISCOVERY.md",
+          "claim_kind": [
+            "certified",
+            "measured"
+          ],
+          "existing_checks": [
+            {
+              "scope": "17-test validation, exact saved-state scoring, initial benchmark and timed contributor trial",
+              "evidence": "research/contributor-001/README.md",
+              "remaining": "Independent contributor replication and broader held-out evidence",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verifier",
+      "weight": 30,
+      "useful_outcome": "Can the exact transfer recurrence be independently audited or an adversarial failure found?",
+      "tasks": [
+        {
+          "id": "verifier-01",
+          "question": "Can the exact transfer recurrence be independently audited or an adversarial failure found?",
+          "starting_points": [
+            "docs/FORMULATION.md",
+            "docs/LITERATURE.md",
+            "docs/RESULTS.md"
+          ],
+          "methods": [
+            "independent rational expansion",
+            "malformed-witness tests"
+          ],
+          "acceptance_gate": "Supply a minimal counterexample or a separately implemented rational checker; never weaken the original gate.",
+          "first_step": {
+            "command": [
+              "./scripts/cpu.sh",
+              "-m",
+              "pytest",
+              "-q",
+              "tests/test_verifier.py",
+              "-p",
+              "no:cacheprovider"
+            ],
+            "expected": "All verifier controls pass."
+          },
+          "bottleneck_link": "DISCOVERY.md",
+          "claim_kind": [
+            "certified",
+            "measured"
+          ],
+          "existing_checks": [
+            {
+              "scope": "17-test validation, exact saved-state scoring, initial benchmark and timed contributor trial",
+              "evidence": "research/contributor-001/README.md",
+              "remaining": "Independent contributor replication and broader held-out evidence",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "optimization",
+      "weight": 25,
+      "useful_outcome": "Do dimer initialization or schedule changes help under a stronger matched-budget comparison?",
+      "tasks": [
+        {
+          "id": "optimization-01",
+          "question": "Can adaptive switching or initialization improve the hybrid-polishing incumbent under fixed bond and CPU limits?",
+          "starting_points": [
+            "docs/FORMULATION.md",
+            "docs/LITERATURE.md",
+            "docs/RESULTS.md"
+          ],
+          "methods": [
+            "switch-point ablation",
+            "initialization plus polishing",
+            "fresh stratified held-out preregistration"
+          ],
+          "acceptance_gate": "Freeze changes on development only, budget all attempts, use new holdouts, save witnesses, report wins and losses.",
+          "first_step": {
+            "command": [
+              "./scripts/cpu.sh",
+              "-m",
+              "qground.check",
+              "--case",
+              "dev10",
+              "--witness",
+              "research/contributor-001/witnesses/dev10-hybrid_polish-1729/sweep-6.npz"
+            ],
+            "expected": "Exact energy and norm enclosure for the checked hybrid incumbent.",
+            "scope": "Positive control only; this known improvement is already recorded."
+          },
+          "bottleneck_link": "DISCOVERY.md",
+          "claim_kind": [
+            "certified",
+            "measured"
+          ],
+          "existing_checks": [
+            {
+              "scope": "17-test validation, exact saved-state scoring, initial benchmark and timed contributor trial",
+              "evidence": "research/contributor-001/README.md",
+              "remaining": "Beat the upgraded incumbent on a new suite; do not rediscover the same three-plus-three polishing result.",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "weight": 10,
+      "useful_outcome": "What stronger baselines or known failure regimes should the next formulation include?",
+      "tasks": [
+        {
+          "id": "literature-01",
+          "question": "What stronger baselines or known failure regimes should the next formulation include?",
+          "starting_points": [
+            "docs/FORMULATION.md",
+            "docs/LITERATURE.md",
+            "docs/RESULTS.md"
+          ],
+          "methods": [
+            "primary-source audit",
+            "implementation comparison"
+          ],
+          "acceptance_gate": "Cite primary evidence, distinguish published method from new hypothesis, propose reproducible fixed-budget baseline.",
+          "first_step": {
+            "command": [
+              "./scripts/cpu.sh",
+              "-m",
+              "scripts.pick",
+              "--seed",
+              "00000063000000000000000000000000"
+            ],
+            "expected": "A literature task with sources and a concrete acceptance gate is printed."
+          },
+          "bottleneck_link": "DISCOVERY.md",
+          "claim_kind": [
+            "certified",
+            "measured"
+          ],
+          "existing_checks": [
+            {
+              "scope": "17-test validation, exact saved-state scoring, initial benchmark and timed contributor trial",
+              "evidence": "research/contributor-001/README.md",
+              "remaining": "Independent contributor replication and broader held-out evidence",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

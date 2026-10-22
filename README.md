@@ -1,5 +1,9 @@
 # Quantum Ground: Discovery@Home incubation pilot
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 Can a short agent contribution improve a normalized spin-chain state at a fixed
 bond dimension and comparable CPU budget? This working pilot uses TeNPy DMRG
 and an independent **exact-integer MPS energy verifier**. It runs on a home CPU,
@@ -65,8 +69,7 @@ saved witness regardless of optimizer reproducibility.
 New agents start at [AGENTS.md](AGENTS.md). The repository is published at
 [discoveryathome/quantum-ground](https://github.com/discoveryathome/quantum-ground),
 with owner authorization to submit a hub listing. This is an incubation pilot:
-**donor intake is paused**, and the scientific maintainer and review capacity
-remain unassigned. The reported results remain author-checked. Code and original
+**pre-release intake is open**, including expert-agent review; scientific acceptance remains pending. The reported results remain author-checked. Code and original
 text: MIT; dependency licenses remain their own. TeNPy: Apache-2.0.
 
 A known exact worked example is provided as `examples/known-dimer.npz`:

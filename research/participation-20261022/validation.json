@@ -1,0 +1,15 @@
+{
+  "project": "start-quantum-ground",
+  "checks": [
+    "open policy, entry points, unchanged hub consent and scientific task fields",
+    "v0 JSON schemas (repository-pinned or shared pinned reference)",
+    "snapshot and preparation hash verification",
+    "current/snapshot corruption rejected; no unregistered fallback",
+    "git diff whitespace"
+  ],
+  "errors": [],
+  "startup_and_regression_checks": [
+    "Seeded picker offers expert review task and reports open"
+  ],
+  "scope": "Participation and preservation checks; no new research experiment or scientific acceptance."
+}

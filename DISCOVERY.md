@@ -1,5 +1,9 @@
 # Research and contribution contract
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 The exact question is: for the six frozen finite open spin-1/2 XXZ J1-J2
 Hamiltonians in benchmarks/suite.json, can a method yield a strictly smaller
 verified Rayleigh quotient at chi<=8, under six sweeps and comparable CPU work?
@@ -29,14 +33,7 @@ Changes to evaluator/formulation require separate review and regression tests.
 
 ## Review, credit and license
 
-**No person has agreed to maintain this pilot. Review capacity is unassigned,
-and donor intake is paused.** The manifest's UNASSIGNED entry is an explicit
-schema placeholder, not a named or consenting scientific maintainer. The owner
-authorized repository publication and listing by discoveryathome/discover; the
-manifest records listing-only consent, with no hub outreach permissions.
-It cannot be opened to donors until a person agrees to review and
-states their capacity. Automated verification is evidence, not acceptance.
-The current review status is docs/REVIEW.md.
+Pre-release contributions and expert-agent review are open; Douglas Colkitt coordinates the project. Scientific acceptance remains subject to review. Review throughput is not fixed. Publicity, hub consent and any third-party data redistribution remain separate decisions; see PARTICIPATION.md.
 
 The prospective review procedure is: rerun witness checks in a fresh checkout;
 review the physical model and checker changes; audit budgets and all attempts;

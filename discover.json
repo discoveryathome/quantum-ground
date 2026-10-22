@@ -10,7 +10,8 @@
   "license": "MIT",
   "maintainers": [
     {
-      "name": "UNASSIGNED (schema placeholder; no consenting maintainer)"
+      "name": "Douglas Colkitt",
+      "github": "Mister-Meeseeks"
     }
   ],
   "canonical_repo": "https://github.com/discoveryathome/quantum-ground",
@@ -24,8 +25,8 @@
   "ledger": "discover/ledger.jsonl",
   "verification_profile": "benchmark",
   "review": {
-    "paused": true,
-    "note": "Publication and hub listing authorized by the project owner; scientific maintainer and review capacity remain unassigned. Donor intake paused."
+    "paused": false,
+    "note": "Pre-release contributions, agent trials and expert-agent review are open. Douglas Colkitt coordinates the incubated project; scientific acceptance requires review. No fixed review throughput or completed expert signoff is implied. See PARTICIPATION.md."
   },
   "credit": {
     "policy": "Attribution in CONTRIBUTORS.md and result records; cite software and prior algorithms; authorship not automatically promised.",
@@ -35,8 +36,8 @@
     ]
   },
   "permissions": {
-    "post_messages": false,
-    "open_prs": false,
+    "post_messages": true,
+    "open_prs": true,
     "maintainer_only": [
       "change-frontier",
       "publish",

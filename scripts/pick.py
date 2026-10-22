@@ -14,4 +14,4 @@ for t in c['tracks']:
     n-=t['weight']
 card=t['tasks'][int(seed[8:16],16)%len(t['tasks'])]
 print(json.dumps({'seed':seed,'track':t['id'],'task':card,
- 'status':'LOCAL proposal. Check discover/coordination.jsonl for overlap; no donor intake.'},indent=2))
+ 'status':'Pre-release intake open, including expert-agent review. Check discover/coordination.jsonl for overlap.'},indent=2))

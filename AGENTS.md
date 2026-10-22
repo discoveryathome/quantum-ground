@@ -1,7 +1,11 @@
 # Agent entry
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 Read DISCOVERY.md, docs/FORMULATION.md, docs/RESULTS.md, then discover/frontier.json.
-This is a published incubation pilot with donor intake paused. No agreed
+This is a published incubation pilot with pre-release intake open. No agreed
 scientific maintainer exists. The owner authorized repository publication and
 a hub registry PR; that does not authorize future agents to publish, push, post,
 or claim maintainer acceptance without their own session authorization.

@@ -1,0 +1,12 @@
+{
+  "base_commit": "311a3cd8f54c24b54c67975476fbb3b47606f2b9",
+  "changed_at_first_pass": [
+    "AGENTS.md",
+    "DISCOVERY.md",
+    "README.md",
+    "discover.json",
+    "discover/catalog.json",
+    "discover/frontier.json"
+  ],
+  "previous_review_note": "Publication and hub listing authorized by the project owner; scientific maintainer and review capacity remain unassigned. Donor intake paused."
+}

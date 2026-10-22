@@ -1,5 +1,9 @@
 # Review status
 
+> **Current participation:** pre-release contributions and expert-agent review are open.
+> Any closed-intake or missing-coordinator statement below records an earlier stage;
+> see [the current policy](../PARTICIPATION.md). Scientific results and review requirements remain in force.
+
 Author-checked incubation pilot. Candidate states have been checked by a separately
 implemented exact arithmetic evaluator and small-system ED comparisons.
 No independent person has reproduced these results, and no maintainer has
